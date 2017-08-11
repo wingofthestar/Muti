@@ -131,8 +131,6 @@
     </dependency>
 
 
-
-
     <!-- 添加SSM依赖 -->
     <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
     <dependency>
@@ -147,10 +145,6 @@
       <artifactId>mybatis-spring</artifactId>
       <version>${mybatis-spring.version}</version>
     </dependency>
-
-
-
-
 
     <!--mysql-->
     <dependency>
@@ -266,8 +260,6 @@
     </dependency>
 
 
-
-
     <!--<dependency>-->
     <!--<groupId>org.slf4j</groupId>-->
     <!--<artifactId>slf4j-nop</artifactId>-->
@@ -296,20 +288,12 @@
       <artifactId>javax.servlet-api</artifactId>
       <version>${javax.servlet.version}</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-c3p0 -->
-    <dependency>
-      <groupId>org.hibernate</groupId>
-      <artifactId>hibernate-c3p0</artifactId>
-      <version>${hibernate-c3p0.version}</version>
-    </dependency>
     <!-- https://mvnrepository.com/artifact/com.mchange/mchange-commons-java -->
     <dependency>
       <groupId>com.mchange</groupId>
       <artifactId>mchange-commons-java</artifactId>
       <version>${mchange-commons-java.version}</version>
     </dependency>
-
-
 
     <!-- 文件上传 -->
     <dependency>
@@ -322,8 +306,6 @@
       <artifactId>commons-codec</artifactId>
       <version>${commons-codec.version}</version>
     </dependency>
-
-
 
     <!--防止tomcat内存泄漏-->
     <dependency>
@@ -385,6 +367,20 @@
       <artifactId>jstl</artifactId>
       <version>${jstl.version}</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.6</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4.4</version>
+    </dependency>
+
   </dependencies>
 
 </project>

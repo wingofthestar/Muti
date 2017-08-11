@@ -1,0 +1,46 @@
+<style type="text/css">
+#img{
+	width: 100px;
+}
+#denglu{
+	z-index: 9;
+	position: absolute;
+	margin-top: 435px;
+}
+#logo{
+	z-index: 8;
+	position: absolute;
+	margin-left: 25px;
+	margin-top:25px;
+}
+#logo_1{
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#white{
+    position: absolute;
+    z-index: 2;
+}
+#blue{
+    position: absolute;
+    margin-left: 272px;
+    z-index: 4;
+}
+#PC{
+	position: absolute;
+	z-index: 3;
+}
+#znxx{
+	margin-left:20px; 
+	margin-top:20px;
+}
+#tg{
+	margin-left:20px; 
+	margin-top:20px;
+}
+#mlxc{
+	position: absolute;
+	margin-top: 2250px;
+	margin-left: 475px;"
+}
+</style>     
