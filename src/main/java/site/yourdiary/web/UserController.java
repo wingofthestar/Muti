@@ -28,6 +28,8 @@ public class UserController {
     @RequestMapping(value = "/login")
     public ModelAndView login(HttpServletRequest request, HttpServletResponse response){
         ModelAndView mav = new ModelAndView();
+        //简单测试是否接受到参数，以及参数是否出现中文乱码
+//        System.out.println(request.getParameter("userName"));
         mav.setViewName("home");
         try {
             User user = userService.getUserByUserName(request.getParameter("userName"));
