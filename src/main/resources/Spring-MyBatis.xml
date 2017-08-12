@@ -37,6 +37,8 @@
         <property name="configLocation" value="classpath:MyBatis-config.xml"/>
     </bean>
 
+    <!-- transaction support -->
+    <!-- PlatformTransactionManager -->
     <!--JDBC事务管理器-->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager"
           p:dataSource-ref="dataSource"/>

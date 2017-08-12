@@ -42,7 +42,7 @@ public class LoginAndLogoutController extends BaseWeb {
 
                 if (password.equals(user.getPassword())) {
                     //更新用户登录日志
-
+                    userService.loginSuccessful(user, request.getRemoteAddr());
 
                     //将相关用户信息放到Session中然后转发
                     setSessionUser(request, user);
