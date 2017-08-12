@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mask-wrapper {
+		    position: relative;
+		    overflow: hidden;
+			margin-top:70px;
+		}
+		.mask-inner {
+		    position: absolute;
+		    left: 0;
+		    top: 100%;
+		    width: 100%;
+		    height: 100%;
+		    -moz-transition: top ease 200ms;
+		    -o-transition: top ease 200ms;
+		    -webkit-transition: top ease 200ms;
+		    transition: top ease 200ms;
+		}
+		
+		.mask-wrapper:hover .mask-inner {
+		    top: 0;
+		}
+		#my-mask {
+		    width: 200px;
+		    height: 135px;
+		    
+		}
+		#my-mask .mask-inner {
+		    background: rgba(255,255,255,0.5);
+			color:#8689C4;
+			text-align:center;
+		}
+	#my-mask1 {
+		    width: 200px;
+		    height: 135px;
+		    
+		}
+		#my-mask1 .mask-inner {
+		    background: rgba(255,255,255,0.5);
+			color:#8689C4;
+			text-align:center;
+		}
+		##my-mask1{
+			display:none;
+		}

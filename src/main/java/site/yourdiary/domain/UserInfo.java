@@ -1,58 +1,58 @@
 package site.yourdiary.domain;
 
 public class UserInfo extends BaseDomain{
-    private int user_info_id;
-    private int user_id;
-    private String user_photo;
-    private String user_introduce;
-    private String user_artcle_num;
-    private String user_favor_num;
+    private int userInfoId;
+    private int userId;
+    private String userPhoto;
+    private String userIntroduce;
+    private String userArtcleNum;
+    private String userFavorNum;
 
-    public int getUser_info_id() {
-        return user_info_id;
+    public int getUserInfoId() {
+        return userInfoId;
     }
 
-    public void setUser_info_id(int user_info_id) {
-        this.user_info_id = user_info_id;
+    public void setUserInfoId(int userInfoId) {
+        this.userInfoId = userInfoId;
     }
 
-    public int getUser_id() {
-        return user_id;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
-    public String getUser_photo() {
-        return user_photo;
+    public String getUserPhoto() {
+        return userPhoto;
     }
 
-    public void setUser_photo(String user_photo) {
-        this.user_photo = user_photo;
+    public void setUserPhoto(String userPhoto) {
+        this.userPhoto = userPhoto;
     }
 
-    public String getUser_introduce() {
-        return user_introduce;
+    public String getUserIntroduce() {
+        return userIntroduce;
     }
 
-    public void setUser_introduce(String user_introduce) {
-        this.user_introduce = user_introduce;
+    public void setUserIntroduce(String userIntroduce) {
+        this.userIntroduce = userIntroduce;
     }
 
-    public String getUser_artcle_num() {
-        return user_artcle_num;
+    public String getUserArtcleNum() {
+        return userArtcleNum;
     }
 
-    public void setUser_artcle_num(String user_artcle_num) {
-        this.user_artcle_num = user_artcle_num;
+    public void setUserArtcleNum(String userArtcleNum) {
+        this.userArtcleNum = userArtcleNum;
     }
 
-    public String getUser_favor_num() {
-        return user_favor_num;
+    public String getUserFavorNum() {
+        return userFavorNum;
     }
 
-    public void setUser_favor_num(String user_favor_num) {
-        this.user_favor_num = user_favor_num;
+    public void setUserFavorNum(String userFavorNum) {
+        this.userFavorNum = userFavorNum;
     }
 }

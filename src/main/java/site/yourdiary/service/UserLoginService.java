@@ -3,7 +3,7 @@ package site.yourdiary.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import site.yourdiary.dao.UserMapper;
+import site.yourdiary.dao.UserLoginMapper;
 import site.yourdiary.domain.User;
 import site.yourdiary.domain.UserLoginLog;
 import site.yourdiary.exception.NoUserException;
@@ -11,10 +11,10 @@ import site.yourdiary.exception.NoUserException;
 import java.util.Date;
 
 @Service
-public class UserService {
+public class UserLoginService {
 
     @Autowired
-    private UserMapper userDao;
+    private UserLoginMapper userLoginDao;
 
     /**
      * 通过userName和email获取用户信息的方式后期得重构
@@ -25,7 +25,7 @@ public class UserService {
 
     @Transactional
     public User getUserByUserName(String userName) throws NoUserException {
-        User user = userDao.getUserByUserName(userName);
+        User user = userLoginDao.getUserByUserName(userName);
         if (user == null){
             throw new NoUserException("用户不存在");
         }else {
@@ -35,7 +35,7 @@ public class UserService {
 
     @Transactional
     public User getUserByEamil(String email) throws NoUserException {
-        User user = userDao.getUserByEmail(email);
+        User user = userLoginDao.getUserByEmail(email);
         if (user == null){
             throw new NoUserException("用户不存在");
         }else {
@@ -48,13 +48,13 @@ public class UserService {
         UserLoginLog userLoginLog = new UserLoginLog();
         Date lastVisit = new Date();
         //更新用户上次登录日期和Ip
-        userDao.updateLastLogin(user.getUserName(), lastVisit,lastIp);
+        userLoginDao.updateLastLogin(user.getUserName(), lastVisit,lastIp);
 
         userLoginLog.setIp(lastIp);
         userLoginLog.setLoginDatetime(lastVisit);
         userLoginLog.setUserId(user.getUserId());
         //添加用户登录日志
-        userDao.insertLoginLog(userLoginLog);
+        userLoginDao.insertLoginLog(userLoginLog);
     }
 
 }

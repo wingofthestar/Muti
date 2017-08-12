@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import site.yourdiary.domain.User;
 import site.yourdiary.exception.NoUserException;
-import site.yourdiary.service.UserService;
+import site.yourdiary.service.UserLoginService;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.regex.Matcher;
@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
 public class LoginAndLogoutController extends BaseWeb {
 
     @Autowired
-    private UserService userService;
+    private UserLoginService userLoginService;
 
     @RequestMapping(value = "login", method = {RequestMethod.POST, RequestMethod.GET})
     public String login(HttpServletRequest request, @RequestParam(required = false) String email, @RequestParam(required = false) String password) throws NoUserException {
@@ -35,14 +35,14 @@ public class LoginAndLogoutController extends BaseWeb {
                 Matcher matcher = regex.matcher(email);
                 boolean isMatched = matcher.matches();
                 if (isMatched) {
-                    user = userService.getUserByEamil(email);
+                    user = userLoginService.getUserByEamil(email);
                 } else {
-                    user = userService.getUserByUserName(email);
+                    user = userLoginService.getUserByUserName(email);
                 }
 
                 if (password.equals(user.getPassword())) {
                     //更新用户登录日志
-                    userService.loginSuccessful(user, request.getRemoteAddr());
+                    userLoginService.loginSuccessful(user, request.getRemoteAddr());
 
                     //将相关用户信息放到Session中然后转发
                     setSessionUser(request, user);

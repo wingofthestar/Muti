@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	height: auto;
+	width: 100%;
+	margin: 0;
+}
+a:link {
+	text-decoration: none;
+	color: #CFD5D6;
+	font-size: 12px;
+}
+a:visited {
+	text-decoration: none;
+	color: #CFD5D6;
+	font-size: 12px;
+}
+a:hover {
+	text-decoration: none;
+	color: #CFD5D6;
+	font-size: 12px;
+}
+a:active {
+	text-decoration: none;
+	color: #CFD5D6;
+	font-size: 12px;
+}
+.content {
+	width: 1024px;
+	min-height: 768px;
+	height: auto;
+	margin: 0 auto;
+}
+.left-side {
+	width: 340px;
+	height: 768px;
+	background-image: url(../img/img1.jpg);
+	background-size: 340px 768px;
+	color: #CFD5D6;
+	position: fixed;
+	float: left;
+}
+.l-main {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(51,51,51,0.6);
+}
+#img1 {
+	height: 30px;
+	width: 30px;
+	margin-left: 6%;
+	margin-top: 6%;
+}
+#img2 {
+	height: 120px;
+	width: 120px;
+	margin: auto;
+	margin-top: 25px;
+}
+#img2 img {
+	width: 120px;
+	height: 120px;
+	border-radius: 70px;
+}
+#l-text1 {
+	text-align: center;
+	margin-top: 15px;
+}
+#l-text2 {
+	text-align: center;
+	margin-top: 40px;
+}
+#l-text2 a {
+	margin-left: 35px;
+}
+.right-side {
+	width: 684px;
+	min-height: 768px;
+	height: auto;
+	background-color: rgb(242,242,242);
+	float: right;
+	color: rgb(125,176,198);
+}
+.r-title {
+	position: fixed;
+	height: 75px;
+	width: 684px;
+}
+.r-title img {
+	width: 62px;
+	height: 62px;
+	float: right;
+	margin-right: 2%;
+	margin-top: 1%;
+}
+#r-button {
+	height: 50px;
+	width: 20px;
+	font-size: 12px;
+	text-align: center;
+	border-style: none;
+	background-color: rgb(242,242,242);
+	color:  rgb(125,176,198);
+	margin-top: 2%;
+	margin-left: 2%;
+}
+.r-div1{
+	height:auto;
+	width:370px;
+	float:left;
+	margin-top:75px;
+}
+.artical{
+	height:450px;
+	width:220px;
+	margin:auto;
+	background-color:white;
+}
+#artical-img{
+	display:block;
+	width:180px;
+	height:115px;
+	margin:auto;
+}
+#r-input{
+	display:block;
+	height:73px;
+	width:180px;
+	line-height:73px;
+	text-align:center;
+	border-style:none;
+	margin:0 auto;
+}
+#r-area{
+	display:block;
+	width:180px;
+	min-height:237px;
+	margin:auto;
+	border-style:none;
+	margin-top:20px;
+}
+.artical2{
+	height:450px;
+	width:220px;
+	margin:auto;
+	background-color:white;
+	margin-top:70px;
+}
+.picture{
+	height:auto;
+	width:200px;
+	float:left;
+	margin-top:75px;
+	margin-left:0;
+}
+.picture img{
+	height:135px;
+	width:200px;
+	
+}
+#btn{
+	height:auto;
+	width:100%;
+	color:#333;
+	text-align:center;
+	font-size:16px;
+	border-style:none;
+	margin-top:40px;
+}
+#box{
+	display:none;
+}

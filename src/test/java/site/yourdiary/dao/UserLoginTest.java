@@ -12,42 +12,42 @@ import site.yourdiary.domain.UserLoginLog;
 import java.util.Date;
 
 
-public class UserTest {
+public class UserLoginTest {
     private ApplicationContext applicationContext;
-    UserMapper userDao;
+    UserLoginMapper userLoginDao;
 
     @Before
     public void setUp(){
         applicationContext = new ClassPathXmlApplicationContext("classpath:Spring-MyBatis.xml");
-        userDao = (UserMapper) applicationContext.getBean("userMapper");
+        userLoginDao = (UserLoginMapper) applicationContext.getBean("userLoginMapper");
     }
 
     @Test
     public void testGetUserByUserName(){
-        User user = userDao.getUserByUserName("崔希伟");
+        User user = userLoginDao.getUserByUserName("崔希伟");
         System.out.println(user);
     }
 
     @Test
     public void testGetUserByEamil(){
-        User user = userDao.getUserByEmail("admin@yourdiary.site");
+        User user = userLoginDao.getUserByEmail("admin@yourdiary.site");
         System.out.println(user);
     }
 
     @Test
+    @Rollback
     public void updateLastLogin(){
-        int updateResult = userDao.updateLastLogin("崔希伟",new Date(), "127.0.0.1");
+        int updateResult = userLoginDao.updateLastLogin("崔希伟",new Date(), "127.0.0.1");
         System.out.println(updateResult);
     }
 
     @Test
-    @Rollback(true)
     public void insertLoginLog(){
         UserLoginLog loginLog = new UserLoginLog();
         loginLog.setUserId(3);
-        loginLog.setIp("127.0.0.2");
+        loginLog.setIp("127.0.0.1");
         loginLog.setLoginDatetime(new Date());
-        int insertResult = userDao.insertLoginLog(loginLog);
+        int insertResult = userLoginDao.insertLoginLog(loginLog);
         System.out.println(insertResult);
     }
 

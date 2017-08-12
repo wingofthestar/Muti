@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="site.yourdiary.dao.UserMapper">
+<mapper namespace="site.yourdiary.dao.UserLoginMapper">
     <select id="getUserByUserName" parameterType="String" resultType="User">
         SELECT * FROM user WHERE user_name = #{userName}
     </select>
@@ -8,11 +8,19 @@
         SELECT * FROM user WHERE user_email = #{userEmail}
     </select>
 
+    <select id="getUserInfoByUserId" parameterType="int" resultType="UserInfo">
+        SELECT * FROM user_info WHERE user_id = #{userId}
+    </select>
+
     <update id="updateLastLogin" >
       UPDATE user SET last_visit = #{lastVisit}, last_ip = #{lastIp} WHERE user_name = #{userName}
+    </update>
+    <update id="updateUserInfoByUserId">
+       UPDATE user SET
     </update>
 
     <insert id="insertLoginLog" parameterType="site.yourdiary.domain.UserLoginLog" keyProperty="loginLogId" useGeneratedKeys="true">
       INSERT INTO user_login_log(user_id, ip, login_datetime) VALUES (#{userId}, #{ip}, #{loginDatetime})
     </insert>
+
 </mapper>

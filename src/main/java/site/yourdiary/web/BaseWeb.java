@@ -4,13 +4,15 @@ import site.yourdiary.domain.User;
 
 import javax.servlet.http.HttpServletRequest;
 
+import static site.yourdiary.cons.CommonConstant.USER_CONTEXT;
+
 /**
  * Controller的基类
  */
 public class BaseWeb {
 
     public static final String ERROR_MEG_KEY = "ERROR_MSG";
-    public static final String USER_CONTEXT = "USER_CONTEXT";
+//    public static final String USER_CONTEXT = "USER_CONTEXT";
 
     /**
      * 获取保存在Session中的用户对象

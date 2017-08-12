@@ -7,10 +7,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd1445d3-5c10-4fc5-9db4-f394a6db5dd3" name="Default" comment="添加README.MD">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/img1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/img2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/img3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/picture1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/picture2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/picture3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/个人空间.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/个人空间1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/个人空间2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/个人空间3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/cons/CommonConstant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/individualspace.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/individual space.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/warp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/html/individual space.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.1.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserInfo.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/web/BaseWeb.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/web/BaseWeb.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/web/LoginAndLogoutController.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/web/LoginAndLogoutController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Spring-MyBatis.xml" afterPath="$PROJECT_DIR$/src/main/resources/Spring-MyBatis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/web/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/web/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/homepage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/homepage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserLoginMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserLoginMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserLoginService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/site/yourdiary/dao/UserTest.java" afterPath="$PROJECT_DIR$/src/test/java/site/yourdiary/dao/UserLoginTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +57,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserService.java">
+      <file leaf-file-name="UserLoginMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserLoginMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLoginTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/site/yourdiary/dao/UserLoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLoginService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserLoginService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,10 +108,51 @@
       <file leaf-file-name="LoginAndLogoutController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/LoginAndLogoutController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-156">
-              <caret line="44" column="79" lean-forward="false" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+            <state relative-caret-position="168">
+              <caret line="44" column="84" lean-forward="false" selection-start-line="44" selection-start-column="84" selection-end-line="44" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="26" />
+              <folding>
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonConstant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/cons/CommonConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLoginMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserLoginMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+              <folding>
+                <marker date="1502537909095" expanded="true" signature="290:338" ph="SELECT * FRO... user" />
+                <marker date="1502537909095" expanded="true" signature="435:485" ph="SELECT * FRO... user" />
+                <marker date="1502537909095" expanded="true" signature="589:638" ph="SELECT * FRO... user_info" />
+                <marker date="1502537909095" expanded="true" signature="695:757" ph="UPDATE user " />
+                <marker date="1502537909095" expanded="true" signature="695:787" ph="UPDATE user " />
+                <marker date="1502537909095" expanded="true" signature="850:865" ph="UPDATE user " />
+                <marker date="1502537909095" expanded="true" signature="1020:1119" ph="INSERT INTO user_login_log... " />
               </folding>
             </state>
           </provider>
@@ -63,10 +163,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -87,11 +187,14 @@
       <find>aop</find>
       <find>dataSource</find>
       <find>con.get</find>
+      <find>个人中</find>
+      <find>userDao</find>
     </findStrings>
     <replaceStrings>
       <replace>../</replace>
       <replace>./</replace>
       <replace>${page}</replace>
+      <replace>userLoginDao</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -124,31 +227,38 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/homepage.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/html/homepage.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/SpringMVC-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/web/WebBase.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/domain/BaseDomain.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserArtcle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/web/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/web/BaseController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/web/UserController.java" />
         <option value="$PROJECT_DIR$/src/test/java/site/yourdiary/dao/MailTestUseCase.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/html/login.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/login.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/homepage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/web/BaseWeb.java" />
         <option value="$PROJECT_DIR$/src/main/resources/MyBatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserLoginLog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/site/yourdiary/dao/UserTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Spring-MyBatis.xml" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/web/LoginAndLogoutController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/individualspace.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/homepage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/web/BaseWeb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/cons/CommonConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserLoginMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserLoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/web/UserController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/site/yourdiary/dao/UserLoginTest.java" />
       </list>
     </option>
   </component>
@@ -185,11 +295,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="288" />
+    <option name="y" value="360" />
+    <option name="width" value="1287" />
+    <option name="height" value="637" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -239,6 +349,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yourdiary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Muti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yourdiary" type="462c0819:PsiDirectoryNode" />
+              <item name="cons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
@@ -303,47 +422,6 @@
               <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
               <item name="Muti" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Muti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Muti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Muti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Muti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Muti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -394,10 +472,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\img" />
+      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\css" />
       <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\html" />
-      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\WEB-INF\content\jsp" />
-      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\WEB-INF\content" />
+      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\js" />
+      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,7 +490,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Muti">
+  <component name="RunManager">
     <configuration name="MailTestUseCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -504,7 +582,7 @@
         </option>
       </method>
     </configuration>
-    <configuration name="UserTest.insertLoginLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserLoginTest.insertLoginLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="site.yourdiary.dao.*" />
@@ -515,7 +593,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="site.yourdiary.dao" />
-      <option name="MAIN_CLASS_NAME" value="site.yourdiary.dao.UserTest" />
+      <option name="MAIN_CLASS_NAME" value="site.yourdiary.dao.UserLoginTest" />
       <option name="METHOD_NAME" value="insertLoginLog" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -529,7 +607,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserTest.testGetUserByEamil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserLoginTest.testGetUserByEamil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="site.yourdiary.dao.*" />
@@ -540,7 +618,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="site.yourdiary.dao" />
-      <option name="MAIN_CLASS_NAME" value="site.yourdiary.dao.UserTest" />
+      <option name="MAIN_CLASS_NAME" value="site.yourdiary.dao.UserLoginTest" />
       <option name="METHOD_NAME" value="testGetUserByEamil" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -554,7 +632,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserTest.testGetUserByUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserLoginTest.testGetUserByUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="site.yourdiary.dao.*" />
@@ -565,7 +643,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="site.yourdiary.dao" />
-      <option name="MAIN_CLASS_NAME" value="site.yourdiary.dao.UserTest" />
+      <option name="MAIN_CLASS_NAME" value="site.yourdiary.dao.UserLoginTest" />
       <option name="METHOD_NAME" value="testGetUserByUserName" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -579,7 +657,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserTest.updateLastLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserLoginTest.updateLastLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="site.yourdiary.dao.*" />
@@ -590,7 +668,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="site.yourdiary.dao" />
-      <option name="MAIN_CLASS_NAME" value="site.yourdiary.dao.UserTest" />
+      <option name="MAIN_CLASS_NAME" value="site.yourdiary.dao.UserLoginTest" />
       <option name="METHOD_NAME" value="updateLastLogin" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -687,17 +765,17 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Muti" />
       <item index="1" class="java.lang.String" itemvalue="Application.MailTestUseCase" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserTest.testGetUserByEamil" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserTest.testGetUserByUserName" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserTest.updateLastLogin" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.UserTest.insertLoginLog" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserLoginTest.testGetUserByEamil" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserLoginTest.testGetUserByUserName" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserLoginTest.updateLastLogin" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UserLoginTest.insertLoginLog" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserTest.insertLoginLog" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserTest.updateLastLogin" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserTest.testGetUserByEamil" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserTest.testGetUserByUserName" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserLoginTest.insertLoginLog" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserLoginTest.testGetUserByEamil" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserLoginTest.testGetUserByUserName" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserLoginTest.updateLastLogin" />
         <item index="4" class="java.lang.String" itemvalue="Application.MailTestUseCase" />
       </list>
     </recent_temporary>
@@ -719,7 +797,7 @@
       <workItem from="1502242865668" duration="1213000" />
       <workItem from="1502331263287" duration="609000" />
       <workItem from="1502415440136" duration="18241000" />
-      <workItem from="1502499407517" duration="22670000" />
+      <workItem from="1502499407517" duration="25999000" />
     </task>
     <task id="LOCAL-00001" summary="domain纠正UserLoginLog的字段值">
       <created>1502519557567</created>
@@ -732,39 +810,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_insertLoginLog - 2017.08.12 at 16h 32m 59s.xml">
-      <configuration name="UserTest.insertLoginLog" configurationId="JUnit" />
+    <history-entry file="UserLoginTest_insertLoginLog - 2017.08.12 at 19h 47m 12s.xml">
+      <configuration name="UserLoginTest.insertLoginLog" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_insertLoginLog - 2017.08.12 at 16h 35m 26s.xml">
-      <configuration name="UserTest.insertLoginLog" configurationId="JUnit" />
+    <history-entry file="UserLoginTest_insertLoginLog - 2017.08.12 at 19h 48m 53s.xml">
+      <configuration name="UserLoginTest.insertLoginLog" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_insertLoginLog - 2017.08.12 at 16h 36m 26s.xml">
-      <configuration name="UserTest.insertLoginLog" configurationId="JUnit" />
+    <history-entry file="UserLoginTest_testGetUserByEamil - 2017.08.12 at 19h 48m 22s.xml">
+      <configuration name="UserLoginTest.testGetUserByEamil" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_insertLoginLog - 2017.08.12 at 16h 46m 37s.xml">
-      <configuration name="UserTest.insertLoginLog" configurationId="JUnit" />
+    <history-entry file="UserLoginTest_testGetUserByUserName - 2017.08.12 at 19h 48m 10s.xml">
+      <configuration name="UserLoginTest.testGetUserByUserName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_insertLoginLog - 2017.08.12 at 16h 47m 41s.xml">
-      <configuration name="UserTest.insertLoginLog" configurationId="JUnit" />
+    <history-entry file="UserLoginTest_updateLastLogin - 2017.08.12 at 19h 41m 52s.xml">
+      <configuration name="UserLoginTest.updateLastLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testGetUserByEamil - 2017.08.12 at 10h 00m 54s.xml">
-      <configuration name="UserTest.testGetUserByEamil" configurationId="JUnit" />
+    <history-entry file="UserLoginTest_updateLastLogin - 2017.08.12 at 19h 42m 27s.xml">
+      <configuration name="UserLoginTest.updateLastLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testGetUserByEamil - 2017.08.12 at 10h 01m 38s.xml">
-      <configuration name="UserTest.testGetUserByEamil" configurationId="JUnit" />
+    <history-entry file="UserLoginTest_updateLastLogin - 2017.08.12 at 19h 42m 48s.xml">
+      <configuration name="UserLoginTest.updateLastLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testGetUserByEamil - 2017.08.12 at 14h 29m 02s.xml">
-      <configuration name="UserTest.testGetUserByEamil" configurationId="JUnit" />
+    <history-entry file="UserLoginTest_updateLastLogin - 2017.08.12 at 19h 45m 53s.xml">
+      <configuration name="UserLoginTest.updateLastLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testGetUserByUserName - 2017.08.12 at 14h 28m 53s.xml">
-      <configuration name="UserTest.testGetUserByUserName" configurationId="JUnit" />
+    <history-entry file="UserLoginTest_updateLastLogin - 2017.08.12 at 19h 46m 30s.xml">
+      <configuration name="UserLoginTest.updateLastLogin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_updateLastLogin - 2017.08.12 at 15h 54m 22s.xml">
-      <configuration name="UserTest.updateLastLogin" configurationId="JUnit" />
+    <history-entry file="UserLoginTest_updateLastLogin - 2017.08.12 at 19h 47m 45s.xml">
+      <configuration name="UserLoginTest.updateLastLogin" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64454000" />
+    <option name="totallyTimeSpent" value="67783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -776,7 +854,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="288" y="360" width="1287" height="637" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -798,10 +877,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4145786" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32334048" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7733485" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33154505" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20842825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43363562" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297609" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -835,59 +914,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/jsp/home.jsp" />
-    <entry file="file://$PROJECT_DIR$/target/Muti-1.0-SNAPSHOT/WEB-INF/classes/SpringMVC-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/Muti-1.0-SNAPSHOT/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/公司1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/green_tree.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/background.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/picture_homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5352">
@@ -902,84 +928,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserArtcle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-          <folding>
-            <element signature="e#301#302#0" expanded="false" />
-            <element signature="e#332#333#0" expanded="false" />
-            <element signature="e#377#378#0" expanded="false" />
-            <element signature="e#417#418#0" expanded="false" />
-            <element signature="e#447#448#0" expanded="false" />
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#517#518#0" expanded="false" />
-            <element signature="e#553#554#0" expanded="false" />
-            <element signature="e#591#592#0" expanded="false" />
-            <element signature="e#625#626#0" expanded="false" />
-            <element signature="e#679#680#0" expanded="false" />
-            <element signature="e#725#726#0" expanded="false" />
-            <element signature="e#765#766#0" expanded="false" />
-            <element signature="e#801#802#0" expanded="false" />
-            <element signature="e#859#860#0" expanded="false" />
-            <element signature="e#909#910#0" expanded="false" />
-            <element signature="e#943#944#0" expanded="false" />
-            <element signature="e#973#974#0" expanded="false" />
-            <element signature="e#1019#1020#0" expanded="false" />
-            <element signature="e#1057#1058#0" expanded="false" />
-            <element signature="e#1090#1091#0" expanded="false" />
-            <element signature="e#1121#1122#0" expanded="false" />
-            <element signature="e#1167#1168#0" expanded="false" />
-            <element signature="e#1207#1208#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="e#300#301#0" expanded="false" />
-            <element signature="e#335#336#0" expanded="false" />
-            <element signature="e#388#389#0" expanded="false" />
-            <element signature="e#436#437#0" expanded="false" />
-            <element signature="e#467#468#0" expanded="false" />
-            <element signature="e#497#498#0" expanded="false" />
-            <element signature="e#540#541#0" expanded="false" />
-            <element signature="e#578#579#0" expanded="false" />
-            <element signature="e#615#616#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#785#786#0" expanded="false" />
-            <element signature="e#822#823#0" expanded="false" />
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
-            <element signature="e#976#977#0" expanded="false" />
-            <element signature="e#1014#1015#0" expanded="false" />
-            <element signature="e#1076#1077#0" expanded="false" />
-            <element signature="e#1130#1131#0" expanded="false" />
-            <element signature="e#1171#1172#0" expanded="false" />
-            <element signature="e#1208#1209#0" expanded="false" />
-            <element signature="e#1268#1269#0" expanded="false" />
-            <element signature="e#1320#1321#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/exception/NoUserException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/homepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="78" />
           <folding />
         </state>
       </provider>
@@ -1073,24 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/BaseWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/html/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1115,78 +1049,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/homepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/html/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <marker date="1502526923132" expanded="true" signature="285:333" ph="SELECT * FRO... user" />
-            <marker date="1502526923132" expanded="true" signature="430:480" ph="SELECT * FRO... user" />
-            <marker date="1502526923132" expanded="true" signature="537:599" ph="UPDATE user " />
-            <marker date="1502526923132" expanded="true" signature="537:629" ph="UPDATE user " />
-            <marker date="1502526923132" expanded="true" signature="784:883" ph="INSERT INTO user_login_log... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserLoginLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,24 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/site/yourdiary/dao/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/site/yourdiary/dao/MailTestUseCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1342,6 +1191,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/logo2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/individual space.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="61" column="82" lean-forward="false" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/homepage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/individualspace.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1968">
+          <caret line="82" column="64" lean-forward="true" selection-start-line="82" selection-start-column="64" selection-end-line="82" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="56" column="18" lean-forward="false" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/homepage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/individual space.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/BaseWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserLoginLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/BaseDomain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1350,20 +1305,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/LoginAndLogoutController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserArtcle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="44" column="79" lean-forward="false" selection-start-line="44" selection-start-column="79" selection-end-line="44" selection-end-column="79" />
+        <state relative-caret-position="672">
+          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+          <folding>
+            <element signature="e#943#944#0" expanded="false" />
+            <element signature="e#973#974#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/cons/CommonConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserLoginMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserLoginMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="48">
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding>
+            <marker date="1502537909095" expanded="true" signature="290:338" ph="SELECT * FRO... user" />
+            <marker date="1502537909095" expanded="true" signature="435:485" ph="SELECT * FRO... user" />
+            <marker date="1502537909095" expanded="true" signature="589:638" ph="SELECT * FRO... user_info" />
+            <marker date="1502537909095" expanded="true" signature="695:757" ph="UPDATE user " />
+            <marker date="1502537909095" expanded="true" signature="695:787" ph="UPDATE user " />
+            <marker date="1502537909095" expanded="true" signature="850:865" ph="UPDATE user " />
+            <marker date="1502537909095" expanded="true" signature="1020:1119" ph="INSERT INTO user_login_log... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserLoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/LoginAndLogoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="44" column="84" lean-forward="false" selection-start-line="44" selection-start-column="84" selection-end-line="44" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="50" lean-forward="true" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/site/yourdiary/dao/UserLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
