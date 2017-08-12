@@ -30,5 +30,11 @@ public class BaseWeb {
         request.getSession().setAttribute(USER_CONTEXT, user);
     }
 
+    /**
+     * 将用户对象从Session中移除
+     */
+    public void removeSessionUser(HttpServletRequest request){
+        request.removeAttribute(USER_CONTEXT);
+    }
 
 }

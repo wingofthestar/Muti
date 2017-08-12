@@ -16,6 +16,7 @@
 
     <!--MyBatis注解式接口扫描包-->
     <!--<mybatis:scan base-package="site.yourdiary.dao"/>-->
+
     <context:property-placeholder location="classpath:jdbc.properties"></context:property-placeholder>
 
     <!--配置c3p0数据源-->

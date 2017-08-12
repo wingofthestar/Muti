@@ -17,10 +17,10 @@
     </settings>
 
     <!--设置别名-->
-    <!--<typeAliases>-->
-        <!--<typeAlias type="mybatis.User" alias="user"/>-->
-        <!--<package name="mybatis"/>-->
-    <!--</typeAliases>-->
+    <typeAliases>
+        <!-- 批量别名定义，指定包名，mybatis自动扫描包中的domain类，别名就是类名-->
+        <package name="site.yourdiary.domain"></package>
+    </typeAliases>
 
 
 

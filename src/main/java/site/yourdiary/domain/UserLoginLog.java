@@ -39,4 +39,5 @@ public class UserLoginLog extends BaseDomain {
     public void setLoginDatetime(Date loginDatetime) {
         this.loginDatetime = loginDatetime;
     }
+
 }
