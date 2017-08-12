@@ -11,7 +11,9 @@ import site.yourdiary.domain.UserLoginLog;
 
 import java.util.Date;
 
-
+/**
+ * UserLoginMapper的单元测试
+ */
 public class UserLoginTest {
     private ApplicationContext applicationContext;
     UserLoginMapper userLoginDao;
