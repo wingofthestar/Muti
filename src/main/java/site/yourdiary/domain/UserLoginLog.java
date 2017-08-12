@@ -6,7 +6,7 @@ public class UserLoginLog extends BaseDomain {
     private int loginLogId;
     private int userId;
     private String ip;
-    private Date loginDateTime;
+    private Date loginDatetime;
 
     public int getLoginLogId() {
         return loginLogId;
@@ -32,11 +32,11 @@ public class UserLoginLog extends BaseDomain {
         this.ip = ip;
     }
 
-    public Date getLoginDateTime() {
-        return loginDateTime;
+    public Date getLoginDatetime() {
+        return loginDatetime;
     }
 
-    public void setLoginDateTime(Date loginDateTime) {
-        this.loginDateTime = loginDateTime;
+    public void setLoginDatetime(Date loginDatetime) {
+        this.loginDatetime = loginDatetime;
     }
 }
