@@ -4,4 +4,19 @@
     <select id="getUserInfoByUserId" parameterType="int" resultType="UserInfo">
         SELECT * FROM user_info WHERE user_id = #{userId}
     </select>
+
+    <!-- 动态sql更新用户信息 -->
+    <update id="updateUserInfoByUserId">
+        UPDATE user_info
+        <set>
+            <if test="userPhoto != null and userPhoto != ''">
+                user_photo = #{userPhoto},
+            </if>
+            <if test="userIntroduce != null and userIntroduce != ''">
+                user_introduce = #{userIntroduce}
+            </if>
+        </set>
+        WHERE user_id = #{userId};
+    </update>
+
 </mapper>
