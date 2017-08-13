@@ -1,4 +1,4 @@
-package site.yourdiary.dao;
+package site.yourdiary.other;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

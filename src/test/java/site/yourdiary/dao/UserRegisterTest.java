@@ -17,6 +17,20 @@ public class UserRegisterTest {
     private UserRegisterMapper userRegisterDao;
 
     @Test
+    public void testQueryIfExitUserName(){
+//        int result = userRegisterDao.queryIfExistUserName("崔希伟");
+        int result = userRegisterDao.queryIfExistUserName("崔希");
+        System.out.println(result);
+    }
+
+    @Test
+    public void testQueryIfExitUserEmail(){
+//        int result =userRegisterDao.queryIfExistUserEmail("admin@yourdiary.site");
+        int result =userRegisterDao.queryIfExistUserEmail("admin@yourdiary");
+        System.out.println(result);
+    }
+
+    @Test
 //    @Transactional
     //添加@Transactional给单元测试添加事务管理
     public void testInsertUser(){
@@ -31,6 +45,11 @@ public class UserRegisterTest {
         }
         System.out.println(user.getUserId());
         System.out.println(user.getUserName());
+    }
+
+    @Test
+    public void testCreateUserInfo(){
+        userRegisterDao.createUserInfo(2);
     }
 
 }

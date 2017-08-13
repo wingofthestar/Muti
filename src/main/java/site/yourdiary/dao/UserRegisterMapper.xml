@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
 <mapper namespace="site.yourdiary.dao.UserRegisterMapper">
+    <select id="queryIfExistUserName" resultType="int">
+        SELECT count(*) FROM user WHERE user_name = #{userName}
+    </select>
+    <select id="queryIfExistUserEmail" resultType="int">
+        SELECT count(*) FROM user WHERE user_email = #{userEmail}
+    </select>
+
     <insert id="insertUser" parameterType="User" keyProperty="userId" useGeneratedKeys="true">
         INSERT into user(user_name, user_email, password) VALUES (#{userName}, #{userEmail}, #{password})
+    </insert>
+    <insert id="createUserInfo" parameterType="int">
+        INSERT into user_info(user_id) VALUES (#{userId})
     </insert>
 </mapper>
