@@ -6,7 +6,7 @@ import org.springframework.transaction.annotation.Transactional;
 import site.yourdiary.dao.UserLoginMapper;
 import site.yourdiary.domain.User;
 import site.yourdiary.domain.UserLoginLog;
-import site.yourdiary.exception.NoUserException;
+import site.yourdiary.exception.LoginNoUserException;
 
 import java.util.Date;
 
@@ -20,24 +20,24 @@ public class UserLoginService {
      * 通过userName和email获取用户信息的方式后期得重构
      * @param userName
      * @return
-     * @throws NoUserException
+     * @throws LoginNoUserException
      */
 
     @Transactional
-    public User getUserByUserName(String userName) throws NoUserException {
+    public User getUserByUserName(String userName) throws LoginNoUserException {
         User user = userLoginDao.getUserByUserName(userName);
         if (user == null){
-            throw new NoUserException("用户不存在");
+            throw new LoginNoUserException("用户不存在");
         }else {
             return user;
         }
     }
 
     @Transactional
-    public User getUserByEamil(String email) throws NoUserException {
+    public User getUserByEamil(String email) throws LoginNoUserException {
         User user = userLoginDao.getUserByEmail(email);
         if (user == null){
-            throw new NoUserException("用户不存在");
+            throw new LoginNoUserException("用户不存在");
         }else {
             return user;
         }

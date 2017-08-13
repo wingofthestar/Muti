@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import site.yourdiary.domain.User;
-import site.yourdiary.exception.NoUserException;
+import site.yourdiary.exception.LoginNoUserException;
 import site.yourdiary.service.UserLoginService;
 
 import javax.servlet.http.HttpServletRequest;
@@ -20,7 +20,7 @@ public class LoginAndLogoutController extends BaseWeb {
     private UserLoginService userLoginService;
 
     @RequestMapping(value = "login", method = {RequestMethod.POST, RequestMethod.GET})
-    public String login(HttpServletRequest request, @RequestParam(required = false) String email, @RequestParam(required = false) String password) throws NoUserException {
+    public String login(HttpServletRequest request, @RequestParam(required = false) String email, @RequestParam(required = false) String password) throws LoginNoUserException {
         User user;
 
         //当Session域中没有用户信息时

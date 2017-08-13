@@ -16,7 +16,8 @@
                 user_introduce = #{userIntroduce}
             </if>
         </set>
-        WHERE user_id = #{userId};
+        WHERE user_id = #{userId}
     </update>
+
 
 </mapper>
