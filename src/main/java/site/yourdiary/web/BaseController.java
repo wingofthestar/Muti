@@ -12,4 +12,9 @@ public class BaseController {
     private String redirect(@PathVariable("str") String str){
         return str;
     }
+
+    @RequestMapping(value = "index")
+    private String homepage(){
+        return "redirect:/user/homepage";
+    }
 }

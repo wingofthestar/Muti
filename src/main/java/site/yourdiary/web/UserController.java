@@ -4,25 +4,37 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+import site.yourdiary.domain.HomeInfo;
 import site.yourdiary.domain.User;
 import site.yourdiary.domain.UserInfo;
+import site.yourdiary.service.DisplayMessageService;
 import site.yourdiary.service.UserSpaceService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import static site.yourdiary.cons.CommonConstant.USER_CONTEXT;
-import static site.yourdiary.cons.CommonConstant.USER_INFO;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import static site.yourdiary.cons.CommonConstant.*;
 
 @Controller
 @RequestMapping(value = "/user")
 public class UserController extends BaseWeb {
     @Autowired
     private UserSpaceService userSpaceService;
+    @Autowired
+    private DisplayMessageService displayMessageService;
 
     @RequestMapping(value = "/homepage")
-    public String homepage(HttpServletRequest request, HttpServletResponse response){
-        return "homepage";
+    public ModelAndView homepage(HttpServletRequest request, HttpServletResponse response){
+        ModelAndView mav = new ModelAndView();
+        mav.setViewName("homepage");
+        Map<String, String> homeInfoMap = displayMessageService.getHomeInfo();
+        mav.addObject(HOME_INFO_MAP, homeInfoMap);
+
+        return mav;
     }
 
     @RequestMapping(value = "/userSpace")

@@ -31,8 +31,8 @@
   <properties>
     <!--指定编码与JDK版本-->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.5</maven.compiler.source>
+    <maven.compiler.target>1.5</maven.compiler.target>
     <javax.version>7.0</javax.version>
     <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
     <!-- spring版本号 -->

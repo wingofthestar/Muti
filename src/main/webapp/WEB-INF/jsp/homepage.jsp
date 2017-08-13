@@ -53,10 +53,11 @@
             <img src="${pageContext.request.contextPath}/img//meilixiangcun.png" id="meilixiangcun">
             <div id="nav">
                 <a href="#">首页</a>
-                <a href="#">创业</a>
-                <a href="#">旅游</a>
+                <%--<a href="#">创业</a>--%>
+                <%--<a href="#">旅游</a>--%>
+                <a href="#">美丽乡村建设</a>
                 <a href="#">论坛</a>
-                <a href="#">更多</a>
+                <%--<a href="#">更多</a>--%>
             </div>
             <c:choose>
                 <c:when test="${USER_CONTEXT != null}">
@@ -78,7 +79,7 @@
                     <a href="#"><img src="${pageContext.request.contextPath}/img//white.png" id="white"></a>
                     <img src="${pageContext.request.contextPath}/img//blue.png" id="blue">
                     <!--<img src="#" id="PC">-->
-                    <p id="p">21ddsadfdsfdsffsfsafrgegsdsgsdsdsfdsfdsfdsfsdfsdfdsfds21ed</p>
+                    <p id="p">${HOME_INFO_MAP["1"]}</p>
                 </div>
                 <div id="box_1_2">
                     <img src="${pageContext.request.contextPath}/img//white.png" id="white">
@@ -90,7 +91,7 @@
                     <a href="#"><img src="${pageContext.request.contextPath}/img//white.png" id="white"></a>
                     <img src="${pageContext.request.contextPath}/img//blue.png" id="blue">
                     <!--<img src="#" id="PC">-->
-                    <p id="p">21ddsadfdsfdsffsfsafrgegsdsgsdsdsfdsfdsfdsfsdfsdfdsfds21ed</p>
+                    <p id="p">${HOME_INFO_MAP["2"]}</p>
                 </div>
                 <div id="box_1_4">
                     <img src="${pageContext.request.contextPath}/img//white.png" id="white">
@@ -102,7 +103,7 @@
                     <a href="#"><img src="${pageContext.request.contextPath}/img//white.png" id="white"></a>
                     <img src="${pageContext.request.contextPath}/img//blue.png" id="blue">
                     <!--<img src="#" id="PC">-->
-                    <p id="p">21ddsadfdsfdsffsfsafrgegsdsgsdsdsfdsfdsfdsfsdfsdfdsfds21ed</p>
+                    <p id="p">${HOME_INFO_MAP["3"]}</p>
                 </div>
                 <div id="box_1_6">
                     <img src="${pageContext.request.contextPath}/img//white.png" id="white">
