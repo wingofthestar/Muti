@@ -19,7 +19,7 @@ public class DisplayMessageTest {
 
     @Test
     public void testGetHomeMessage(){
-        List<HomeInfo> homeinfolists = new ArrayList<>();
+        List<HomeInfo> homeinfolists = new ArrayList();
         homeinfolists = displayMessageDao.getHomeMessage();
         for (HomeInfo homeinfo:
              homeinfolists) {

@@ -18,7 +18,7 @@ public class DisplayMessageService {
     之所以把int装换为String，因为EL表达式中的数字是long型的和Integer不匹配无法取出值
      */
     public Map<String, String> getHomeInfo(){
-        Map<String, String> homeInfoMap = new HashMap<>();
+        Map<String, String> homeInfoMap = new HashMap();
        List<HomeInfo> homeInfoList = displayMessageDao.getHomeMessage();
        String text;
         for (HomeInfo homeInfo: homeInfoList) {
