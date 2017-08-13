@@ -5,8 +5,8 @@
 <head>
     <title>homepage</title>
     <meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href=".//css//homepage.css">
-	<link rel="stylesheet" type="text/css" href=".//css//picture_homepage.css">
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css//homepage.css">
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css//picture_homepage.css">
 	<style type="text/css">
         *{margin:0;padding:0;}
         body{font-size:12px;color:#222;font-family:Verdana, Arial, Helvetica, sans-serif;background:#f0f0f0;}
@@ -25,19 +25,19 @@
         .focus .pre{left:0;}
         .focus .next{right:0;background-position:right top;}
     </style>
-	<script type="text/javascript" src=".//js//jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src=".//js//Tony_Tab.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/js//jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js//Tony_Tab.js"></script>
 </head>
 <body>
-    <div id="container" style="background:url(.//img//background.png) repeat-y;">
+    <div id="container" style="background:url(${pageContext.request.contextPath}/img//background.png) repeat-y;">
             <div id="box">
 	            <div id="focus" class="focus">
 		        <ul>
-			        <li><a href="JavaScript:;"><img src=".//img/01.png"/></a></li>
-			        <li><a href="JavaScript:;"><img src=".//img/02.png"/></a></li>
-			        <li><a href="JavaScript:;"><img src=".//img/03.png"/></a></li>
-			        <li><a href="JavaScript:;"><img src=".//img/04.png"/></a></li>
-			        <li><a href="JavaScript:;"><img src=".//img/05.png"/></a></li>
+			        <li><a href="JavaScript:;"><img src="${pageContext.request.contextPath}/img/01.png"/></a></li>
+			        <li><a href="JavaScript:;"><img src="${pageContext.request.contextPath}/img/02.png"/></a></li>
+			        <li><a href="JavaScript:;"><img src="${pageContext.request.contextPath}/img/03.png"/></a></li>
+			        <li><a href="JavaScript:;"><img src="${pageContext.request.contextPath}/img/04.png"/></a></li>
+			        <li><a href="JavaScript:;"><img src="${pageContext.request.contextPath}/img/05.png"/></a></li>
 		        </ul>
 	            </div>
             </div>
@@ -48,9 +48,9 @@
                 	$('#focus3').slideFocus();
             });
             </script>    
-            <img src=".//img//logo.png" id="logo">
-            <img src=".//img//denglu.png" id="denglu">
-            <img src=".//img//meilixiangcun.png" id="meilixiangcun">
+            <img src="${pageContext.request.contextPath}/img//logo.png" id="logo">
+            <img src="${pageContext.request.contextPath}/img//denglu.png" id="denglu">
+            <img src="${pageContext.request.contextPath}/img//meilixiangcun.png" id="meilixiangcun">
             <div id="nav">
                 <a href="#">首页</a>
                 <a href="#">创业</a>
@@ -75,44 +75,44 @@
 
             <div id="box_1">
                 <div id="box_1_1">
-                    <a href="#"><img src=".//img//white.png" id="white"></a>
-                    <img src=".//img//blue.png" id="blue">
+                    <a href="#"><img src="${pageContext.request.contextPath}/img//white.png" id="white"></a>
+                    <img src="${pageContext.request.contextPath}/img//blue.png" id="blue">
                     <!--<img src="#" id="PC">-->
                     <p id="p">21ddsadfdsfdsffsfsafrgegsdsgsdsdsfdsfdsfdsfsdfsdfdsfds21ed</p>
                 </div>
                 <div id="box_1_2">
-                    <img src=".//img//white.png" id="white">
-                    <img src=".//img//blue.png" id="blue">
-                    <a href="#"><img src=".//img//PC2.jpg" id="PC"></a>
+                    <img src="${pageContext.request.contextPath}/img//white.png" id="white">
+                    <img src="${pageContext.request.contextPath}/img//blue.png" id="blue">
+                    <a href="#"><img src="${pageContext.request.contextPath}/img//PC2.jpg" id="PC"></a>
                     <p id="p"></p>
                 </div>
                 <div id="box_1_3">
-                    <a href="#"><img src=".//img//white.png" id="white"></a>
-                    <img src=".//img//blue.png" id="blue">
+                    <a href="#"><img src="${pageContext.request.contextPath}/img//white.png" id="white"></a>
+                    <img src="${pageContext.request.contextPath}/img//blue.png" id="blue">
                     <!--<img src="#" id="PC">-->
                     <p id="p">21ddsadfdsfdsffsfsafrgegsdsgsdsdsfdsfdsfdsfsdfsdfdsfds21ed</p>
                 </div>
                 <div id="box_1_4">
-                    <img src=".//img//white.png" id="white">
-                    <img src=".//img//blue.png" id="blue">
-                    <a href="#"><img src=".//img//PC4.jpg" id="PC"></a>
+                    <img src="${pageContext.request.contextPath}/img//white.png" id="white">
+                    <img src="${pageContext.request.contextPath}/img//blue.png" id="blue">
+                    <a href="#"><img src="${pageContext.request.contextPath}/img//PC4.jpg" id="PC"></a>
                     <p id="p"></p>
                 </div>
                 <div id="box_1_5">
-                    <a href="#"><img src=".//img//white.png" id="white"></a>
-                    <img src=".//img//blue.png" id="blue">
+                    <a href="#"><img src="${pageContext.request.contextPath}/img//white.png" id="white"></a>
+                    <img src="${pageContext.request.contextPath}/img//blue.png" id="blue">
                     <!--<img src="#" id="PC">-->
                     <p id="p">21ddsadfdsfdsffsfsafrgegsdsgsdsdsfdsfdsfdsfsdfsdfdsfds21ed</p>
                 </div>
                 <div id="box_1_6">
-                    <img src=".//img//white.png" id="white">
-                    <img src=".//img//blue.png" id="blue">
-                    <a href="#"><img src=".//img//PC6.jpg" id="PC"></a>
+                    <img src="${pageContext.request.contextPath}/img//white.png" id="white">
+                    <img src="${pageContext.request.contextPath}/img//blue.png" id="blue">
+                    <a href="#"><img src="${pageContext.request.contextPath}/img//PC6.jpg" id="PC"></a>
                     <p id="p"></p>
                 </div>
             </div>
-            <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
-            <script type="text/javascript" src="./js/jquery.sliphover.min.js"></script>
+            <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.7.2.min.js"></script>
+            <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.sliphover.min.js"></script>
             <script type="text/javascript">
             $(document).ready(function(e) {
                 $('#box_1').sliphover({
@@ -122,7 +122,7 @@
             </script>
             <div id="box_2">
                 <div id="box_2_1">
-                    <img src=".//img//znxx.png" id="znxx">
+                    <img src="${pageContext.request.contextPath}/img//znxx.png" id="znxx">
                 </div>
                 <div id="box_2_2">
                     <div id=demo style="overflow:hidden;width:750;" align=center>
@@ -130,12 +130,12 @@
 		                <tr><td valign=top bgcolor=ffffff id=marquePic1>
 	                    <table width='100%' border='0' cellspacing='0'>
 	                    <tr>
-	                        <td align=center><div id="blue_line"></div><a href='#'><img src=".//img//r//r1.jpg"; width=410px; height=240px; border=0></a></td>
-	                        <td align=center><a href='#'><img src=".//img//r//r2.jpg"; width=204px; height=270px; border=0></a></td>
-	                        <td align=center><a href='#'><img src=".//img//r//r3.jpg"; width=410px; height=240px; border=0><div id="blue_line"></div></a></td>
-	                        <td align=center><div id="blue_line"></div><a href='#'><img src=".//img//r//r4.jpg"; width=410px; height=240px; border=0></a></td>
-	                        <td align=center><a href='#'><img src=".//img//r//r5.jpg"; width=204px; height=270px; border=0></a></td>
-	                        <td align=center><a href='#'><img src=".//img//r//r6.jpg";width=410px; height=240px; border=0><div id="blue_line"></div></a></td>
+	                        <td align=center><div id="blue_line"></div><a href='#'><img src="${pageContext.request.contextPath}/img//r//r1.jpg"; width=410px; height=240px; border=0></a></td>
+	                        <td align=center><a href='#'><img src="${pageContext.request.contextPath}/img//r//r2.jpg"; width=204px; height=270px; border=0></a></td>
+	                        <td align=center><a href='#'><img src="${pageContext.request.contextPath}/img//r//r3.jpg"; width=410px; height=240px; border=0><div id="blue_line"></div></a></td>
+	                        <td align=center><div id="blue_line"></div><a href='#'><img src="${pageContext.request.contextPath}/img//r//r4.jpg"; width=410px; height=240px; border=0></a></td>
+	                        <td align=center><a href='#'><img src="${pageContext.request.contextPath}/img//r//r5.jpg"; width=204px; height=270px; border=0></a></td>
+	                        <td align=center><a href='#'><img src="${pageContext.request.contextPath}/img//r//r6.jpg";width=410px; height=240px; border=0><div id="blue_line"></div></a></td>
 	                    </tr></table></td><td id=marquePic2 valign=top></td></tr>
 	                </table></div>
                     <script type="text/javascript">
@@ -155,20 +155,20 @@
                 </script>
                 </div>
                 <div id="box_2_3">
-                    <img src=".//img//logo.png" id="logo_1">
+                    <img src="${pageContext.request.contextPath}/img//logo.png" id="logo_1">
                 </div>
             </div>
             <div id="box_3">
                 <div id="box_3_1">
-                    <img src=".//img//tg.png" id="tg">
+                    <img src="${pageContext.request.contextPath}/img//tg.png" id="tg">
                 </div>
                 <div id="box_3_2">
                     <a href="WEB-INF/content/jsp/video.html" target="_blank">
-                        <img src=".//img//G1.gif" style="height: 270px;width:550px;margin-left:237px;">
+                        <img src="${pageContext.request.contextPath}/img//G1.gif" style="height: 270px;width:550px;margin-left:237px;">
                     </a>
                 </div>
-                <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
-                <script type="text/javascript" src="./js/jquery.sliphover.min.js"></script>
+                <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.7.2.min.js"></script>
+                <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.sliphover.min.js"></script>
                 <script type="text/javascript">
                 $(document).ready(function(e) {
                     $('#box_3_2').sliphover({
@@ -177,10 +177,10 @@
                 });
                 </script>
                 <div id="box_3_3">
-                    <img src=".//img//logo.png" id="logo_1">
+                    <img src="${pageContext.request.contextPath}/img//logo.png" id="logo_1">
                 </div>
             </div>
-            <img src=".//img//mlxc.png" id="mlxc">
+            <img src="${pageContext.request.contextPath}/img//mlxc.png" id="mlxc">
             <a href="#container"><h3 id="h3">返回顶部</h3></a>
     </div>
 </body>

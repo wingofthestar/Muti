@@ -32,18 +32,18 @@ function btn(){
 <div class="content">
 		<div class="left-side">
 				<div class="l-main">
-						<a href="#"><img id="img1" src="../img/img3.jpg" /></a>
+						<a href="${pageContext.request.contextPath}/user/homepage"><img id="img1" src="../img/img3.jpg" /></a>
 						<div id="img2">
 								<img src="../img/img1.jpg" />
 						</div>
 						<div id="l-text1">
-								<p>用户名</p>
-								<p style="margin-top:40px">www.xxx.com</p>
+								<p>${USER_CONTEXT.userName}</p>
+								<p style="margin-top:40px">${USER_INFO.userIntroduce}</p>
 						</div>
 						<div id="l-text2">
-								<a style="margin-left:0" href="#">文章</a>
-								<a href="#">图片</a>
-								<a href="#">收藏</a>
+								<a style="margin-left:0" href="#">文章&nbsp;${USER_INFO.userArtcleNum}</a>
+								<%--<a href="#">图片</a>--%>
+								<a href="#">收藏 &nbsp;${USER_INFO.userFavorNum}</a>
 						</div>
 				</div>
 		</div>
