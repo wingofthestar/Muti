@@ -106,8 +106,9 @@
                 <tr id="txt_tr">
                     <td id="txt_name">txtarea_1</td>
                     <td>
-                        <form action="###" method="post">
-                        <textarea class="form-control" id="txtarea" rows="2" name="txtarea_1"></textarea>
+                        <form action="${pageContext.request.contextPath}/admin/updatemessage" method="post">
+                            <input type="hidden" value="1" name="textId">
+                        <textarea class="form-control" id="txtarea" rows="2" name="homeText"></textarea>
                         <input type="submit" class="btn btn-info" id="submit">
                         </form>
                     </td>
@@ -115,8 +116,9 @@
                 <tr id="txt_tr">
                     <td id="txt_name">txtarea_2</td>
                     <td>
-                        <form action="###" method="post">
-                        <textarea class="form-control" id="txtarea" rows="2" name="txtarea_2"></textarea>
+                        <form action="${pageContext.request.contextPath}/admin/updatemessage" method="post">
+                            <input type="hidden" value="2" name="textId">
+                        <textarea class="form-control" id="txtarea" rows="2" name="homeText"></textarea>
                         <input type="submit" class="btn btn-info" id="submit">
                         </form>
                     </td>
@@ -124,8 +126,9 @@
                 <tr id="txt_tr">
                     <td id="txt_name">txtarea_3</td>
                     <td>
-                        <form action="###" method="post">
-                        <textarea class="form-control" id="txtarea" rows="2" name="txtarea_3"></textarea>
+                        <form action="${pageContext.request.contextPath}/admin/updatemessage" method="post">
+                            <input type="hidden" value="3" name="textId">
+                        <textarea class="form-control" id="txtarea" rows="2" name="homeText"></textarea>
                         <input type="submit" class="btn btn-info" id="submit">
                         </form>
                     </td>

@@ -57,4 +57,13 @@ public class AdminManageController {
        mav.addObject(USER_LIST, userList);
        return mav;
     }
+
+    @RequestMapping("/updatemessage")
+    public String UpdateMessage(@Param("textId") int textId, @Param("homeText") String homeText){
+        if(homeText != "" && homeText != null){
+            adminManageService.updateMessage(textId, homeText);
+        }
+        return "redirect:/admin/manage";
+
+    }
 }
