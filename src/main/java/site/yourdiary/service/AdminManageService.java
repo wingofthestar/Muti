@@ -24,6 +24,12 @@ public class AdminManageService {
     }
 
     @Transactional
+    public User SearchByUserName(String userName){
+        User user = adminUserManageDao.getUserByUserName(userName);
+        return user;
+    }
+
+    @Transactional
     public void sethonor(String userName){
         adminUserManageDao.sethonor(userName);
     }

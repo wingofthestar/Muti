@@ -52,8 +52,11 @@
                             <td id="td_ip">${user.lastIp}</td>
                             <td id="td_flag"><c:if test="${user.flag}">封号</c:if><c:if test="${!user.flag}">正常</c:if></td>
                             <td id="td_button">
-                                <button class="btn btn-danger btn-sm" value="" onclick="sendValue_1(this)">封禁</button>
-                                <button class="btn btn-success btn-sm" value="" onclick="sendValue_2(this)">解封</button>
+                                <form action="${pageContext.request.contextPath}/admin/manage" id="usercount_flag" method="post">
+                                    <input type="hidden" name="userName" value="${user.userName}">
+                                    <button class="btn btn-danger btn-sm" value="1" name="flag" onclick="sendValue_1(this)">封禁</button>
+                                    <button class="btn btn-success btn-sm" value="0" name="flag" onclick="sendValue_2(this)">解封</button>
+                                </form>
                             </td>
                         </tr>
                     </c:forEach>
@@ -63,33 +66,36 @@
             <div id="blue_block_1">user data</div>
             <div id="blue_line_1"></div>
             <div id="search">
-                <form action="###" method="post">
-                <input type="txt"class="form-control" id="input_search" name="search">
+                <form action="${pageContext.request.contextPath}/admin/search" method="post">
+                <input type="txt"class="form-control" id="input_search" name="userName">
                 <input type="submit" value="搜索" class="btn btn-default" id="btn_search">
                 </form>
             </div>
             <div id="user_detail">
                 <table class="table table-striped table-hover table-bordered">
                     <tr>
-                        <td id="td_name">${user.userName}</td>
-                        <td id="td_email"${user.userEmail}</td>
-                        <td id="td_visit">${user.lastVisit}</td>
-                        <td id="td_ip">${user.lastIp}</td>
-                        <td id="td_flag"><c:if test="${user.flag}">正常</c:if><c:if test="${!user.flag}">封号</c:if></td>
+                        <td id="td_name">${SEARCH_RESULT.userName}</td>
+                        <td id="td_email">${SEARCH_RESULT.userEmail}</td>
+                        <td id="td_visit">${SEARCH_RESULT.lastVisit}</td>
+                        <td id="td_ip">${SEARCH_RESULT.lastIp}</td>
+                        <td id="td_flag"><c:if test="${SEARCH_RESULT.flag == true}">封号</c:if><c:if test="${SEARCH_RESULT.flag == false}">正常</c:if></td>
                         <td id="td_button">
-                            <button class="btn btn-danger btn-sm" value="" onclick="sendValue_1(this)">封禁</button>
-                            <button class="btn btn-success btn-sm" value="" onclick="sendValue_2(this)">解封</button>
+                            <form action="${pageContext.request.contextPath}/admin/manage" id="usercount_flag" method="post">
+                                <input type="hidden" name="userName" value="${SEARCH_RESULT.userName}">
+                                <button class="btn btn-danger btn-sm" value="1" name="flag" onclick="sendValue_1(this)">封禁</button>
+                                <button class="btn btn-success btn-sm" value="0" name="flag" onclick="sendValue_2(this)">解封</button>
+                            </form>
                         </td>
                     </tr>
                 </table>
             </div>
             <script>
                 function sendValue_1(obj){
-                    obj.value = 1;
+                    document.getElementById("usercount_flag").submit();
                     alert("已封禁");
                 }
                 function sendValue_2(obj){
-                    obj.value = 0;
+                    document.getElementById("usercount_flag").submit();
                     alert("已解封");
                 }
             </script>
