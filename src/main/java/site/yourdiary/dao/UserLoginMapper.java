@@ -12,7 +12,7 @@ public interface UserLoginMapper {
 
     User getUserByUserName(String userName);
 
-    User getUserByEmail(String eamil);
+    User getUserByEmail(String email);
 
     //用户登录成功，更新登录ip，和登录时间
     int updateLastLogin(@Param("userName") String userName, @Param("lastVisit") Date lastVisit,@Param("lastIp") String lastIp);

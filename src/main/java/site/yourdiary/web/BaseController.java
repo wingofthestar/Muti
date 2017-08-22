@@ -15,6 +15,7 @@ public class BaseController {
 
     @RequestMapping(value = "index")
     private String homepage(){
-        return "redirect:/user/homepage";
+        return "forward:/user/homepage";
     }
+
 }

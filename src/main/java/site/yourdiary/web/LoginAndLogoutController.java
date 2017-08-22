@@ -43,10 +43,17 @@ public class LoginAndLogoutController extends BaseWeb {
                 if (password.equals(user.getPassword())) {
                     //更新用户登录日志
                     userLoginService.loginSuccessful(user, request.getRemoteAddr());
-
-                    //将相关用户信息放到Session中然后转发
                     setSessionUser(request, user);
-                    return "forward:/user/homepage";
+
+                    if(user.isUserType()){
+//                        System.out.println(user);
+//                        System.out.println("================================================================");
+                        return "redirect:/admin/manage";
+//                        System.out.println("====");
+                    }else{
+                        //将相关用户信息放到Session中然后转发
+                        return "redirect:/user/homepage";
+                    }
                 } else {
                     //用户登录验证失败重定向到登录页面
                     return "redirect:/redirect/login";

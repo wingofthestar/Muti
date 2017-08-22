@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="site.yourdiary.dao.AdminUserManageMapper">
+    <select id="getAllUserAccount" resultType="User">
+        SELECT * FROM user
+    </select>
+    <select id="getUserByUserName" parameterType="String" resultType="User">
+        SELECT * FROM user WHERE user_name = #{userName}
+    </select>
+
+    <update id="sethonor" parameterType="String">
+        UPDATE user SET flag = TRUE where user_name = #{userName}
+    </update>
+    <update id="disSethonor" parameterType="String">
+        UPDATE user SET flag = FALSE where user_name = #{userName}
+    </update>
+
+</mapper>
