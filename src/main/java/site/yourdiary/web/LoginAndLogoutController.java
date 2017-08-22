@@ -66,7 +66,7 @@ public class LoginAndLogoutController extends BaseWeb {
     @RequestMapping("/logout")
     public String logout(HttpServletRequest request){
         removeSessionUser(request);
-        return "redirect:/redirect/login";
+        return "logout_success";
     }
 
 }

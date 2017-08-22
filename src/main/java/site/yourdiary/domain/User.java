@@ -9,6 +9,8 @@ public class User extends BaseDomain{
     private String password;
     private Date lastVisit;
     private String lastIp;
+    private boolean flag;
+    private boolean userType;
 
     public int getUserId() {
         return userId;
@@ -56,5 +58,21 @@ public class User extends BaseDomain{
 
     public void setLastIp(String lastIp) {
         this.lastIp = lastIp;
+    }
+
+    public boolean isFlag() {
+        return flag;
+    }
+
+    public void setFlag(boolean flag) {
+        this.flag = flag;
+    }
+
+    public boolean isUserType() {
+        return userType;
+    }
+
+    public void setUserType(boolean userType) {
+        this.userType = userType;
     }
 }

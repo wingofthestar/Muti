@@ -26,7 +26,7 @@ public class UserLoginTest {
 
     @Test
     public void testGetUserByUserName(){
-        User user = userLoginDao.getUserByUserName("崔希伟");
+        User user = userLoginDao.getUserByUserName("admin");
         System.out.println(user);
     }
 

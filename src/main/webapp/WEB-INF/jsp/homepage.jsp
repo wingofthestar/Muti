@@ -62,13 +62,14 @@
             <c:choose>
                 <c:when test="${USER_CONTEXT != null}">
                     <div id="nav_1">
-                        欢迎&nbsp${USER_CONTEXT.userName}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="${pageContext.request.contextPath}/user/userSpace">个人中心</a>
+                        欢迎&nbsp${USER_CONTEXT.userName}&nbsp;&nbsp;
+                        <a href="${pageContext.request.contextPath}/user/userSpace">个人中心</a>&nbsp;&nbsp;
+                        <a href="${pageContext.request.contextPath}/logout">注销</a>
                     </div>
                 </c:when>
                 <c:otherwise>
                     <div id="nav_1">
-                        <a href="#">注册</a>|<a href="${pageContext.request.contextPath}/redirect/login">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="${pageContext.request.contextPath}/redirect/login">注册|登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <%--<a href="">个人中心</a>--%>
                     </div>
                 </c:otherwise>

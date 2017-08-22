@@ -1,0 +1,21 @@
+#register_success_container{
+    /*border: 1px solid #c0c0c0;*/
+    width: 600px;
+    height: 38px;
+     /*div水平居中，垂直距上方的36% 采用绝对定位*/
+    position: absolute;
+    left: 50%;
+    top: 36%;
+    /* 调整，使得相对于div框的中心而不是div的左上角*/
+    margin-left: -300px;
+    margin-top: -12.96px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+html{
+    background: url("../img/success_background.jpg") no-repeat;
+    background-size: cover;
+}
