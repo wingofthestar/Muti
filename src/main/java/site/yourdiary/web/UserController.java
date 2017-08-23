@@ -12,6 +12,7 @@ import site.yourdiary.service.UserSpaceService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import java.util.HashMap;
 import java.util.List;
@@ -38,8 +39,13 @@ public class UserController extends BaseWeb {
     }
 
     @RequestMapping(value = "/userSpace")
-    public ModelAndView userSpace(HttpServletRequest request, ModelAndView mav){
+    public ModelAndView userSpace(HttpServletRequest request, HttpSession session, ModelAndView mav){
         User user = getSessionUser(request);
+        if(user == null){
+            session.setAttribute(REQUEST_PATH, "/user/userSpace");
+            mav.setViewName("redirect:/redirect/login");
+            return mav;
+        }
         UserInfo userInfo = userSpaceService.getUserInfobyUserId(user.getUserId());
         mav.setViewName("individualspace");
         mav.addObject(USER_CONTEXT, user);

@@ -1,0 +1,155 @@
+<style type="text/css">
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
+body{font:12px"宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;margin:0;padding:0;background-color: #DED6D6} 
+a{color:#2d374b;text-decoration:none} 
+a:hover{color:#cd0200;text-decoration:underline} 
+em{font-style:normal} 
+li{list-style:none} 
+table{border-collapse:collapse;border-spacing:0} 
+p{word-wrap:break-word} 
+#container{
+    width: 1024px;
+    height: 768px;
+    margin:0 auto;
+    position: relative;
+    background-color: #FFFFFF;
+}
+#column{
+	width: 1024px;
+	height: 45px;
+	background-color: #483C2C;
+}
+#Navigation{
+	width: 245px;
+	height: 16px;
+	padding-top: 20px;
+	padding-left: 620px;
+	position: absolute;
+}
+#Navigation a{
+	font-family: SimSun;
+    text-decoration:none;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+#pc_1{
+	margin-left: 10px;
+	margin-top: -8px;
+	position: absolute;
+}
+#box_1{
+	width: 630px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+#box_2{
+	width: 742px;
+	height: 530px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color:#FFFFFF;
+}
+#tell_more{
+	width: 182px;
+	height: 30px;
+	background-color: #90B5BD;
+	margin: 0 auto;
+	margin-top: 32px;
+	border-radius:20px 20px 20px 20px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 30px;
+	display: block;
+}
+#tell_more a{
+    text-decoration:none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+#logo{
+	margin-top: -20px;
+	margin-left: 30px;
+	position: absolute;
+}
+#item_1{
+	width: 244px;
+	height: 175px;
+	background-color: #F1B954;
+	position: absolute;
+}
+#item_2{
+	margin-left: 249px;
+	width: 244px;
+	height: 175px;
+	background-color: #EA6CA1;
+	position: absolute;
+}
+#item_3{
+	width: 244px;
+	height: 175px;
+	margin-left: 249px;
+	margin-top:180px;
+	background-color: #F55252;
+	position: absolute;
+}
+#item_4{
+	margin-top: 180px;
+	width: 244px;
+	height: 350px;
+	background-color: #F55252;
+	position: absolute;
+}
+#item_5{
+	width: 244px;
+	height: 355px;
+	margin-left: 498px;
+	background-color: #F55252;
+	position: absolute;
+}
+#item_6{
+	width: 493px;
+	height: 170px;
+	margin-top: 360px;
+	margin-left: 249px;
+	background-color: #75D077;
+	position: absolute;
+}
+ul#nav
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    font-family: SimSun;
+}
+li
+{
+    float:left;
+    font-family: SimSun;
+}
+#nav li a:link,a:visited
+{
+    display:block;
+    width:105px;
+    height: 30px;
+    font-weight:bold;
+    font-size: 14px;
+    font-family: SimSun;
+    color:#90B5BD;
+    background-color:#FFFFFF;
+    text-align:center;
+    line-height: 30px;
+    text-decoration:none;
+    text-transform:uppercase;
+    border-radius:20px 20px 20px 20px;
+}
+#nav li a:hover,a:active
+{
+	font-family: SimSun;
+	color: #FFFFFF;
+    background-color:#90B5BD;
+    border-radius:20px 20px 20px 20px;
+}
+<style>

@@ -10,8 +10,11 @@ import site.yourdiary.exception.LoginNoUserException;
 import site.yourdiary.service.UserLoginService;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import static site.yourdiary.cons.CommonConstant.REQUEST_PATH;
 
 @Controller
 public class LoginAndLogoutController extends BaseWeb {
@@ -20,7 +23,9 @@ public class LoginAndLogoutController extends BaseWeb {
     private UserLoginService userLoginService;
 
     @RequestMapping(value = "login", method = {RequestMethod.POST, RequestMethod.GET})
-    public String login(HttpServletRequest request, @RequestParam(required = false) String email, @RequestParam(required = false) String password) throws LoginNoUserException {
+    public String login(HttpServletRequest request, @RequestParam(required = false) String email,
+                        @RequestParam(required = false) String password, HttpSession session)
+            throws LoginNoUserException {
         User user;
 
         //当Session域中没有用户信息时
@@ -45,19 +50,32 @@ public class LoginAndLogoutController extends BaseWeb {
                     userLoginService.loginSuccessful(user, request.getRemoteAddr());
                     setSessionUser(request, user);
 
-                    if(user.isUserType()){
-//                        System.out.println(user);
-//                        System.out.println("================================================================");
-                        return "redirect:/admin/manage";
-//                        System.out.println("====");
-                    }else{
-                        //将相关用户信息放到Session中然后转发
-                        return "redirect:/user/homepage";
+                    //判断用户账号是否被封
+                    if(!user.isFlag()){
+
+                        //判断是否是管理员用户
+                        if(user.isUserType()){
+                            return "redirect:/admin/manage";
+                        }else{
+                            //将相关用户信息放到Session中然后转发
+                            if(session.getAttribute(REQUEST_PATH) != null) {
+                                return "redirect:" + session.getAttribute(REQUEST_PATH);
+                            }
+                            return "redirect:/user/homepage";
+
+                        }
+
                     }
+                    //用户被封号
+                    //用户登录验证失败重定向到登录页面
+                    //表单信息为空的话，返回错误信息，待重构
+                    return "redirect: /redirect/login";
+
                 } else {
                     //用户登录验证失败重定向到登录页面
                     return "redirect:/redirect/login";
                 }
+
             }else{
                 //表单信息为空的话，返回错误信息，待重构
                 return "redirect:/redirect/login";
