@@ -53,8 +53,7 @@
             <img src="${pageContext.request.contextPath}/img//meilixiangcun.png" id="meilixiangcun">
             <div id="nav">
                 <a href="#">首页</a>
-                <%--<a href="#">创业</a>--%>
-                <%--<a href="#">旅游</a>--%>
+                <%--<a href="#">创业</a>--%><%--<a href="#">旅游</a>--%>
                 <a href="${pageContext.request.contextPath}/redirect/showpage">美丽乡村建设</a>
                 <a href="#">论坛</a>
                 <%--<a href="#">更多</a>--%>
