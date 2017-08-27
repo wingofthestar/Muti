@@ -185,6 +185,7 @@
             <%--</div>--%>
             <%--<img src="${pageContext.request.contextPath}/img//mlxc.png" id="mlxc">--%>
             <a href="#container"><h3 id="h3">返回顶部</h3></a>
+            <script src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
     </div>
 </body>
 </html>
