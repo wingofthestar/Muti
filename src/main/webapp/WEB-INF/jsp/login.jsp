@@ -3,26 +3,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="..//css//login.css">
-<link rel="stylesheet" href="..//css//bootstrap.css">
-<script type="text/javascript" src="../js/jquery-1.9.0.min.js"></script>
-<script type="text/javascript" src="../js/login.js"></script>
-<link href="../css/login2.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//login.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}//css//bootstrap.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}//css//jsperror.css">
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/login.js"></script>
+<link href="${pageContext.request.contextPath}/css/login2.css" rel="stylesheet" type="text/css" />
 <meta charset="utf-8">
 <title>登录界面</title>
+	<script>
+		<c:if test="${REGIST_ERROR != null}">
+			window.onload = function () {
+                $('#switch_login').removeClass("switch_btn").addClass('switch_btn_focus');
+                $('#switch_qlogin').removeClass("switch_btn_focus").addClass('switch_btn');
+                $('#switch_bottom').animate({left:'102px',width:'70px'});
+
+                $('#qlogin').css('display','block');
+                $('#web_qr_login').css('display','none');
+            }
+		</c:if>
+	</script>
 </head>
 <body>
 <div class="warp">
-		<div class="up"style="background:url(..//img//background2.png);">
+		<div class="up"style="background:url(${pageContext.request.contextPath}//img//background2.png);">
 				<div class="black">
 						<a href="#">联系我们</a>
 				</div>
-				<img src="..//img//logo2.png" id="logo">
+				<img src="${pageContext.request.contextPath}//img//logo2.png" id="logo">
 				<div class="login" style="margin-top:50px;background-color:rgba(225,225,225,0.5);height:auto;">
 						<div class="header" >
 								<div class="switch" id="switch">
-										<a class="switch_btn_focus" id="switch_qlogin" href="javascript:void(0);" tabindex="7">快速登录</a>
-										<a class="switch_btn" id="switch_login" href="javascript:void(0);" tabindex="8">快速注册</a>
+										<a class="switch_btn_focus" id="switch_qlogin" href="javascript:void(0);" tabindex="7">登录</a>
+										<a class="switch_btn" id="switch_login" href="javascript:void(0);" tabindex="8">注册</a>
 										<div class="switch_bottom" id="switch_bottom" style="position: absolute; width: 64px; left: 0px;"></div>
 								</div>
 						</div>
@@ -33,17 +46,20 @@
 										<div class="login-box">
 												<div class="login_form">
 														<form action="${pageContext.request.contextPath}/login" name="loginform" accept-charset="utf-8" id="login_form" class="loginForm" method="post">
-																<input type="hidden" name="did" value="0"/>
-																<input type="hidden" name="to" value="log"/>
+																<%--<input type="hidden" name="did" value="0"/>--%>
+																<%--<input type="hidden" name="to" value="log"/>--%>
+																<c:if test="${LOGIN_ERROR != null}">
+																	<div id="userCue" class="login-error">${LOGIN_ERROR}</div>
+																</c:if>
 																<div class="uinArea" id="uinArea">
 																		<div class="inputOuter" id="uArea" style="height:30px;width:auto;margin:0 auto">
-																				<div class="icon1"><img src="../img/man.png"></div>
+																				<div class="icon1"><img src="${pageContext.request.contextPath}/img/man.png"></div>
 																				<input type="text" id="u" name="email" class="inputstyle" placeholder=" 用户名 或 邮 箱"style="height:30px;border:none;background-color:rgba(225,225,225,0.3);float:left"/>
 																		</div>
 																</div>
 																<div class="pwdArea" id="pwdArea">
 																		<div class="inputOuter" id="pArea" style="height:30px;width:auto;margin:0 auto">
-																				<div class="icon2"><img src="../img/key.png"></div>
+																				<div class="icon2"><img src="${pageContext.request.contextPath}/img/key.png"></div>
 																				<input type="password" id="p" name="password" class="inputstyle"placeholder=" 密 码" style="height:30px;border:none;background-color:rgba(225,225,225,0.3)"/>
 																		</div>
 																</div>
@@ -72,7 +88,16 @@
 												<input type="hidden" name="to" value="reg"/>
 												<input type="hidden" name="did" value="0"/>
 												<ul class="reg_form" id="reg-ul">
-														<div id="userCue" class="cue">快速注册请注意格式</div>
+														<div id="userCue" class="cue">
+															<c:choose>
+																<c:when test="${REGIST_ERROR != null}">
+																	${REGIST_ERROR}
+																</c:when>
+																<c:otherwise>
+																	注册请注意格式
+																</c:otherwise>
+															</c:choose>
+														</div>
 														<li>
 																<label for="user"  class="input-tips2">用户名：</label>
 																<div class="inputOuter2">
@@ -113,11 +138,11 @@
 		</div>
 		<div class="down">
 				<div id="mid" style="margin:0 auto;">
-						<img src="..//img//circle_1.jpg" class="img-circle" id="image_radius_1" style="overfloat:hidden;">
-						<img src="..//img//circle_2.jpg" class="img-circle" id="image_radius_2" style="overfloat:hidden;">
-						<img src="..//img//circle_3.jpg" class="img-circle" id="image_radius_3" style="overfloat:hidden;">
-						<img src="..//img//circle_4.jpg" class="img-circle" id="image_radius_4" style="overfloat:hidden;">
-						<img src="..//img//circle_5.jpg" class="img-circle" id="image_radius_5" style="overfloat:hidden;">
+						<img src="${pageContext.request.contextPath}//img//circle_1.jpg" class="img-circle" id="image_radius_1" style="overfloat:hidden;">
+						<img src="${pageContext.request.contextPath}//img//circle_2.jpg" class="img-circle" id="image_radius_2" style="overfloat:hidden;">
+						<img src="${pageContext.request.contextPath}//img//circle_3.jpg" class="img-circle" id="image_radius_3" style="overfloat:hidden;">
+						<img src="${pageContext.request.contextPath}//img//circle_4.jpg" class="img-circle" id="image_radius_4" style="overfloat:hidden;">
+						<img src="${pageContext.request.contextPath}//img//circle_5.jpg" class="img-circle" id="image_radius_5" style="overfloat:hidden;">
 				</div>
 		</div>
 		<div class="foot">
@@ -130,10 +155,10 @@
 						<a href="#"> 隐私声明</a>
 				</div>
 				<div class="l-div">
-						<div id="l-p"><img src="../img/weixin.jpg">
+						<div id="l-p"><img src="${pageContext.request.contextPath}/img/weixin.jpg">
 								<p>微 信</p>
 						</div>
-						<div id="l-p" style="margin-right:30px"><img src="../img/weibo.jpg">
+						<div id="l-p" style="margin-right:30px"><img src="${pageContext.request.contextPath}/img/weibo.jpg">
 								<p>微 博</p>
 						</div>
 				</div>

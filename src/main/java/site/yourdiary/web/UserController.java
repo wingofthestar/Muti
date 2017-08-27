@@ -40,7 +40,7 @@ public class UserController extends BaseWeb {
         User user = getSessionUser(request);
         if(user == null){
             session.setAttribute(REQUEST_PATH, "/user/userSpace");
-            mav.setViewName("redirect:/redirect/login");
+            mav.setViewName("/login");
             return mav;
         }
         UserInfo userInfo = userSpaceService.getUserInfobyUserId(user.getUserId());

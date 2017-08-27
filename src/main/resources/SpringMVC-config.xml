@@ -15,11 +15,11 @@
     <context:component-scan base-package="site.yourdiary.web"/>
 
     <!--注解类型的处理映射器-->
-    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/>
+    <!--<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/>-->
     <!--注解类型的处理器适配器-->
-    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"/>
+    <!--<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"/>-->
 
-    <!--<mvc:annotation-driven />-->
+    <mvc:annotation-driven />
 
     <!-- 静态资源解析包括 ：js、css、img、..-->
     <mvc:resources location="/css/" mapping="/css/**"/>

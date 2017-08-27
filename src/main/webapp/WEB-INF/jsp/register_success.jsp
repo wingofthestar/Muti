@@ -14,7 +14,7 @@
             t -= 1;
             document.getElementById('showtime').innerHTML = t;
             if(t == 0){
-                location.href = '${pageContext.request.contextPath}/redirect/login';
+                location.href = '${pageContext.request.contextPath}/userlogin';
             }
 
             //每秒执行一次，showTime()

@@ -27,7 +27,7 @@ public class UserLoginService {
     public User getUserByUserName(String userName) throws LoginNoUserException {
         User user = userLoginDao.getUserByUserName(userName);
         if (user == null){
-            throw new LoginNoUserException("用户不存在");
+            throw new LoginNoUserException("用户名或密码错误");
         }else {
             return user;
         }
@@ -37,7 +37,7 @@ public class UserLoginService {
     public User getUserByEamil(String email) throws LoginNoUserException {
         User user = userLoginDao.getUserByEmail(email);
         if (user == null){
-            throw new LoginNoUserException("用户不存在");
+            throw new LoginNoUserException("邮箱或密码错误");
         }else {
             return user;
         }

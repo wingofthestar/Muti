@@ -25,7 +25,7 @@
         .focus .pre{left:0;}
         .focus .next{right:0;background-position:right top;}
     </style>
-	<script type="text/javascript" src="${pageContext.request.contextPath}/js//jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/js//jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/js//Tony_Tab.js"></script>
 </head>
 <body>
@@ -54,7 +54,7 @@
             <div id="nav">
                 <a href="#">首页</a>
                 <%--<a href="#">创业</a>--%><%--<a href="#">旅游</a>--%>
-                <a href="${pageContext.request.contextPath}/redirect/showpage">美丽乡村建设</a>
+                <a href="${pageContext.request.contextPath}/showpage">美丽乡村建设</a>
                 <a href="#">论坛</a>
                 <%--<a href="#">更多</a>--%>
             </div>
@@ -68,7 +68,7 @@
                 </c:when>
                 <c:otherwise>
                     <div id="nav_1">
-                        <a href="${pageContext.request.contextPath}/redirect/login">注册|登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="${pageContext.request.contextPath}/userlogin">注册|登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <%--<a href="">个人中心</a>--%>
                     </div>
                 </c:otherwise>
@@ -112,7 +112,7 @@
                     <p id="p"></p>
                 </div>
             </div>
-            <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.7.2.min.js"></script>
+            <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.11.1.min.js"></script>
             <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.sliphover.min.js"></script>
             <script type="text/javascript">
             $(document).ready(function(e) {

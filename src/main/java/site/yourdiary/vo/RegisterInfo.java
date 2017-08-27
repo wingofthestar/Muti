@@ -2,10 +2,12 @@ package site.yourdiary.vo;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 
 public class RegisterInfo implements Serializable{
 
+    @Size(min=3, max=16)
     private String userName;
     private String userEmail;
     private String password;

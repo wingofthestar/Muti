@@ -28,7 +28,7 @@ function logintab(){
 	scrollTo(0);
 	$('#switch_qlogin').removeClass("switch_btn_focus").addClass('switch_btn');
 	$('#switch_login').removeClass("switch_btn").addClass('switch_btn_focus');
-	$('#switch_bottom').animate({left:'154px',width:'96px'});
+	$('#switch_bottom').animate({left:'102px',width:'96px'});
 	$('#qlogin').css('display','none');
 	$('#web_qr_login').css('display','block');
 	
@@ -83,28 +83,28 @@ $(document).ready(function() {
 			return false;
 
 		}
-		$.ajax({
-			type: reMethod,
-			url: "/member/ajaxyz.php",
-			data: "uid=" + $("#user").val() + '&temp=' + new Date(),
-			dataType: 'html',
-			success: function(result) {
-
-				if (result.length > 2) {
-					$('#user').focus().css({
-						border: "1px solid red",
-						boxShadow: "0 0 2px red"
-					});$("#userCue").html(result);
-					return false;
-				} else {
-					$('#user').css({
-						border: "1px solid #D7D7D7",
-						boxShadow: "none"
-					});
-				}
-
-			}
-		});
+		// $.ajax({
+		// 	type: reMethod,
+		// 	url: "/member/ajaxyz.php",
+		// 	data: "uid=" + $("#user").val() + '&temp=' + new Date(),
+		// 	dataType: 'html',
+		// 	success: function(result) {
+        //
+		// 		if (result.length > 2) {
+		// 			$('#user').focus().css({
+		// 				border: "1px solid red",
+		// 				boxShadow: "0 0 2px red"
+		// 			});$("#userCue").html(result);
+		// 			return false;
+		// 		} else {
+		// 			$('#user').css({
+		// 				border: "1px solid #D7D7D7",
+		// 				boxShadow: "none"
+		// 			});
+		// 		}
+        //
+		// 	}
+		// });
 
 
 		if ($('#passwd').val().length < pwdmin) {

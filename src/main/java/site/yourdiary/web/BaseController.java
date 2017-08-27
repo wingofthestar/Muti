@@ -8,14 +8,24 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class BaseController {
 
-    @RequestMapping(value = "redirect/{str}", method = RequestMethod.GET)
-    private String redirect(@PathVariable("str") String str){
-        return str;
-    }
+//    @RequestMapping(value = "redirect/{str}", method = RequestMethod.GET)
+//    public String redirect(@PathVariable("str") String str){
+//        return str;
+//    }
 
     @RequestMapping(value = "index")
-    private String homepage(){
+    public String homepage(){
         return "forward:/user/homepage";
+    }
+
+    @RequestMapping(value = "userlogin")
+    public String login(){
+        return "login";
+    }
+
+    @RequestMapping(value = "showpage")
+    public String showpage(){
+        return "showpage";
     }
 
 }

@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="../css/individual space.css" />
 <link rel="stylesheet" type="text/css" href="../css/warp.css" />
 <title>个人空间</title>
-<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
   $("#btn").click(function(){
