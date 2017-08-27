@@ -1,13 +1,12 @@
 package site.yourdiary.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import site.yourdiary.dao.UserRegisterMapper;
 import site.yourdiary.domain.User;
 import site.yourdiary.exception.RegisterUserExitException;
-import site.yourdiary.web.RegisterInfo;
+import site.yourdiary.vo.RegisterInfo;
 
 @Service
 public class UserRegisterService {

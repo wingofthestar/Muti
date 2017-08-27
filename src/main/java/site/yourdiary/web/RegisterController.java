@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import site.yourdiary.exception.RegisterUserExitException;
 import site.yourdiary.service.UserRegisterService;
+import site.yourdiary.vo.RegisterInfo;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

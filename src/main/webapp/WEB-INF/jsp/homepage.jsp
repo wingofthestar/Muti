@@ -123,7 +123,8 @@
             </script>
             <div id="box_2">
                 <div id="box_2_1">
-                    <img src="${pageContext.request.contextPath}/img//znxx.png" id="znxx">
+                    <%--<img src="${pageContext.request.contextPath}/img//znxx.png" id="znxx">--%>
+                    <span class="add1">风景展示</span>
                 </div>
                 <div id="box_2_2">
                     <div id=demo style="overflow:hidden;width:750;" align=center>
@@ -155,33 +156,34 @@
                     demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)} 
                 </script>
                 </div>
-                <div id="box_2_3">
-                    <img src="${pageContext.request.contextPath}/img//logo.png" id="logo_1">
-                </div>
+
             </div>
-            <div id="box_3">
-                <div id="box_3_1">
-                    <img src="${pageContext.request.contextPath}/img//tg.png" id="tg">
-                </div>
-                <div id="box_3_2">
-                    <a href="WEB-INF/content/jsp/video.html" target="_blank">
-                        <img src="${pageContext.request.contextPath}/img//G1.gif" style="height: 270px;width:550px;margin-left:237px;">
-                    </a>
-                </div>
-                <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.7.2.min.js"></script>
-                <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.sliphover.min.js"></script>
-                <script type="text/javascript">
-                $(document).ready(function(e) {
-                    $('#box_3_2').sliphover({
-		                backgroundColor:'rgba(60,60,60,0.5)'
-	                });
-                });
-                </script>
-                <div id="box_3_3">
-                    <img src="${pageContext.request.contextPath}/img//logo.png" id="logo_1">
-                </div>
-            </div>
-            <img src="${pageContext.request.contextPath}/img//mlxc.png" id="mlxc">
+        <div id="box_2_3">
+            <img src="${pageContext.request.contextPath}/img//logo.png" id="logo_1">
+        </div>
+            <%--<div id="box_3">--%>
+                <%--<div id="box_3_1">--%>
+                    <%--<img src="${pageContext.request.contextPath}/img//tg.png" id="tg">--%>
+                <%--</div>--%>
+                <%--<div id="box_3_2">--%>
+                    <%--<a href="WEB-INF/content/jsp/video.html" target="_blank">--%>
+                        <%--<img src="${pageContext.request.contextPath}/img//G1.gif" style="height: 270px;width:550px;margin-left:237px;">--%>
+                    <%--</a>--%>
+                <%--</div>--%>
+                <%--<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.7.2.min.js"></script>--%>
+                <%--<script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery.sliphover.min.js"></script>--%>
+                <%--<script type="text/javascript">--%>
+                <%--$(document).ready(function(e) {--%>
+                    <%--$('#box_3_2').sliphover({--%>
+		                <%--backgroundColor:'rgba(60,60,60,0.5)'--%>
+	                <%--});--%>
+                <%--});--%>
+                <%--</script>--%>
+                <%--<div id="box_3_3">--%>
+                    <%--<img src="${pageContext.request.contextPath}/img//logo.png" id="logo_1">--%>
+                <%--</div>--%>
+            <%--</div>--%>
+            <%--<img src="${pageContext.request.contextPath}/img//mlxc.png" id="mlxc">--%>
             <a href="#container"><h3 id="h3">返回顶部</h3></a>
     </div>
 </body>

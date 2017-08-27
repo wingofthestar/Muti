@@ -1,10 +1,11 @@
-package site.yourdiary.web;
+package site.yourdiary.vo;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 
 import java.io.Serializable;
 
 public class RegisterInfo implements Serializable{
+
     private String userName;
     private String userEmail;
     private String password;
