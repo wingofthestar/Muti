@@ -9,6 +9,10 @@
     </select>
     <select id="getWriter" parameterType="int" resultType="UserInfoWrapper">
         select m.user_name, n.user_photo from user m INNER JOIN user_info n on m.user_id = n.user_id
-        where m.user_id = #{userId};
+        where m.user_id = #{userId}
+    </select>
+    <select id="getCommenter" parameterType="int" resultType="UserInfoWrapper">
+        select m.user_name, n.user_photo from user m INNER JOIN user_info n on m.user_id = n.user_id
+        where m.user_id = #{commentUserId}
     </select>
 </mapper>

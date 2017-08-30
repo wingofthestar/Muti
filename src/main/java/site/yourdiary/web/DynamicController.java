@@ -21,7 +21,7 @@ public class DynamicController extends BaseWeb{
     public ModelAndView showDynamic(){
         ModelAndView mav = new ModelAndView();
         mav.setViewName("dynamic");
-        mav.addObject(dynamicService.showContent());
+        mav.addObject("CONTENT_LIST",dynamicService.showContent());
         return mav;
     }
 

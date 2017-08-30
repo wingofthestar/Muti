@@ -5,15 +5,16 @@ import java.util.List;
 public class ContentWrapper extends BaseDomain{
     private UserArticle userArticle;
     private UserInfoWrapper userInfoWrapper;
-    private List<ArticleComment> articleCommentList;
+    private List<ArticleCommentWrapper> articleCommentWrapperList;
 
     public ContentWrapper() {
     }
 
-    public ContentWrapper(UserArticle userArticle, UserInfoWrapper userInfoWrapper, List<ArticleComment> articleCommentList) {
+    public ContentWrapper(UserArticle userArticle, UserInfoWrapper userInfoWrapper, List<ArticleCommentWrapper>
+            articleCommentWrapperList) {
         this.userArticle = userArticle;
         this.userInfoWrapper = userInfoWrapper;
-        this.articleCommentList = articleCommentList;
+        this.articleCommentWrapperList = articleCommentWrapperList;
     }
 
     public UserArticle getUserArticle() {
@@ -32,11 +33,11 @@ public class ContentWrapper extends BaseDomain{
         this.userInfoWrapper = userInfoWrapper;
     }
 
-    public List<ArticleComment> getArticleCommentList() {
-        return articleCommentList;
+    public List<ArticleCommentWrapper> getArticleCommentWrapperList() {
+        return articleCommentWrapperList;
     }
 
-    public void setArticleCommentList(List<ArticleComment> articleCommentList) {
-        this.articleCommentList = articleCommentList;
+    public void setArticleCommentWrapperList(List<ArticleCommentWrapper> articleCommentWrapperList) {
+        this.articleCommentWrapperList = articleCommentWrapperList;
     }
 }

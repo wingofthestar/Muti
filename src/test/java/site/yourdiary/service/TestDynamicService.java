@@ -7,6 +7,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import site.yourdiary.domain.ContentWrapper;
 
+import java.util.List;
 import java.util.Map;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -17,11 +18,9 @@ public class TestDynamicService {
 
     @Test
     public void testShowContent(){
-        Map<String, ContentWrapper> content=  dynamicService.showContent();
-        for (Map.Entry<String, ContentWrapper> c :content.entrySet()){
-            System.out.println(
-                    c.getKey() + ":" + c.getValue()
-            );
+        List<ContentWrapper> contentList=  dynamicService.showContent();
+        for (ContentWrapper contentWrapper: contentList) {
+            System.out.println(contentWrapper);
         }
     }
 }

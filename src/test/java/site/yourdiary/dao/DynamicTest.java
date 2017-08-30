@@ -41,4 +41,10 @@ public class DynamicTest {
         UserInfoWrapper userInfoWrapper = dynamicDao.getWriter(33);
         System.out.println(userInfoWrapper);
     }
+
+    @Test
+    public void testgetCommenter(){
+        UserInfoWrapper userInfoWrapper = dynamicDao.getCommenter(35);
+        System.out.println(userInfoWrapper);
+    }
 }

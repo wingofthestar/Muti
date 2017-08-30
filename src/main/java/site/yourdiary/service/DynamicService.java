@@ -4,11 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import site.yourdiary.dao.DynamicMapper;
-import site.yourdiary.domain.ArticleComment;
-import site.yourdiary.domain.ContentWrapper;
-import site.yourdiary.domain.UserArticle;
-import site.yourdiary.domain.UserInfoWrapper;
+import site.yourdiary.domain.*;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,8 +21,9 @@ public class DynamicService {
     }
 
     @Transactional
-    public Map showContent(){
-        Map Contents = new HashMap();
+    public List<ContentWrapper> showContent(){
+        List<ContentWrapper> contentList = new ArrayList<>();
+        List<ArticleCommentWrapper> articleCommentWrapperList = new ArrayList<>();
 //        Contents.put("Article", dynamicDao.getAllArticle());
 //        Contents.put("Comment", dynamicDao.getAllComment());
         for (UserArticle userArticle : dynamicDao.getAllArticle()) {
@@ -32,10 +31,17 @@ public class DynamicService {
             int articleId = userArticle.getArticleId();
             UserInfoWrapper writer = dynamicDao.getWriter(userId);
             List<ArticleComment> articleCommentList = dynamicDao.getAllComment(articleId);
-            ContentWrapper contentWrapper = new ContentWrapper(userArticle, writer, articleCommentList);
-            Contents.put("Content", contentWrapper);
+            for(ArticleComment articleComment: articleCommentList){
+                int commentUserId = articleComment.getCommentUserId();
+                UserInfoWrapper commenter = dynamicDao.getCommenter(commentUserId);
+                ArticleCommentWrapper articleCommentWrapper = new ArticleCommentWrapper(articleComment, commenter);
+                articleCommentWrapperList.add(articleCommentWrapper);
+            }
+
+            ContentWrapper contentWrapper = new ContentWrapper(userArticle, writer, articleCommentWrapperList);
+            contentList.add(contentWrapper);
         }
-        return Contents;
+        return contentList;
     }
 
 
