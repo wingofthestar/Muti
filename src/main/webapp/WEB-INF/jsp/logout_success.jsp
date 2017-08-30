@@ -4,8 +4,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/logout_success.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//reset.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//register_success.css">
     <script type="text/javascript">
         //设定倒数秒数
         var t = 5;
@@ -24,7 +24,7 @@
         window.onload = showTime;
 
     </script>
-    <title>New Tab</title>
+    <title>跳转页面</title>
     <style>
         /*body{*/
               /*background-color: #0da5d6;*/
@@ -32,8 +32,18 @@
     </style>
 </head>
 <body>
-    <div id="logout_success_container">
-        登出成功，<span id="showtime"></span>秒钟后跳转至首页
+    <div id="register_success_container">
+        <img src="${pageContext.request.contextPath}//img//register_success_header.png" style="z-index: 1;position: absolute;">
+        <a href="${pageContext.request.contextPath}/index">
+            <img src="${pageContext.request.contextPath}//img//register_success_home.png" style="z-index: 3;position: absolute;">
+        </a>
+        <img src="${pageContext.request.contextPath}//img//register_success_logo.png" style="z-index: 2;position: absolute;margin-left: 970px;margin-top: 3px;">
+        <img src="${pageContext.request.contextPath}//img//register_success_miku.png" style="z-index: 2;position: absolute;">
+        <img src="${pageContext.request.contextPath}//img//register_success_count.png" style="z-index: 2;position: absolute;">
+        <div style="position: absolute;margin-left: 414px;margin-top: 477px;font-size: 24px;color: #7DB0BB;font-weight: 600;">
+            <span id="showtime"></span>
+        </div>
     </div>
+    <script src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 </body>
 </html>

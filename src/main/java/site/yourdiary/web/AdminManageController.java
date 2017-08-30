@@ -28,7 +28,7 @@ public class AdminManageController {
     @RequestMapping(value = "/manage", method = RequestMethod.GET)
     public ModelAndView forwardAdmin(HttpServletRequest request, HttpServletResponse response){
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("admin");
+        mav.setViewName("admin_user");
         List<User> userList = adminManageService.listAllUser();
 //        session.setAttribute(USER_LIST, userList);
         mav.addObject(USER_LIST, userList);
@@ -52,7 +52,7 @@ public class AdminManageController {
         ModelAndView mav = new ModelAndView();
        User u = adminManageService.SearchByUserName(userName);
        mav.addObject(SEARCH_RESULT, u);
-       mav.setViewName("admin");
+       mav.setViewName("admin_user");
        List<User> userList = adminManageService.listAllUser();
        mav.addObject(USER_LIST, userList);
        return mav;
@@ -63,7 +63,12 @@ public class AdminManageController {
         if(homeText != "" && homeText != null){
             adminManageService.updateMessage(textId, homeText);
         }
-        return "redirect:/admin/manage";
+        return "admin_message";
 
+    }
+
+    @RequestMapping("message")
+    public String Message(){
+        return "admin_message";
     }
 }

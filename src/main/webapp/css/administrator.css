@@ -1,5 +1,4 @@
-<style type="text/css">
-body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
 body{font:12px"宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;margin:0;padding:0;background-color: #EFECEC} 
 a{color:#2d374b;text-decoration:none} 
 a:hover{color:#cd0200;text-decoration:underline} 
@@ -10,200 +9,191 @@ p{word-wrap:break-word}
 #container{
 	width: 1024px;
 	height: 768px;
-	background-color: #FFFFFF;
+	background-color: #D5D5D5;
 	margin:0 auto;
 }
 #header{
 	width: 1024px;
 	height: 50px;
-	background-color: #3F4658;
 	position: absolute;
-}
-#header h1{
-    font-size: 36px;
-    color: #000000;
-    position: absolute;
-    margin-left: 60px;
-    margin-top: 5px;
-}
-#header h3{
-    font-size: 18px;
-    color: #FFFFFF;
-    position: absolute;
-    margin-left: 750px;
-    margin-top: 25px;
-}
-#bottomer{
-	width: 1024px;
-	height: 50px;
-	background-color: #3F4658;
-	margin-top: 718px;
-	position: absolute;
-}
-#color_block{
-	width: 60px;
-	height: 50px;
-	background-color: #FF5151;
-}
-#border_left{
-	width: 60px;
-	height: 668px;
-	background-color: #273039;
-	margin-top: 50px;
-	position: absolute;
-} 
-#border_right{
-	width: 10px;
-	height: 668px;
-	background-color: #273039;
-	margin-top: 50px;
-	margin-left: 1014px;
-	position: absolute;
-} 
-#user{
-	width: 770px;
-	height: 200px;
 	background-color: #FFFFFF;
+	color: #76A6AF
+}
+#log_of{
 	position: absolute;
-	margin-left: 240px;
-	margin-top: 75px;
-	overflow-y: scroll;
-	border:solid 1px #A1A0A0;
+	z-index: 4;
+	margin-left:890px;
+	margin-top:18px;
 }
-#tbody_overflow{
-	width: 770px;
-	height: 250px;
-	overflow-y: auto;
-	display: block;
+#log_of a{
+	text-decoration: none;
+	color: #7DB0BB;
 }
-#search{
-	width: 190px;
-	height: 50px;
+#h4{
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 20px;
+	color:#7DB0BB;
+	letter-spacing: 8px;
+}
+#h5{
+	position: absolute;
+	margin-top: 65px;
+	margin-left: 590px;
+	color:#7DB0BB;
+	letter-spacing: 8px;
+}
+#user_data{
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 45px;
+	color:#7DB0BB;
+	letter-spacing: 10px;
+}
+#text_data{
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 930px;
+	color:#7DB0BB;
+	letter-spacing: 10px;
+}
+#triangle-right{
+	margin-left: 940px;
+	margin-top: 364px;
+	position: absolute;
+	z-index: 5;
+	width: 0;
+	height: 0;
+    border-top: 20px solid transparent;
+    border-left: 40px solid #7DB0BB;
+    border-bottom: 20px solid transparent;
+}
+#triangle-left {
+	margin-left: 40px;
+	margin-top: 364px;
+	position: absolute;
+	z-index: 5;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 40px solid #7DB0BB;
+    border-bottom: 20px solid transparent;
+}
+#white_block{
+	position: absolute;
+	z-index: 5;
+	width:724px;
+	height:600px;
+	margin-left: 150px;
+	margin-top: 100px;
 	background-color: #FFFFFF;
+}
+#white_block_1{
 	position: absolute;
-	margin-top: 320px;
-	margin-left: 60px;
+	z-index: 5;
+	width:724px;
+	height:500px;
+	margin-left: 150px;
+	margin-top: 125px;
+	background-color: #FFFFFF;
+}
+#table_1 tr{
+	text-align: center;
+	height: 40px;
+	display:table;
+    width:100%;
+    table-layout:fixed;
+}
+#table_1 thead tr{
+	color: #7DB0BB;
+	letter-spacing: 5px;
+	font-weight: 600;
+}
+#table_1 tbody{
+	display:block;
+    height:400px;
+    overflow-y:scroll;
+}
+#table_1 thead{
+    width: calc( 100% - 1em )
+}
+#line{
+    position: absolute;
+    margin-top: 740px;
+    width: 1024px;
+    height: 2px;
+    background-color: #B1ADAD;
+}
+#user_name{
+	width: 90px;
+}
+#email{
+	width: 170px;
+}
+#last_visit{
+	width: 130px;
+}
+#last_ip{
+	width: 130px;
+}
+#state{
+	width: 90px;
+}
+#action{
+	width: 90px;
+}
+#btn{
+	width: 40px;
+}
+#blue_line{
+	width: 724px;
+	height: 2px;
+	background-color:#7DB0BB;
+	margin-top: 10px;
 }
 #input_search{
-	width: 120px;
-	height: 48px;
+	margin-left: 35px;
+	margin-top: 10px;
+	background-color: #EFEAEA;
+	width: 550px;
 	float: left;
-	margin-left: 10px;
-}
-#submit{
-	margin-left: 600px;
-}
-#user_detail{
-	width: 752px;
-	height: 35px;
-	background-color: #DF697C;
-	position: absolute;
-	margin-left: 250px;
-	margin-top:320px;
 }
 #btn_search{
-	height: 48px;
-    float: left;
-    margin-left: 5px;
+	margin-left: 40px;
+	margin-top: 10px;
+	width: 70px;
+	float: left;
+	background-color: #7DB0BB;
 }
-#div_table{
-	width: 770px;
-	border:solid 1px #A1A0A0;
+#table_2 tr{
+	text-align: center;
+	height: 40px;
 }
-#txt{
-	width: 770px;
-	height: 320px;
-	background-color: #FFFFFF;
-	position: absolute;
-	margin-left: 240px;
-	margin-top: 400px;
-	border:solid 1px #A1A0A0;
+#table_2 thead tr{
+	color: #7DB0BB;
+	letter-spacing: 5px;
+	font-weight: 600;
 }
-#txt_tr{
-	height: 100px;
+#table_2 tbody{
+    height:100px;
 }
 #txt_name{
-	width: 100px;
-	height: 80px;
-	line-height: 80px;
+	width: 60px;
+	height: 160px;
 	text-align: center;
-}
-#td_name{
-    width: 100px;
-    min-width: 100px;
-    text-align: center;
-}
-#td_email{
-    width: 150px;
-    min-width: 150px;
-    text-align: center;
-}
-#td_visit{
-    width: 150px;
-    min-width: 150px;
-    text-align: center;
-}
-#td_ip{
-    width: 185px;
-    min-width: 185px;
-    text-align: center;
-}
-#td_flag{
-	width: 50px;
-	min-width: 50px;
-	text-align: center;
-}
-#td_button{
-    width:111px;
-    min-width: 111px;
-    text-align: center;
+	line-height: 160px;
+	color: #7DB0BB;
+	font-weight: 500;
 }
 #txtarea{
-	resize: none;
+	width:630px;
+	height:120px;
+	background-color: #EFEAEA
 }
-#blue_line_1{
-    width: 964px;
-    height: 3px;
-    background-color: #3F4658;
-    margin-left: 60px;
-    position: absolute;
-    margin-top: 300px;
+#submit{
+	margin-left: 575px;
+	background-color: #7DB0BB;
 }
-#blue_block_1{
-	width: 150px;
-    height: 40px;
-    background-color: #3F4658;
-    margin-left: 60px;
-    position: absolute;
-    margin-top: 260px;
-    font-size: 24px;
-    text-align: center;
-    color: #FFFFFF;
+#txt_tr{
+	background-color: #FFFFFF;
 }
-#blue_line_2{
-    width: 964px;
-    height: 3px;
-    background-color: #3F4658;
-    margin-left: 60px;
-    position: absolute;
-    margin-top: 380px;
-}
-#blue_block_2{
-	width: 150px;
-    height: 40px;
-    background-color: #3F4658;
-    margin-left: 60px;
-    position: absolute;
-    margin-top: 380px;
-    font-size: 24px;
-    text-align: center;
-    color: #FFFFFF;
-}
-#bottomer h3{
-	position: absolute;
-    font-size: 18px;
-    color: #FFFFFF;
-    z-index: 2;
-    margin-left: 476px;
-}
-</style>

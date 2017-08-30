@@ -1,21 +1,14 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px"宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;margin:0;padding:0;background-color: #EFECEC} 
+a{color:#2d374b;text-decoration:none} 
+a:hover{color:#cd0200;text-decoration:underline} 
+em{font-style:normal} 
+li{list-style:none} 
+table{border-collapse:collapse;border-spacing:0} 
+p{word-wrap:break-word} 
 #register_success_container{
-    /*border: 1px solid #c0c0c0;*/
-    width: 600px;
-    height: 38px;
-     /*div水平居中，垂直距上方的36% 采用绝对定位*/
-    position: absolute;
-    left: 50%;
-    top: 36%;
-    /* 调整，使得相对于div框的中心而不是div的左上角*/
-    margin-left: -300px;
-    margin-top: -12.96px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-
-html{
-    background: url("../img/success_background.jpg") no-repeat;
-    background-size: cover;
+    width: 1024px;
+    height: 768px;
+    background-color: #D5D5D5;
+    margin: 0 auto;
 }
