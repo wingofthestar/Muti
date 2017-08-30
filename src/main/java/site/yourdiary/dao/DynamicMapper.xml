@@ -4,4 +4,11 @@
     <select id="getAllArticle" resultType="UserArtcle">
         SELECT * FROM user_artcle
     </select>
+    <select id="getAllComment" resultType="ArtcleComment">
+        SELECT * FROM artcle_comment where artcle_id = #{artcle_Id}
+    </select>
+    <select id="getWriter" parameterType="int" resultType="UserInfoWrapper">
+        select m.user_name, n.user_photo from user m INNER JOIN user_info n on m.user_id = n.user_id
+        where m.user_id = #{userId};
+    </select>
 </mapper>

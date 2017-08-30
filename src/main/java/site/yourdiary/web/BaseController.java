@@ -32,9 +32,9 @@ public class BaseController {
         return "showpage";
     }
 
-    @RequestMapping(value = "dynamic")
-    public String dynamic(){
-        return "dynamic";
-    }
+//    @RequestMapping(value = "dynamic")
+//    public String dynamic(){
+//        return "dynamic";
+//    }
 
 }
