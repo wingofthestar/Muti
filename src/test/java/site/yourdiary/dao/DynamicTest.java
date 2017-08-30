@@ -5,8 +5,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import site.yourdiary.domain.ArtcleComment;
-import site.yourdiary.domain.UserArtcle;
+import site.yourdiary.domain.ArticleComment;
+import site.yourdiary.domain.UserArticle;
 import site.yourdiary.domain.UserInfoWrapper;
 
 import java.util.List;
@@ -19,20 +19,20 @@ public class DynamicTest {
     private DynamicMapper dynamicDao;
 
     @Test
-    public void testGetAllArtcles(){
-       List<UserArtcle> articleList=  dynamicDao.getAllArticle();
-        for (UserArtcle artcle:
+    public void testGetAllArticles(){
+       List<UserArticle> articleList=  dynamicDao.getAllArticle();
+        for (UserArticle article:
              articleList) {
-            System.out.println(artcle);
+            System.out.println(article);
         }
     }
 
     @Test
     public void testGetAllComment(){
-        List<ArtcleComment> artcleCommentList = dynamicDao.getAllComment(1);
-        for (ArtcleComment artcleComment:
-             artcleCommentList) {
-            System.out.println(artcleComment);
+        List<ArticleComment> articleCommentList = dynamicDao.getAllComment(1);
+        for (ArticleComment articleComment :
+                articleCommentList) {
+            System.out.println(articleComment);
         }
     }
 

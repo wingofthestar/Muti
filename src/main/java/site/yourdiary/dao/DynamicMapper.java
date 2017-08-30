@@ -1,18 +1,17 @@
 package site.yourdiary.dao;
 
 import org.springframework.stereotype.Component;
-import site.yourdiary.domain.ArtcleComment;
-import site.yourdiary.domain.User;
-import site.yourdiary.domain.UserArtcle;
+import site.yourdiary.domain.ArticleComment;
+import site.yourdiary.domain.UserArticle;
 import site.yourdiary.domain.UserInfoWrapper;
 
 import java.util.List;
 
 @Component
 public interface DynamicMapper {
-    List<UserArtcle> getAllArticle();
+    List<UserArticle> getAllArticle();
 
-    List<ArtcleComment> getAllComment(int artcleId);
+    List<ArticleComment> getAllComment(int articleId);
 
     UserInfoWrapper getWriter(int userId);
 }

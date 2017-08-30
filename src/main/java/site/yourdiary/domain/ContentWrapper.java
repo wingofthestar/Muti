@@ -3,9 +3,26 @@ package site.yourdiary.domain;
 import java.util.List;
 
 public class ContentWrapper extends BaseDomain{
-    private UserArtcle userArtcle;
+    private UserArticle userArticle;
     private UserInfoWrapper userInfoWrapper;
-    private List<ArtcleComment> artcleCommentList;
+    private List<ArticleComment> articleCommentList;
+
+    public ContentWrapper() {
+    }
+
+    public ContentWrapper(UserArticle userArticle, UserInfoWrapper userInfoWrapper, List<ArticleComment> articleCommentList) {
+        this.userArticle = userArticle;
+        this.userInfoWrapper = userInfoWrapper;
+        this.articleCommentList = articleCommentList;
+    }
+
+    public UserArticle getUserArticle() {
+        return userArticle;
+    }
+
+    public void setUserArticle(UserArticle userArticle) {
+        this.userArticle = userArticle;
+    }
 
     public UserInfoWrapper getUserInfoWrapper() {
         return userInfoWrapper;
@@ -15,26 +32,11 @@ public class ContentWrapper extends BaseDomain{
         this.userInfoWrapper = userInfoWrapper;
     }
 
-    public UserArtcle getUserArtcle() {
-        return userArtcle;
+    public List<ArticleComment> getArticleCommentList() {
+        return articleCommentList;
     }
 
-    public void setUserArtcle(UserArtcle userArtcle) {
-        this.userArtcle = userArtcle;
-    }
-
-
-    public List<ArtcleComment> getArtcleCommentList() {
-        return artcleCommentList;
-    }
-
-    public void setArtcleCommentList(List<ArtcleComment> artcleCommentList) {
-        this.artcleCommentList = artcleCommentList;
-    }
-
-    public ContentWrapper(UserArtcle userArtcle, UserInfoWrapper userInfoWrapper, List<ArtcleComment> artcleCommentList) {
-        this.userArtcle = userArtcle;
-        this.userInfoWrapper = userInfoWrapper;
-        this.artcleCommentList = artcleCommentList;
+    public void setArticleCommentList(List<ArticleComment> articleCommentList) {
+        this.articleCommentList = articleCommentList;
     }
 }

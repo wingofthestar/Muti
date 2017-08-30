@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="site.yourdiary.dao.DynamicMapper">
-    <select id="getAllArticle" resultType="UserArtcle">
-        SELECT * FROM user_artcle
+    <select id="getAllArticle" resultType="UserArticle">
+        SELECT * FROM user_article
     </select>
-    <select id="getAllComment" resultType="ArtcleComment">
-        SELECT * FROM artcle_comment where artcle_id = #{artcle_Id}
+    <select id="getAllComment" parameterType="int" resultType="ArticleComment">
+        SELECT * FROM article_comment where article_id = #{articleId}
     </select>
     <select id="getWriter" parameterType="int" resultType="UserInfoWrapper">
         select m.user_name, n.user_photo from user m INNER JOIN user_info n on m.user_id = n.user_id
