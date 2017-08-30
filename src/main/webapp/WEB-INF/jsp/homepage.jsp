@@ -55,7 +55,7 @@
                 <a href="#">首页</a>
                 <%--<a href="#">创业</a>--%><%--<a href="#">旅游</a>--%>
                 <a href="${pageContext.request.contextPath}/showpage">美丽乡村建设</a>
-                <a href="#">浏览</a>
+                <a href="${pageContext.request.contextPath}/dynamic">浏览</a>
                 <%--<a href="#">更多</a>--%>
             </div>
             <c:choose>

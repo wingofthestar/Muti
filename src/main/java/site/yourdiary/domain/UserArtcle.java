@@ -9,6 +9,24 @@ public class UserArtcle extends BaseDomain{
     private String artcleContent;
     private String picture;
     private Date dateTime;
+    private String artcleCommentNumber;
+    private String artceFavorNumber;
+
+    public String getArtcleCommentNumber() {
+        return artcleCommentNumber;
+    }
+
+    public void setArtcleCommentNumber(String artcleCommentNumber) {
+        this.artcleCommentNumber = artcleCommentNumber;
+    }
+
+    public String getArtceFavorNumber() {
+        return artceFavorNumber;
+    }
+
+    public void setArtceFavorNumber(String artceFavorNumber) {
+        this.artceFavorNumber = artceFavorNumber;
+    }
 
     public int getArtcleId() {
         return artcleId;

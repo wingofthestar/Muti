@@ -1,0 +1,120 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px"宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;margin:0;padding:0;background-color: #EFECEC} 
+a{color:#2d374b;text-decoration:none} 
+a:hover{color:#cd0200;text-decoration:underline} 
+em{font-style:normal} 
+li{list-style:none} 
+table{border-collapse:collapse;border-spacing:0} 
+p{word-wrap:break-word} 
+#container{
+	width: 1024px;
+	min-height: 768px;
+	height: auto;
+	margin: 0 auto;
+	background-color: #D5D5D5;
+}
+#header{
+	width: 1024px;
+	height: 55px;
+	background-color: #FFFFFF;
+}
+#txt{
+	width: 1024px;
+	height: 331px;
+}
+#self_photo{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	margin-top: 35px;
+	margin-left: 45px;
+}
+#article_pic{
+	position: absolute;
+	margin-top:-50px;
+	z-index: 2;
+}
+#article_pic_tm{
+	position: absolute;
+	margin-top:258px;
+	margin-left:260px;
+	z-index: 3;
+}
+#txt_pic{
+	position: absolute;
+	margin-top: 53px;
+	z-index: 1;
+}
+#name{
+	width: 120px;
+	height: 20px;
+	position: absolute;
+	margin-top: 118px;
+	margin-left: 23px;
+	color: #A4BFC6;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight:600; 
+}
+#title{
+	width: 504px;
+	height: 35px;
+	position: absolute;
+	margin-top: 259px;
+	margin-left: 260px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 35px;
+	font-size: 18px;
+	font-weight: 500;
+	z-index: 4;
+}
+#date{
+	width: 200px;
+	height: 40px;
+	z-index:2;
+	position: absolute;
+	margin-top: 290px;
+	margin-left: 564px;
+	color: #A9A9A9;
+	text-align: right;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight:500; 
+}
+#white_block{
+	width: 650px;
+	margin-left: 187px;
+	background-color:#FFFFFF;
+}
+#txt_div{
+	width: 504px;
+	text-indent: 2em;
+	min-height: 272px;
+	margin-left: 73px;
+	margin-top: 0px;
+	background-color:#FFFFFF;
+	color: #A9A9A9;
+	font-size: 18px;
+	font-weight:500;
+	word-wrap:break-word; 
+    word-break:break-all; 
+}
+#white_line{
+	width: 504px;
+	height: 50px;
+	margin-left: 73px;
+	margin-top: 0px;
+	background-color:#FFFFFF;
+}
+#Interaction{
+	width: 504px;
+	height: 60px;
+	margin-left: 73px;
+	color: #A9A9A9;
+	text-align: right;
+	line-height: 60px;
+	font-size: 18px;
+	font-weight:500; 
+}

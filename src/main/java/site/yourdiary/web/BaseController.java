@@ -5,9 +5,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+/**
+ * BaseController负责没有什么业务逻辑的页面跳转
+ */
 @Controller
 public class BaseController {
 
+    /*本来是用作通用跳转的，但是这样URL显的意义不够鲜明*/
 //    @RequestMapping(value = "redirect/{str}", method = RequestMethod.GET)
 //    public String redirect(@PathVariable("str") String str){
 //        return str;
@@ -26,6 +30,11 @@ public class BaseController {
     @RequestMapping(value = "showpage")
     public String showpage(){
         return "showpage";
+    }
+
+    @RequestMapping(value = "dynamic")
+    public String dynamic(){
+        return "dynamic";
     }
 
 }

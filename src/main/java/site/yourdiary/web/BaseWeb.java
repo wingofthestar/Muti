@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import static site.yourdiary.cons.CommonConstant.USER_CONTEXT;
 
 /**
- * Controller的基类
+ * 用户的相关信息的Session域操作，用作部分Controller的基类
  */
 public class BaseWeb {
 

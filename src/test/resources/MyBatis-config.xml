@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTO Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <!--开启懒加载设置-->
+        <!--懒加载全局开关，开启时，所有的 关联对象 都会延迟加载，默认false-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!--启用时，带有延迟加载属性的对象立即加载，反之，每种属性将按需加载。默认为true-->
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <!--控制台显示SQL语句-->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <!--<setting name="cacheEnabled" value="true"/>-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <!--设置别名-->
+    <typeAliases>
+        <!-- 批量别名定义，指定包名，mybatis自动扫描包中的domain类，别名就是类名-->
+        <package name="site.yourdiary.domain"></package>
+    </typeAliases>
+
+</configuration>

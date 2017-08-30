@@ -1,4 +1,5 @@
-body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+<style type="text/css">
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
 body{font:12px"宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;margin:0;padding:0;background-color: #EFECEC} 
 a{color:#2d374b;text-decoration:none} 
 a:hover{color:#cd0200;text-decoration:underline} 
@@ -162,4 +163,6 @@ p{word-wrap:break-word}
 	letter-spacing: 5px;
 	margin-left: 720px;
 	margin-top: -43px;
+	cursor:pointer;
 }
+</style>
