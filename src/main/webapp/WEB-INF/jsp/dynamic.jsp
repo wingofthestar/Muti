@@ -4,25 +4,26 @@
 <html>
 <head>
     <meta charset="utf-8">
-	<title>article</title>
-	<link rel="stylesheet" type="text/css" href="..//css//dynamic.css">
-	<link rel="stylesheet" type="text/css" href="..//css//tc.css">
-	<link rel="stylesheet" type="text/css" href="..//css//bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="..//css//bootstrap.min.css">
-	<script src="..//js//jquery-1.7.2.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="..//js//tc.min.js"></script>
-    <script type="text/javascript" src="..//js//dynamic.js"></script>
+	<title>动态</title>
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/img/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//dynamic.css">
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//tc.css">
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//bootstrap.min.css">
+	<script src="${pageContext.request.contextPath}//js//jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}//js//tc.min.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}//js//dynamic.js"></script>
 </head>
 <body>
     <div id="container">
         <div id="header">
-            <img src="..//img//dynamic_header.png" style="z-index: 1;position: absolute;">
-            <a href="#"><img src="..//img//dynamic_home.png" style="z-index: 3;position: absolute;"></a>
-            <img src="..//img//dynamic_logo.png" style="z-index: 2;position: absolute;margin-left: 970px;margin-top: 3px;">
+            <img src="${pageContext.request.contextPath}//img//dynamic_header.png" style="z-index: 1;position: absolute;">
+            <a href="${pageContext.request.contextPath}/index"><img src="${pageContext.request.contextPath}//img//dynamic_home.png" style="z-index: 3;position: absolute;"></a>
+            <img src="${pageContext.request.contextPath}//img//dynamic_logo.png" style="z-index: 2;position: absolute;margin-left: 970px;margin-top: 3px;">
         </div>
         <!--左侧-->
-        <div id="left" style="background-image: url(..//img//dynamic_white_left.png);">
-            <img src="..//img//dynamic_selfphoto.png" class="img-circle" id="self_photo">
+        <div id="left" style="background-image: url(${pageContext.request.contextPath}//img//dynamic_white_left.png);">
+            <img src="${pageContext.request.contextPath}//img//dynamic_selfphoto.png" class="img-circle" id="self_photo">
             <p id="username" name="username"><b>用户名</b></p><!--用户名-->
             <a href="#"><p id="dynamic" name="dynamic"><b>动态(7)</b></p></a><!--动态更新的数量-->
             <a href="#"><p id="collection" name="collection"><b>收藏(5)</b></p></a><!--收藏的数量-->
@@ -38,10 +39,10 @@
                     <tr>
                         <td>
                             <div id="message">
-                                <img src="..//img//dynamic_message_selfphoto.png" id="dynamic_message_selfphoto">
-                                <img src="..//img//dynamic_messagediv.png" id="dynamic_messagediv">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_message_selfphoto.png" id="dynamic_message_selfphoto">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_messagediv.png" id="dynamic_messagediv">
                                 <p id="message_name"><b>${content.userInfoWrapper.userName}</b></p>
-                                <p id="title"><b>${content.userArticle.articleTitle}</b></p>
+                                <a href="${pageContext.request.contextPath}/article/${content.userArticle.articleId}"><p id="title"><b>${content.userArticle.articleTitle}</b></p></a>
                                 <div id="message_box">
                                     <p>${content.userArticle.articleContent}</p>
                                 </div>
@@ -50,9 +51,9 @@
 	                                    <a id="t1" class="comment" style="text-decoration: none;">查看评论</a>
 	                                </dt>
                                 </dl>
-                                <p id="message_collection">${content.userArticle.articleFavorNumber}</p>
-                                <p id="message_comment">${content.userArticle.articleCommentNumber}</p>
-                                <img id="star" onclick="colorchange(1)" src="..//img//dynamic_star.png" name="star"></a>
+                                <p id="message_collection">收藏（${content.userArticle.articleFavorNumber}）</p>
+                                <p id="message_comment">评论（${content.userArticle.articleCommentNumber}）</p>
+                                <img id="star" onclick="colorchange(1)" src="${pageContext.request.contextPath}//img//dynamic_star.png" name="star"></a>
                             </div>
                         </td>
                     </tr>
@@ -60,13 +61,13 @@
                     <%--<tr>--%>
                         <%--<td>--%>
                             <%--<div id="message">--%>
-                                <%--<img src="..//img//dynamic_message_selfphoto.png" id="dynamic_message_selfphoto">--%>
-                                <%--<img src="..//img//dynamic_messagediv.png" id="dynamic_messagediv">--%>
+                                <%--<img src="${pageContext.request.contextPath}//img//dynamic_message_selfphoto.png" id="dynamic_message_selfphoto">--%>
+                                <%--<img src="${pageContext.request.contextPath}//img//dynamic_messagediv.png" id="dynamic_messagediv">--%>
                                 <%--<p id="message_name"><b>用户名</b></p>--%>
                                 <%--<p id="title"><b>标题</b></p>--%>
                                 <%--<div id="message_box">--%>
                                     <%--<p>--%>
-                                        <%--<img src="..//img//dynamic_messagediv_pic.png" style="float: left;margin-right:10px;">--%>
+                                        <%--<img src="${pageContext.request.contextPath}//img//dynamic_messagediv_pic.png" style="float: left;margin-right:10px;">--%>
                                         <%--日前，中共中央印发了《关于修改〈中国共产党巡视工作条例〉的决定》，并全文发布了修改后的《中国共产党巡视工作条例》。政治巡视是十八届中央巡视工作重大理论和实践创新成果。把政治巡视要求写入《条例》，是这次修改工作的重点和亮点。--%>
                                     <%--</p>--%>
                                 <%--</div>--%>
@@ -77,15 +78,15 @@
                                 <%--</dl>--%>
                                 <%--<p id="message_collection">收藏(2)</p>--%>
                                 <%--<p id="message_comment">评论(5)</p>--%>
-                                <%--<img src="..//img//dynamic_star.png" onclick="colorchange(2)" id="star" name="star">--%>
+                                <%--<img src="${pageContext.request.contextPath}//img//dynamic_star.png" onclick="colorchange(2)" id="star" name="star">--%>
                             <%--</div>--%>
                         <%--</td>--%>
                     <%--</tr>--%>
                     <%--<tr>--%>
                         <%--<td>--%>
                             <%--<div id="message">--%>
-                                <%--<img src="..//img//dynamic_message_selfphoto.png" id="dynamic_message_selfphoto">--%>
-                                <%--<img src="..//img//dynamic_messagediv.png" id="dynamic_messagediv">--%>
+                                <%--<img src="${pageContext.request.contextPath}//img//dynamic_message_selfphoto.png" id="dynamic_message_selfphoto">--%>
+                                <%--<img src="${pageContext.request.contextPath}//img//dynamic_messagediv.png" id="dynamic_messagediv">--%>
                                 <%--<p id="message_name"><b>用户名</b></p>--%>
                                 <%--<p id="title"><b>标题</b></p>--%>
                                 <%--<div id="message_box">--%>
@@ -98,7 +99,7 @@
                                 <%--</dl>--%>
                                 <%--<p id="message_collection">收藏(2)</p>--%>
                                 <%--<p id="message_comment">评论(5)</p>--%>
-                                <%--<img src="..//img//dynamic_star.png" onclick="colorchange(3)" id="star" name="star">--%>
+                                <%--<img src="${pageContext.request.contextPath}//img//dynamic_star.png" onclick="colorchange(3)" id="star" name="star">--%>
                             <%--</div>--%>
                         <%--</td>--%>
                     <%--</tr>--%>
@@ -113,30 +114,28 @@
             <p style="font-size: 12px;color:#2F6966;float: left;text-indent:5px;letter-spacing: 7px;margin:-13px 0px 0px 420px;" class="close">关闭</p>
         </div>
         <form action="###" method="post">
-            <input type="txt" class="form-control" name="Sendout" id="Sendout" style="background-image: url(..//img//dynamic_input.png);">
+            <input type="txt" class="form-control" name="Sendout" id="Sendout" style="background-image: url(${pageContext.request.contextPath}//img//dynamic_input.png);">
             <input type="submit" value="发送" class="btn btn-dafluat" id="btn_Sendout">
             <div id="detail_table">
                 <table>
                     <thead></thead>
                     <tbody>
-                        <c:forEach var="conent" items="${CONTENT_LIST}">
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_1.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_1.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">${conent.articleCommentList}</b>
                                 </a>
-                                    <div id="detail_txt">${conent.articleCommentList.}</div>
+                                    <div id="detail_txt">${conent.articleCommentList}</div>
                                 <a href="#">
                                     <b style="font-size: 12px;color:#9D9D9D;float: left;letter-spacing:7px;margin-left: 10px;">回复</b>
                                 </a>
                                 <div id="gary_line"></div>
                             </td>
                         </tr>
-                        </c:forEach>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_2.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_2.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -149,7 +148,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_3.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_3.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -162,7 +161,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_4.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_4.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -175,7 +174,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_1.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_1.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -188,7 +187,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_2.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_2.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -201,7 +200,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_3.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_3.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -214,7 +213,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_4.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_4.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -227,7 +226,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_1.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_1.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -240,7 +239,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_2.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_2.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -253,7 +252,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_3.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_3.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -266,7 +265,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_4.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_4.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -288,7 +287,7 @@
             <p style="font-size: 12px;color:#2F6966;float: left;text-indent:5px;letter-spacing: 7px;margin:-13px 0px 0px 420px;" class="close">关闭</p>
         </div>
         <form action="###" method="post">
-            <input type="txt" class="form-control" name="Sendout" id="Sendout" style="background-image: url(..//img//dynamic_input.png);">
+            <input type="txt" class="form-control" name="Sendout" id="Sendout" style="background-image: url(${pageContext.request.contextPath}//img//dynamic_input.png);">
             <input type="submit" value="发送" class="btn btn-dafluat" id="btn_Sendout">
             <div id="detail_table">
                 <table>
@@ -296,7 +295,7 @@
                     <tbody>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_1.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_1.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -309,7 +308,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_2.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_2.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -322,7 +321,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_3.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_3.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -335,7 +334,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_4.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_4.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -351,13 +350,13 @@
             </div>
         </form>
     </div>
-        <div id="detail3">
+    <div id="detail3">
         <div class="header">
             <p style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;margin:20px 0px 0px 20px;"><b>留言</b></p>
             <p style="font-size: 12px;color:#2F6966;float: left;text-indent:5px;letter-spacing: 7px;margin:-13px 0px 0px 420px;" class="close">关闭</p>
         </div>
         <form action="###" method="post">
-            <input type="txt" class="form-control" name="Sendout" id="Sendout" style="background-image: url(..//img//dynamic_input.png);">
+            <input type="txt" class="form-control" name="Sendout" id="Sendout" style="background-image: url(${pageContext.request.contextPath}//img//dynamic_input.png);">
             <input type="submit" value="发送" class="btn btn-dafluat" id="btn_Sendout">
             <div id="detail_table">
                 <table>
@@ -365,7 +364,7 @@
                     <tbody>
                         <tr>
                             <td>
-                                <img src="..//img//dynamic_detail_pic_1.png" id="table_pic">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_detail_pic_1.png" id="table_pic">
                                 <a href="#">
                                     <b style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;">用户名</b>
                                 </a>
@@ -392,5 +391,6 @@
 			popWin("detail3");
 	});
     </script>
+    <script src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 </body>
 </html>

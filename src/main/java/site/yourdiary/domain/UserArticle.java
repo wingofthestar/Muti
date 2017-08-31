@@ -7,7 +7,7 @@ public class UserArticle extends BaseDomain{
     private int userId;
     private String articleTitle;
     private String articleContent;
-    private String picture;
+    private String articlePicture;
     private Date dateTime;
     private String articleCommentNumber;
     private String articleFavorNumber;
@@ -44,12 +44,12 @@ public class UserArticle extends BaseDomain{
         this.articleContent = articleContent;
     }
 
-    public String getPicture() {
-        return picture;
+    public String getArticlePicture() {
+        return articlePicture;
     }
 
-    public void setPicture(String picture) {
-        this.picture = picture;
+    public void setArticlePicture(String articlePicture) {
+        this.articlePicture = articlePicture;
     }
 
     public Date getDateTime() {

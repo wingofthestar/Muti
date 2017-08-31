@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="shortcut icon" href="${pageContext.request.contextPath}/img/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//login.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}//css//bootstrap.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}//css//jsperror.css">
@@ -10,7 +11,7 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/login.js"></script>
 <link href="${pageContext.request.contextPath}/css/login2.css" rel="stylesheet" type="text/css" />
 <meta charset="utf-8">
-<title>登录界面</title>
+<title>登录/注册</title>
 	<script>
 		<c:if test="${REGIST_ERROR != null}">
 			window.onload = function () {
@@ -28,7 +29,7 @@
 <div class="warp">
 		<div class="up"style="background:url(${pageContext.request.contextPath}//img//background2.png);">
 				<div class="black">
-						<a href="#">联系我们</a>
+						<a href="mailto:caihonghai2011@sina.com">联系我们</a>
 				</div>
 				<img src="${pageContext.request.contextPath}//img//logo2.png" id="logo">
 				<div class="login" style="margin-top:50px;background-color:rgba(225,225,225,0.5);height:auto;">

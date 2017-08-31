@@ -4,6 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//reset.css">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//register_success.css">
     <script type="text/javascript">

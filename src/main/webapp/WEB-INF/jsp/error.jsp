@@ -5,6 +5,7 @@
 <head>
 	<title>error</title>
 	<meta charset="utf-8">
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/img/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//error.css">
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//bootstrap.css">
 </head>

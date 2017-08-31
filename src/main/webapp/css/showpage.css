@@ -22,7 +22,7 @@ p{word-wrap:break-word}
 	width: 245px;
 	height: 16px;
 	padding-top: 20px;
-	padding-left: 620px;
+	padding-left: 750px;
 	position: absolute;
 }
 #Navigation a{
@@ -131,7 +131,7 @@ li
 #nav li a:link,a:visited
 {
     display:block;
-    width:105px;
+    width:210px;
     height: 30px;
     font-weight:bold;
     font-size: 14px;
@@ -150,4 +150,10 @@ li
 	color: #FFFFFF;
     background-color:#90B5BD;
     border-radius:20px 20px 20px 20px;
+}
+
+.jsp_hompage_pic{
+	width: 306px;
+	height: 242px;
+	overflow: hidden;
 }

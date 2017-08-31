@@ -44,5 +44,13 @@ public class DynamicService {
         return contentList;
     }
 
+    public UserArticle showArticle(int articleId){
+        return dynamicDao.getArticleByArticleId(articleId);
+    }
+
+    public UserInfoWrapper getWriter(int articleId){
+        int userId = dynamicDao.getArticleByArticleId(articleId).getUserId();
+        return dynamicDao.getWriter(userId);
+    }
 
 }

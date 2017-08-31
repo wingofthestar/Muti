@@ -31,8 +31,9 @@ p{word-wrap:break-word}
 }
 #article_pic{
 	position: absolute;
-	margin-top:-50px;
+	margin-top:93px;
 	z-index: 2;
+	margin-left: 260px;
 }
 #article_pic_tm{
 	position: absolute;

@@ -3,8 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>administrator</title>
+	<title>系统管理</title>
 	<meta charset="utf-8">
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/img/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//administrator.css">
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//bootstrap.min.css">

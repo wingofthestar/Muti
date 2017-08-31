@@ -15,4 +15,7 @@
         select m.user_name, n.user_photo from user m INNER JOIN user_info n on m.user_id = n.user_id
         where m.user_id = #{commentUserId}
     </select>
+    <select id="getArticleByArticleId" parameterType="int" resultType="UserArticle">
+        select * FROM user_article where article_id = #{articleId}
+    </select>
 </mapper>

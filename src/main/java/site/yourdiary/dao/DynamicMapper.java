@@ -17,5 +17,6 @@ public interface DynamicMapper {
 
     UserInfoWrapper getCommenter(int commentUserId);
 
+    UserArticle getArticleByArticleId(int article_id);
 
 }

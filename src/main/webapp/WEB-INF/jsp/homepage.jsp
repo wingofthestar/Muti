@@ -3,8 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>homepage</title>
+    <title>美丽乡村</title>
     <meta charset="utf-8">
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/img/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css//homepage.css">
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css//picture_homepage.css">
 	<style type="text/css">
@@ -84,7 +85,7 @@
                 <div id="box_1_2">
                     <img src="${pageContext.request.contextPath}/img//white.png" id="white">
                     <img src="${pageContext.request.contextPath}/img//blue.png" id="blue">
-                    <a href="#"><img src="${pageContext.request.contextPath}/img//PC2.jpg" id="PC"></a>
+                    <div class="jsp_hompage_pic"><a href="#"><img src="${pageContext.request.contextPath}/img//PC2.jpg" id="PC"></a></div>
                     <p id="p"></p>
                 </div>
                 <div id="box_1_3">
@@ -96,7 +97,7 @@
                 <div id="box_1_4">
                     <img src="${pageContext.request.contextPath}/img//white.png" id="white">
                     <img src="${pageContext.request.contextPath}/img//blue.png" id="blue">
-                    <a href="#"><img src="${pageContext.request.contextPath}/img//PC4.jpg" id="PC"></a>
+                    <div class="jsp_hompage_pic"><a href="#"><img src="${pageContext.request.contextPath}/img//PC4.jpg" id="PC"></a></div>
                     <p id="p"></p>
                 </div>
                 <div id="box_1_5">
@@ -108,7 +109,7 @@
                 <div id="box_1_6">
                     <img src="${pageContext.request.contextPath}/img//white.png" id="white">
                     <img src="${pageContext.request.contextPath}/img//blue.png" id="blue">
-                    <a href="#"><img src="${pageContext.request.contextPath}/img//PC6.jpg" id="PC"></a>
+                    <div class="jsp_hompage_pic"><a href="#"><img src="${pageContext.request.contextPath}/img//PC6.jpg" id="PC"></a></div>
                     <p id="p"></p>
                 </div>
             </div>
@@ -134,7 +135,7 @@
 	                    <tr>
 	                        <td align=center><div id="blue_line"></div><a href='#'><img src="${pageContext.request.contextPath}/img//r//r1.jpg"; width=410px; height=240px; border=0></a></td>
 	                        <td align=center><a href='#'><img src="${pageContext.request.contextPath}/img//r//r2.jpg"; width=204px; height=270px; border=0></a></td>
-	                        <td align=center><a href='#'><img src="${pageContext.request.contextPath}/img//r//r3.jpg"; width=410px; height=240px; border=0><div id="blue_line"></div></a></td>
+	                        <td align=center><a href='#'><img src="${pageContext.request.contextPath}/img//r//r3.jpg"; width=411px; height=241px; border=0><div id="blue_line"></div></a></td>
 	                        <td align=center><div id="blue_line"></div><a href='#'><img src="${pageContext.request.contextPath}/img//r//r4.jpg"; width=410px; height=240px; border=0></a></td>
 	                        <td align=center><a href='#'><img src="${pageContext.request.contextPath}/img//r//r5.jpg"; width=204px; height=270px; border=0></a></td>
 	                        <td align=center><a href='#'><img src="${pageContext.request.contextPath}/img//r//r6.jpg";width=410px; height=240px; border=0><div id="blue_line"></div></a></td>

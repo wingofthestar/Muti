@@ -4,6 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="${pageContext.request.contextPath}/img/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" type="text/css" href="../css/individual space.css" />
 <link rel="stylesheet" type="text/css" href="../css/warp.css" />
 <title>个人空间</title>

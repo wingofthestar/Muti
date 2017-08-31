@@ -93,6 +93,8 @@ p{word-wrap:break-word}
 	height:242px;
 	background-color: #FFFFFF;
 	float: left;
+	opacity: 0.9;
+
 }
 #box_1_2{
 	width:306px;
@@ -105,6 +107,7 @@ p{word-wrap:break-word}
 	height:242px;
 	margin-left: 25.5px;
 	float: left;
+	opacity: 0.9;
 }
 #box_1_4{
 	width:306px;
@@ -118,6 +121,7 @@ p{word-wrap:break-word}
 	margin-top: 28px;
 	margin-left: 25.5px;
 	float: left;
+	opacity: 0.9;
 }
 #box_1_6{
 	width:306px;
