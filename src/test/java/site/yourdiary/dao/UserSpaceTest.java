@@ -23,7 +23,7 @@ public class UserSpaceTest {
 
     @Test
     public void testGetUserInfoByUserId(){
-       UserInfo userInfo = userSpaceDao.getUserInfoByUserId(1);
+       UserInfo userInfo = userSpaceDao.getUserInfoByUserId(33);
         System.out.println(userInfo);
     }
 

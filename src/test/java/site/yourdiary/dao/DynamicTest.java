@@ -5,6 +5,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.transaction.annotation.Transactional;
 import site.yourdiary.domain.ArticleComment;
 import site.yourdiary.domain.UserArticle;
 import site.yourdiary.domain.UserInfoWrapper;
@@ -53,5 +54,10 @@ public class DynamicTest {
         UserArticle userArticle = dynamicDao.getArticleByArticleId(1);
         System.out.println(userArticle);
 
+    }
+
+    @Test
+    public void testupdateFavorNum(){
+        dynamicDao.updateFavor(1, 0);
     }
 }

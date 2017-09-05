@@ -52,10 +52,12 @@ public class DynamicService {
         return contentList;
     }
 
+    @Transactional
     public UserArticle showArticle(int articleId){
         return dynamicDao.getArticleByArticleId(articleId);
     }
 
+    @Transactional
     public UserInfoWrapper getWriter(int articleId){
         int userId = dynamicDao.getArticleByArticleId(articleId).getUserId();
         return dynamicDao.getWriter(userId);

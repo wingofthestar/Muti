@@ -42,7 +42,7 @@ function btn(){
 								<p style="margin-top:40px">${USER_INFO.userIntroduce}</p>
 						</div>
 						<div id="l-text2">
-								<a style="margin-left:0" href="#">文章&nbsp;${USER_INFO.userArtcleNum}</a>
+								<a style="margin-left:0" href="#">文章&nbsp;${USER_INFO.userArticleNum}</a>
 								<%--<a href="#">图片</a>--%>
 								<a href="#">收藏 &nbsp;${USER_INFO.userFavorNum}</a>
 						</div>

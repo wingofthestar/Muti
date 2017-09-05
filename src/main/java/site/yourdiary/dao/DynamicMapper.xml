@@ -18,4 +18,8 @@
     <select id="getArticleByArticleId" parameterType="int" resultType="UserArticle">
         select * FROM user_article where article_id = #{articleId}
     </select>
+
+    <update id="updateFavor">
+        UPDATE user_article SET article_favor_number = #{articleFavorNumber} WHERE article_id = #{articleId}
+    </update>
 </mapper>

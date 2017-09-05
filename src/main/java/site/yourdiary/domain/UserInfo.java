@@ -5,7 +5,7 @@ public class UserInfo extends BaseDomain{
     private int userId;
     private String userPhoto;
     private String userIntroduce;
-    private String userArtcleNum;
+    private String userArticleNum;
     private String userFavorNum;
 
     public int getUserInfoId() {
@@ -40,12 +40,12 @@ public class UserInfo extends BaseDomain{
         this.userIntroduce = userIntroduce;
     }
 
-    public String getUserArtcleNum() {
-        return userArtcleNum;
+    public String getUserArticleNum() {
+        return userArticleNum;
     }
 
-    public void setUserArtcleNum(String userArtcleNum) {
-        this.userArtcleNum = userArtcleNum;
+    public void setUserArticleNum(String userArticleNum) {
+        this.userArticleNum = userArticleNum;
     }
 
     public String getUserFavorNum() {
