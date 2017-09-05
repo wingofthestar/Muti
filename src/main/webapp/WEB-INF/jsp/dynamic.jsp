@@ -16,12 +16,13 @@
     <script type="text/javascript" src="${pageContext.request.contextPath}//js//tc.min.js"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}//js//dynamic.js"></script>
 </head>
-<body> 
+<body>
+    <c:set var="jspi" value="0"></c:set>
     <div id="container">
         <div id="fade" class="black_overlay"></div> 
         <div id="header">
             <img src="${pageContext.request.contextPath}//img//dynamic_header.png" style="z-index: 1;position: absolute;">
-            <a href="#"><img src="${pageContext.request.contextPath}//img//dynamic_home.png" style="z-index: 3;position: absolute;"></a>
+            <a href="${pageContext.request.contextPath}/index"><img src="${pageContext.request.contextPath}//img//dynamic_home.png" style="z-index: 3;position: absolute;"></a>
             <img src="${pageContext.request.contextPath}//img//dynamic_logo.png" style="z-index: 2;position: absolute;margin-left: 970px;margin-top: 3px;">
         </div>
         <!--左侧-->
@@ -35,7 +36,7 @@
             <a class="btn btn-default" id="btn"  type="button" onclick="ShowDiv('MyDiv','fade')">发表</a>  
                 <div id="MyDiv" class="white_block">
                     <div id="triangle-bottomright"></div>
-                    <div class="header"
+                    <div class="header">
                         <p style="font-size: 16px;font-weight:600;cursor:pointer;color:#7DB0BC;float: left;text-indent:5px;letter-spacing: 7px;margin:10px 0px 0px 420px;" class="close" onclick="CloseDiv('MyDiv','fade')">关闭</p>
                     </div>
                     <form action="###" enctype="multipart/form-data" method="post">
@@ -60,6 +61,7 @@
                 <thead></thead>
                 <tbody>
                     <c:forEach var="content" items="${CONTENT_LIST}">
+                        <c:set var="jspi" value="${jspi+1}"></c:set>
                     <tr>
                         <td>
                             <div id="message">
@@ -71,16 +73,16 @@
                                     <p>${content.userArticle.articleContent}</p>
                                 </div>
                                 <dl>
-                                    <a class="comment"  type="button" onclick="ShowDiv('MyDiv_1','fade','1')">查看评论</a>  
+                                    <a class="comment"  type="button" onclick="ShowDiv('MyDiv_${jspi}','fade','${jspi}')">查看评论</a>
                                 </dl>
                                 <p id="message_collection">收藏（${content.userArticle.articleFavorNumber}）</p>
                                 <p id="message_comment">评论（${content.userArticle.articleCommentNumber}）</p>
                                 <img src="${pageContext.request.contextPath}//img//dynamic_star.png" onclick="colorchange(1)" id="star" name="star">
                             </div>
-                            <div id="MyDiv_1" class="white_content">
+                            <div id="MyDiv_${jspi}" class="white_content">
                                 <div class="header">
                                     <p style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;margin:20px 0px 0px 20px;"><b>留言</b></p>
-                                    <p style="font-size: 12px;color:#2F6966;float: left;text-indent:5px;letter-spacing: 7px;margin:-13px 0px 0px 420px;" class="close" onclick="CloseDiv('MyDiv_1','fade')">关闭</p>
+                                    <p style="font-size: 12px;color:#2F6966;float: left;text-indent:5px;letter-spacing: 7px;margin:-13px 0px 0px 420px;" class="close" onclick="CloseDiv('MyDiv_${jspi}','fade')">关闭</p>
                                 </div>
                                 <form action="###" method="post">
                                     <input type="txt" class="form-control" name="Sendout" id="Sendout" style="background-image: url(${pageContext.request.contextPath}//img//dynamic_input.png);">

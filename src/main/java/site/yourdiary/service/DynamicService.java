@@ -23,18 +23,26 @@ public class DynamicService {
     @Transactional
     public List<ContentWrapper> showContent(){
         List<ContentWrapper> contentList = new ArrayList<>();
-        List<ArticleCommentWrapper> articleCommentWrapperList = new ArrayList<>();
+//        List<ArticleCommentWrapper> articleCommentWrapperList = new ArrayList<>();
 //        Contents.put("Article", dynamicDao.getAllArticle());
 //        Contents.put("Comment", dynamicDao.getAllComment());
+        //获取所有Article信息
         for (UserArticle userArticle : dynamicDao.getAllArticle()) {
             int userId = userArticle.getUserId();
             int articleId = userArticle.getArticleId();
+            //根据每个Article的userId获取对应的Writer信息
             UserInfoWrapper writer = dynamicDao.getWriter(userId);
+            //评论信息(articleComment)和评论者信息(commenter)的包装列表
+            List<ArticleCommentWrapper> articleCommentWrapperList = new ArrayList<>();
+            //根据每个Artcile的articleId获取对应的所有评论信息(List)
             List<ArticleComment> articleCommentList = dynamicDao.getAllComment(articleId);
+            //从所有评论信息中，拆分出每一个评论信息，组合评论者的信息进行包装
             for(ArticleComment articleComment: articleCommentList){
                 int commentUserId = articleComment.getCommentUserId();
+                //根据每个评论信息的commentUserId获取对应的评论者信息
                 UserInfoWrapper commenter = dynamicDao.getCommenter(commentUserId);
                 ArticleCommentWrapper articleCommentWrapper = new ArticleCommentWrapper(articleComment, commenter);
+
                 articleCommentWrapperList.add(articleCommentWrapper);
             }
 
