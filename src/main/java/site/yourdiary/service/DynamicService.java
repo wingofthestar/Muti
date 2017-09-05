@@ -63,4 +63,9 @@ public class DynamicService {
         return dynamicDao.getWriter(userId);
     }
 
+    @Transactional
+    public int updateArticleFavorNumber(int articleId, int articleFavorNumber){
+        return dynamicDao.updateFavor(articleId, articleFavorNumber);
+    }
+
 }

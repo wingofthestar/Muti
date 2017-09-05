@@ -77,10 +77,11 @@
                                 </dl>
                                 <p id="message_collection">收藏（${content.userArticle.articleFavorNumber}）</p>
                                 <p id="message_comment">评论（${content.userArticle.articleCommentNumber}）</p>
-                                <form action="${pageContext.request.contextPath}/" method="post" id="jsp_favor">
-
+                                <form action="${pageContext.request.contextPath}/favor" method="post" id="${jspi}">
+                                    <input name="articleId" value="${content.userArticle.articleId}" type="hidden"/>
+                                    <input name="articleFavorNumber" value="${content.userArticle.articleFavorNumber}" type="hidden" id="jsp_favorNumber"/>
+                                    <img src="${pageContext.request.contextPath}//img//dynamic_star.png" onclick="colorchange(${jspi});" id="star" name="star">
                                 </form>
-                                <img src="${pageContext.request.contextPath}//img//dynamic_star.png" onclick="colorchange(1)" id="star" name="star">
                             </div>
                             <div id="MyDiv_${jspi}" class="white_content">
                                 <div class="header">

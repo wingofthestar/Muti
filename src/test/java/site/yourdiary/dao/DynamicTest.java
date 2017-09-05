@@ -3,6 +3,7 @@ package site.yourdiary.dao;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
@@ -56,8 +57,11 @@ public class DynamicTest {
 
     }
 
+    //前期单元测试的问题，没有加上事务，导致单元测试的数据都写入数据库了，污染了数据库，需要进行改正
     @Test
+    @Transactional
+    @Rollback
     public void testupdateFavorNum(){
-        dynamicDao.updateFavor(1, 0);
+        dynamicDao.updateFavor(3, 1);
     }
 }

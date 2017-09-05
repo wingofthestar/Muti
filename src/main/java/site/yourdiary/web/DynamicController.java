@@ -2,6 +2,7 @@ package site.yourdiary.web;
 
 import com.sun.org.apache.regexp.internal.RE;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -61,8 +62,10 @@ public class DynamicController extends BaseWeb{
     }
 
     @RequestMapping(value = "favor", method = RequestMethod.POST)
-    public String  favor(){
-
+    public String  favor( @Param("articleId") int articleId, @Param("articleFavorNumber") int articleFavorNumber){
+        articleFavorNumber = articleFavorNumber + 1;
+        dynamicService.updateArticleFavorNumber(articleId, articleFavorNumber);
         return "forward:/dynamic";
     }
+
 }

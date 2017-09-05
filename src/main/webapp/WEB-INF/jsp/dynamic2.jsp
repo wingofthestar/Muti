@@ -81,7 +81,7 @@
                                     <input name="articleId" value="${content.userArticle.articleId}" type="hidden"/>
                                     <input name="articleFavorNumber" value="${content.userArticle.articleFavorNumber}" type="hidden" id="jsp_favorNumber"/>
                                 </form>
-                                <img src="${pageContext.request.contextPath}//img//dynamic_star.png" onclick="colorchange(1)" id="star" name="star">
+                                <img src="${pageContext.request.contextPath}//img//dynamic_yellowstar.png" onclick="colorchange(1)" id="star" name="star">
                             </div>
                             <div id="MyDiv_${jspi}" class="white_content">
                                 <div class="header">
