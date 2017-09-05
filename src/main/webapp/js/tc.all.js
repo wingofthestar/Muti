@@ -21,9 +21,7 @@ function popWin(obj){
 	_tit.mouseup(function(e){
 		_mv=false;
 		_obj.fadeTo("fast",1);//松开鼠标后停止移动并恢复成不透明				 
-	
 	});
-	
 	$(document).mousemove(function(e){
 		if(_mv){
 			var x=e.pageX-_x;//移动时根据鼠标位置计算控件左上角的绝对位置
@@ -37,7 +35,6 @@ function popWin(obj){
 			});//控件新位置
 		}
 	});
-
 			_cls.live("click",function(){
 		$(this).parent().parent().hide().siblings("#maskLayer").remove();
 	});

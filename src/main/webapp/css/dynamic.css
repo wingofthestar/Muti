@@ -88,6 +88,9 @@ p{word-wrap:break-word}
 	width: 802px;
 	height: 270px;
 }
+#message a{
+	text-decoration: none;
+}
 #dynamic_message_selfphoto{
 	float: left;
 }
@@ -136,6 +139,7 @@ p{word-wrap:break-word}
 	margin-left: 196px;
 	margin-top: -32px;
 	z-index: 2;
+	text-decoration: none;
 }
 #message_collection{
     float: left;
@@ -165,4 +169,40 @@ p{word-wrap:break-word}
 	margin-top: -43px;
 	cursor:pointer;
 }
+.black_overlay{  
+    display: none;  
+    position: absolute;  
+    top: 0%;  
+    left: auto; 
+    width:1024px; 
+    height: 768px;
+    background-color: black;  
+    z-index:4;  
+    -moz-opacity: 0.7;  
+    opacity:.70;  
+    filter: alpha(opacity=70);  
+}  
+.white_content {
+	margin-left: 91.5px;
+	z-index: 5;
+ 	position:absolute;
+	border:1px solid #ccc;
+	background:#EEEEEE; 
+	display:none;
+	color: #7DB0BB;  
+    width:487px;
+	height:655px;
+}
+.white_block{
+	margin-top: 56px;
+	margin-left: 268.5px;
+	z-index: 5;
+ 	position:absolute;
+	border:1px solid #ccc;
+	background:#FFFFFF;
+	display:none;
+	color: #7DB0BB;  
+    width:487px;
+	height:655px;
+}  
 </style>

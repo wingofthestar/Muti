@@ -1,0 +1,22 @@
+dt{}
+#biaoti{
+    width: 295px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 65px;
+    background-color: #EEEEEE;
+}
+#zhengwen{
+	width: 382px;
+    height: 272px;
+    margin-left: 50px;
+    margin-top: 25px;
+    background-color: #EEEEEE;
+}
+#triangle-bottomright{
+	position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #7DB0BB;
+    border-left: 50px solid transparent;
+}
