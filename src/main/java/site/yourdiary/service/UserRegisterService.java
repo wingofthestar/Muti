@@ -17,9 +17,12 @@ public class UserRegisterService {
     @Transactional
     public void registerUser(RegisterInfo registerInfo) throws RegisterUserExitException {
 
+        /**
+         * 用户输出，需要注意字符空格问题
+         */
         //检查用户名和用户Email是否已经被注册
-        int checkUserName = userRegisterDao.queryIfExistUserName(registerInfo.getUserName());
-        int checkUserEmail = userRegisterDao.queryIfExistUserEmail(registerInfo.getUserEmail());
+        int checkUserName = userRegisterDao.queryIfExistUserName(registerInfo.getUserName().trim());
+        int checkUserEmail = userRegisterDao.queryIfExistUserEmail(registerInfo.getUserEmail().trim());
 
         if(checkUserEmail > 0 && checkUserName == 0){
             throw new RegisterUserExitException("Email已经被注册");
@@ -34,9 +37,9 @@ public class UserRegisterService {
 //        if(checkUserEmail == 0 && checkUserName == 0 ) {
             //插入用户注册信息
             User user = new User();
-            user.setUserName(registerInfo.getUserName());
-            user.setUserEmail(registerInfo.getUserEmail());
-            user.setPassword(registerInfo.getPassword());
+            user.setUserName(registerInfo.getUserName().trim());
+            user.setUserEmail(registerInfo.getUserEmail().trim());
+            user.setPassword(registerInfo.getPassword().trim());
             userRegisterDao.insertUser(user);
 
             //生成对应的用户信息
