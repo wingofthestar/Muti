@@ -7,18 +7,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd1445d3-5c10-4fc5-9db4-f394a6db5dd3" name="Default" comment="添加README.MD">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dynamic2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/individual_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/individual_header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/individual_mf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/individual_selfphoto.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/individual_title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/dto/UserInfoDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/individualspace_bak.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/introduce_change.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/update_success.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/amazeui.cropper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/amazeui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/custom_up_img.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.4.6.0.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/individual_space.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/introduce_change.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/html/individual_space.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/html/introduce_change.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/amazeui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/cropper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/custom_up_img.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.8.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/img/showpage_box_item1_1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/img/showpage_box_item1_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/img/showpage_box_item1_2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/img/showpage_box_item1_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/img/showpage_box_item2_1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/img/showpage_box_item2_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/img/showpage_box_item2_2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/img/showpage_box_item2_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/img/showpage_box_item3_1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/img/showpage_box_item3_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/img/showpage_box_item3_2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/img/showpage_box_item3_2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/DynamicMapper.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/DynamicMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/DynamicMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/DynamicMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserInfo.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/service/DynamicService.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/service/DynamicService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/web/DynamicController.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/web/DynamicController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dynamic.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dynamic.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserSpaceService.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserSpaceService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/site/yourdiary/web/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/site/yourdiary/web/UserController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/individualspace.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/individualspace.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/dynamic.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/dynamic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/site/yourdiary/dao/DynamicTest.java" afterPath="$PROJECT_DIR$/src/test/java/site/yourdiary/dao/DynamicTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showpage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showpage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/site/yourdiary/dao/UserSpaceTest.java" afterPath="$PROJECT_DIR$/src/test/java/site/yourdiary/dao/UserSpaceTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/html/individual space.html" afterPath="$PROJECT_DIR$/src/main/webapp/html/individual_bak.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,12 +72,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="dynamic.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dynamic.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dynamic.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="79" column="106" lean-forward="false" selection-start-line="79" selection-start-column="106" selection-end-line="79" selection-end-column="106" />
+            <state relative-caret-position="708">
+              <caret line="53" column="98" lean-forward="true" selection-start-line="53" selection-start-column="98" selection-end-line="53" selection-end-column="98" />
               <folding>
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#form#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#form#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#form#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1504602611922" expanded="false" signature="22096:22174" ph="..." />
                 <marker date="1504602611922" expanded="false" signature="22517:22596" ph="..." />
               </folding>
@@ -61,22 +90,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dynamic.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/dynamic.js">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="-18">
+              <caret line="68" column="40" lean-forward="false" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DynamicController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="individualspace.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/individualspace.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/DynamicController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="56" column="33" lean-forward="false" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showpage.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showpage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/service/DynamicService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding>
+                <element signature="method#showContent#0;class#DynamicService#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserSpaceMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <marker date="1504783785550" expanded="true" signature="293:342" ph="SELECT * FRO... user_info" />
+                <marker date="1504783785550" expanded="true" signature="418:462" ph="SELECT * FRO... user" />
+                <marker date="1504783785550" expanded="true" signature="552:892" ph="UPDATE user_... " />
+                <marker date="1504783785550" expanded="true" signature="980:1412" ph="UPDATE user " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,10 +174,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>background.</find>
-      <find>background.png</find>
-      <find>个人中心</find>
-      <find>logout</find>
       <find>1.jpg</find>
       <find>h3</find>
       <find>commn</find>
@@ -117,7 +191,6 @@
       <find>artcle</find>
       <find>#t1</find>
       <find>浏览</find>
-      <find>../</find>
       <find>联系我们</find>
       <find>..//</find>
       <find>Mydiv</find>
@@ -126,6 +199,11 @@
       <find>dynamic_home</find>
       <find>dynamic_star</find>
       <find>colorcha</find>
+      <find>简介</find>
+      <find>昵称</find>
+      <find>修改密码</find>
+      <find>保存</find>
+      <find>../</find>
     </findStrings>
     <replaceStrings>
       <replace>../</replace>
@@ -134,8 +212,8 @@
       <replace>userLoginDao</replace>
       <replace>${pageContext.request.ContextPath}</replace>
       <replace>article</replace>
-      <replace>${pageContext.request.contextPath}/</replace>
       <replace>${pageContext.request.contextPath}//</replace>
+      <replace>${pageContext.request.contextPath}/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -149,19 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/web/LoginAndLogoutController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/register_success.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/administrator_1.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/administrator_2.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_message_bak.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/administrator.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/html/register_success.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register_success_demo.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/dynamic.css" />
-        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/web/BaseWeb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/web/AdminManageController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/tc.css" />
         <option value="$PROJECT_DIR$/src/test/temp/UserSpace-Spring-MyBatis.xml" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserArtcle.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/domain/ArtcleComment.java" />
@@ -185,13 +250,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_user.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/homepage.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showpage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/article.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/fb.css" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/site/yourdiary/dao/UserSpaceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/individualspace.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/DynamicMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/DynamicMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/service/DynamicService.java" />
@@ -200,6 +262,22 @@
         <option value="$PROJECT_DIR$/src/test/java/site/yourdiary/dao/DynamicTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/dynamic.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dynamic.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/introduce_change.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/custom_up_img.js" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/dto/UserInfoWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/update_success.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/tools/EmptyUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/exception/UpdateEmptyException.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/introduce_change.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/exception/UpdateDuplicationException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/site/yourdiary/dao/UserSpaceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserSpaceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/web/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserRegisterService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/individualspace.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showpage.jsp" />
       </list>
     </option>
   </component>
@@ -262,8 +340,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="952" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
@@ -283,7 +361,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -343,7 +420,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yourdiary" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
@@ -410,6 +487,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Muti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Muti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -459,28 +552,13 @@
               <item name="yourdiary" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Muti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yourdiary" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Muti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,19 +572,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\js" />
-      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\html" />
-      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\img" />
-      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\img" />
       <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\test\resources" />
       <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\test\resources\site.yourdiary.test" />
       <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp" />
       <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\img" />
+      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\js" />
+      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\html" />
+      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -619,75 +697,6 @@
         </option>
       </method>
     </configuration>
-    <configuration name="QiNiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="site.yourdiary.tools.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="site.yourdiary.tools.QiNiu" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Muti" />
-      <envs />
-    </configuration>
-    <configuration name="TestDynamicService.testShowContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="site.yourdiary.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Muti" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="site.yourdiary.service" />
-      <option name="MAIN_CLASS_NAME" value="site.yourdiary.service.TestDynamicService" />
-      <option name="METHOD_NAME" value="testShowContent" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestUserRegisterService.testRegisterUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="site.yourdiary.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Muti" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="site.yourdiary.service" />
-      <option name="MAIN_CLASS_NAME" value="site.yourdiary.service.TestUserRegisterService" />
-      <option name="METHOD_NAME" value="testRegisterUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="UserSpaceTest.testGetUserInfoByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -701,6 +710,81 @@
       <option name="PACKAGE_NAME" value="site.yourdiary.dao" />
       <option name="MAIN_CLASS_NAME" value="site.yourdiary.dao.UserSpaceTest" />
       <option name="METHOD_NAME" value="testGetUserInfoByUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UserSpaceTest.testUpdateUserByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="site.yourdiary.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Muti" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="site.yourdiary.dao" />
+      <option name="MAIN_CLASS_NAME" value="site.yourdiary.dao.UserSpaceTest" />
+      <option name="METHOD_NAME" value="testUpdateUserByUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UserSpaceTest.testUpdateUserInfobyUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="site.yourdiary.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Muti" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="site.yourdiary.dao" />
+      <option name="MAIN_CLASS_NAME" value="site.yourdiary.dao.UserSpaceTest" />
+      <option name="METHOD_NAME" value="testUpdateUserInfobyUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UserSpaceTest.testgetUserByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="site.yourdiary.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Muti" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="site.yourdiary.dao" />
+      <option name="MAIN_CLASS_NAME" value="site.yourdiary.dao.UserSpaceTest" />
+      <option name="METHOD_NAME" value="testgetUserByUserId" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -795,19 +879,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Muti" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestDynamicService.testShowContent" />
-      <item index="2" class="java.lang.String" itemvalue="Application.QiNiu" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestUserRegisterService.testRegisterUser" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserSpaceTest.testGetUserInfoByUserId" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.DynamicTest.testupdateFavorNum" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserSpaceTest.testGetUserInfoByUserId" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DynamicTest.testupdateFavorNum" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UserSpaceTest.testUpdateUserByUserId" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserSpaceTest.testUpdateUserInfobyUserId" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UserSpaceTest.testgetUserByUserId" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DynamicTest.testupdateFavorNum" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserSpaceTest.testGetUserInfoByUserId" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestDynamicService.testShowContent" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestUserRegisterService.testRegisterUser" />
-        <item index="4" class="java.lang.String" itemvalue="Application.QiNiu" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserSpaceTest.testgetUserByUserId" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserSpaceTest.testUpdateUserByUserId" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UserSpaceTest.testUpdateUserInfobyUserId" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DynamicTest.testupdateFavorNum" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserSpaceTest.testGetUserInfoByUserId" />
       </list>
     </recent_temporary>
   </component>
@@ -855,7 +939,9 @@
       <workItem from="1504232299129" duration="58000" />
       <workItem from="1504584673253" duration="4929000" />
       <workItem from="1504589839551" duration="215000" />
-      <workItem from="1504590146949" duration="11316000" />
+      <workItem from="1504590146949" duration="11535000" />
+      <workItem from="1504604340067" duration="4000" />
+      <workItem from="1504767934414" duration="17180000" />
     </task>
     <task id="LOCAL-00001" summary="domain纠正UserLoginLog的字段值">
       <created>1502519557567</created>
@@ -864,43 +950,64 @@
       <option name="project" value="LOCAL" />
       <updated>1502519557568</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加自定义异常">
+      <created>1504782880296</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1504782880297</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修正细节，解决字符空格问题">
+      <created>1504784731459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1504784731459</updated>
+    </task>
+    <task id="LOCAL-00004" summary="尝试使用封装工具类">
+      <created>1504784846827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1504784846827</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DynamicTest_testupdateFavorNum - 2017.09.05 at 15h 14m 46s.xml">
-      <configuration name="DynamicTest.testupdateFavorNum" configurationId="JUnit" />
+    <history-entry file="UserSpaceTest_testUpdateUserByUserId - 2017.09.07 at 16h 03m 32s.xml">
+      <configuration name="UserSpaceTest.testUpdateUserByUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicTest_testupdateFavorNum - 2017.09.05 at 15h 15m 14s.xml">
-      <configuration name="DynamicTest.testupdateFavorNum" configurationId="JUnit" />
+    <history-entry file="UserSpaceTest_testUpdateUserByUserId - 2017.09.07 at 16h 10m 26s.xml">
+      <configuration name="UserSpaceTest.testUpdateUserByUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicTest_testupdateFavorNum - 2017.09.05 at 15h 16m 02s.xml">
-      <configuration name="DynamicTest.testupdateFavorNum" configurationId="JUnit" />
+    <history-entry file="UserSpaceTest_testUpdateUserByUserId - 2017.09.07 at 16h 10m 40s.xml">
+      <configuration name="UserSpaceTest.testUpdateUserByUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicTest_testupdateFavorNum - 2017.09.05 at 15h 18m 27s.xml">
-      <configuration name="DynamicTest.testupdateFavorNum" configurationId="JUnit" />
+    <history-entry file="UserSpaceTest_testUpdateUserByUserId - 2017.09.07 at 16h 56m 19s.xml">
+      <configuration name="UserSpaceTest.testUpdateUserByUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicTest_testupdateFavorNum - 2017.09.05 at 15h 23m 10s.xml">
-      <configuration name="DynamicTest.testupdateFavorNum" configurationId="JUnit" />
+    <history-entry file="UserSpaceTest_testUpdateUserByUserId - 2017.09.07 at 17h 03m 41s.xml">
+      <configuration name="UserSpaceTest.testUpdateUserByUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicTest_testupdateFavorNum - 2017.09.05 at 15h 23m 43s.xml">
-      <configuration name="DynamicTest.testupdateFavorNum" configurationId="JUnit" />
+    <history-entry file="UserSpaceTest_testUpdateUserInfobyUserId - 2017.09.07 at 16h 14m 26s.xml">
+      <configuration name="UserSpaceTest.testUpdateUserInfobyUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicTest_testupdateFavorNum - 2017.09.05 at 15h 24m 00s.xml">
-      <configuration name="DynamicTest.testupdateFavorNum" configurationId="JUnit" />
+    <history-entry file="UserSpaceTest_testUpdateUserInfobyUserId - 2017.09.07 at 16h 15m 04s.xml">
+      <configuration name="UserSpaceTest.testUpdateUserInfobyUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicTest_testupdateFavorNum - 2017.09.05 at 15h 24m 22s.xml">
-      <configuration name="DynamicTest.testupdateFavorNum" configurationId="JUnit" />
+    <history-entry file="UserSpaceTest_testgetUserByUserId - 2017.09.07 at 19h 29m 07s.xml">
+      <configuration name="UserSpaceTest.testgetUserByUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicTest_testupdateFavorNum - 2017.09.05 at 16h 32m 35s.xml">
-      <configuration name="DynamicTest.testupdateFavorNum" configurationId="JUnit" />
+    <history-entry file="UserSpaceTest_testgetUserByUserId - 2017.09.07 at 19h 29m 50s.xml">
+      <configuration name="UserSpaceTest.testgetUserByUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DynamicTest_testupdateFavorNum - 2017.09.05 at 16h 32m 43s.xml">
-      <configuration name="DynamicTest.testupdateFavorNum" configurationId="JUnit" />
+    <history-entry file="UserSpaceTest_testgetUserByUserId - 2017.09.07 at 19h 40m 42s.xml">
+      <configuration name="UserSpaceTest.testgetUserByUserId" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231076000" />
+    <option name="totallyTimeSpent" value="248479000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -912,8 +1019,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -927,18 +1033,18 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4453303" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4453303" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19703873" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24487472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38838267" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36104783" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635193" sideWeight="0.7986577" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36104783" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2194206" sideWeight="0.7986577" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1001,7 +1107,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="domain纠正UserLoginLog的字段值" />
-    <option name="LAST_COMMIT_MESSAGE" value="domain纠正UserLoginLog的字段值" />
+    <MESSAGE value="增加自定义异常" />
+    <MESSAGE value="修正细节，解决字符空格问题" />
+    <MESSAGE value="尝试使用封装工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="尝试使用封装工具类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1014,210 +1123,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/showpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9432">
-          <caret line="393" column="17" lean-forward="false" selection-start-line="393" selection-start-column="17" selection-end-line="393" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/article_pic.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/article.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/tools/QiNiu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/showpage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="157" column="21" lean-forward="false" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="110" lean-forward="false" selection-start-line="7" selection-start-column="110" selection-end-line="7" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/logout_success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="110" lean-forward="false" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register_success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="110" lean-forward="false" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_message.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="105" lean-forward="false" selection-start-line="29" selection-start-column="105" selection-end-line="29" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/homepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="110" />
-          <folding>
-            <marker date="1504159084417" expanded="false" signature="10268:10312" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2952">
-          <caret line="123" column="17" lean-forward="false" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin_user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2688">
-          <caret line="112" column="4" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showpage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1488">
-          <caret line="62" column="85" lean-forward="false" selection-start-line="62" selection-start-column="85" selection-end-line="62" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/fb.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/error.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/article.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/DynamicMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/site/yourdiary/service/TestUserRegisterService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/dynamic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="96">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/site/yourdiary/service/TestDynamicService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/AdminManageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/service/AdminManageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/BaseWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="-522">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1230,93 +1155,199 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/LoginAndLogoutController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/individualspace_bak.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dynamic_bak.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/introduce_change.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089">
-          <caret line="46" column="76" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="76" />
+        <state relative-caret-position="696">
+          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/individual_space.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="48" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/amazeui.cropper.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/site/yourdiary/dao/UserSpaceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/amazeui.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="25" column="62" lean-forward="false" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/introduce_change.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="45" column="79" lean-forward="false" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/introduce_change_bak.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/cropper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4968">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/custom_up_img.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-1.8.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/vo/RegisterInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserSpaceService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserInfoWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/individualspace.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="48">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/dynamic.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/logout_success.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-210">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserLoginMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register_success.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/tools/EmptyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/exception/RegisterUserExitException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <marker date="1502541689997" expanded="true" signature="290:338" ph="SELECT * FRO... user" />
-            <marker date="1502541689997" expanded="true" signature="435:485" ph="SELECT * FRO... user" />
-            <marker date="1502541689997" expanded="true" signature="589:638" ph="SELECT * FRO... user_info" />
-            <marker date="1502541689997" expanded="true" signature="695:787" ph="UPDATE user " />
-            <marker date="1502541689997" expanded="true" signature="850:865" ph="UPDATE user " />
-            <marker date="1502541689997" expanded="true" signature="1020:1119" ph="INSERT INTO user_login_log... " />
+            <element signature="e#147#148#0" expanded="false" />
+            <element signature="e#178#179#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/exception/UpdateEmptyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/introduce_change.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="41" column="185" lean-forward="true" selection-start-line="41" selection-start-column="185" selection-end-line="41" selection-end-column="185" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserLoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/exception/UpdateDuplicationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/update_success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="78" lean-forward="true" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/cons/CommonConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,113 +1359,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/service/DisplayMessageService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserLoginMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1512">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/DynamicMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="72">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <marker date="1504595893371" expanded="true" signature="268:294" ph="SELECT * FRO... user_article" />
-            <marker date="1504595893371" expanded="true" signature="397:458" ph="SELECT * FRO... article_comment" />
-            <marker date="1504595893371" expanded="true" signature="558:686" ph="select m.use... user" />
-            <marker date="1504595893371" expanded="true" signature="789:924" ph="select m.use... user" />
-            <marker date="1504595893371" expanded="true" signature="1032:1090" ph="select * FRO... user_article" />
-            <marker date="1504595893371" expanded="true" signature="1144:1244" ph="UPDATE user_... " />
+            <marker date="1502541689997" expanded="true" signature="290:338" ph="SELECT * FRO... user" />
+            <marker date="1502541689997" expanded="true" signature="435:485" ph="SELECT * FRO... user" />
+            <marker date="1502541689997" expanded="true" signature="589:638" ph="SELECT * FRO... user_info" />
+            <marker date="1502541689997" expanded="true" signature="695:787" ph="UPDATE user " />
+            <marker date="1502541689997" expanded="true" signature="850:865" ph="UPDATE user " />
+            <marker date="1502541689997" expanded="true" signature="1020:1119" ph="INSERT INTO user_login_log... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dynamic2.jsp">
+    <entry file="file://$PROJECT_DIR$/src/test/java/site/yourdiary/dao/UserSpaceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="85" column="74" lean-forward="true" selection-start-line="85" selection-start-column="74" selection-end-line="85" selection-end-column="74" />
+        <state relative-caret-position="516">
+          <caret line="56" column="50" lean-forward="false" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+          <folding>
+            <element signature="e#1730#1731#0" expanded="false" />
+            <element signature="e#1787#1788#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/BaseWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/domain/UserInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dto/UserInfoDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="64">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/site/yourdiary/dao/DynamicTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/LoginAndLogoutController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="-768">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="25" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/DynamicMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="576">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserRegisterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <marker date="1504783785550" expanded="true" signature="293:342" ph="SELECT * FRO... user_info" />
+            <marker date="1504783785550" expanded="true" signature="418:462" ph="SELECT * FRO... user" />
+            <marker date="1504783785550" expanded="true" signature="552:892" ph="UPDATE user_... " />
+            <marker date="1504783785550" expanded="true" signature="980:1412" ph="UPDATE user " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="68" column="40" lean-forward="false" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/individualspace.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/showpage_box_item1_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/showpage_box_item1_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/showpage_box_item1_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserSpaceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="63" column="127" lean-forward="false" selection-start-line="63" selection-start-column="127" selection-end-line="63" selection-end-column="127" />
+          <folding>
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#2961#2962#0" expanded="true" />
+            <element signature="e#3020#3021#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/service/DynamicService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="360">
           <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
             <element signature="method#showContent#0;class#DynamicService#0" expanded="false" />
-            <element signature="e#2310#2311#0" expanded="true" />
-            <element signature="e#2376#2377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/dynamic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dynamic.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="79" column="106" lean-forward="false" selection-start-line="79" selection-start-column="106" selection-end-line="79" selection-end-column="106" />
-          <folding>
-            <marker date="1504602611922" expanded="false" signature="22096:22174" ph="..." />
-            <marker date="1504602611922" expanded="false" signature="22517:22596" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/DynamicController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="462">
+          <caret line="56" column="33" lean-forward="false" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/showpage_box_item2_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/showpage_box_item2_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/showpage_box_item3_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/showpage_box_item3_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showpage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/dynamic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="53" column="98" lean-forward="true" selection-start-line="53" selection-start-column="98" selection-end-line="53" selection-end-column="98" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#0;n#form#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#form#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1504602611922" expanded="false" signature="22096:22174" ph="..." />
+            <marker date="1504602611922" expanded="false" signature="22517:22596" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,6 +5,10 @@
         SELECT * FROM user_info WHERE user_id = #{userId}
     </select>
 
+    <select id="getUserByUserId" resultType="User">
+        SELECT * FROM user WHERE user_id = #{userId}
+    </select>
+
     <!-- 动态sql更新用户信息 -->
     <update id="updateUserInfoByUserId">
         UPDATE user_info
@@ -14,6 +18,23 @@
             </if>
             <if test="userIntroduce != null and userIntroduce != ''">
                 user_introduce = #{userIntroduce}
+            </if>
+        </set>
+        WHERE user_id = #{userId}
+    </update>
+
+    <!-- 动态sql更新用户登录信息 -->
+    <update id="updateUserByUserId">
+        UPDATE user
+        <set>
+            <if test="userName != null and userName != ''">
+                user_name = #{userName},
+            </if>
+            <if test="userEmail != null and userEmail != ''">
+                user_email = #{userEmail}
+            </if>
+            <if test="password != null and password != ''">
+                password = #{password}
             </if>
         </set>
         WHERE user_id = #{userId}
