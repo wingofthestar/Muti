@@ -32,4 +32,8 @@ public interface DynamicMapper {
     int insertComment(@Param("articleId") int articleId, @Param("userId") int userId, @Param("comment") String comment);
 
     int updateArticleCommentNumber(@Param("articleId") int articleId);
+
+    int updateUserFavorNumber(@Param("userId") int userId);
+
+    int selectUserIdByArticleId(@Param("articleId") int articleId);
 }

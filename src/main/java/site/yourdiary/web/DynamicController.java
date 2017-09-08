@@ -82,7 +82,7 @@ public class DynamicController extends BaseWeb{
     @RequestMapping(value = "favor", method = RequestMethod.POST)
     public String  favor( @Param("articleId") int articleId, @Param("articleFavorNumber") int articleFavorNumber){
         articleFavorNumber = articleFavorNumber + 1;
-        dynamicService.updateArticleFavorNumber(articleId, articleFavorNumber);
+        dynamicService.articleFavor(articleId, articleFavorNumber);
         return "forward:/dynamic";
     }
 

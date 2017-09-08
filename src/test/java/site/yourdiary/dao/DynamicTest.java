@@ -115,4 +115,18 @@ public class DynamicTest {
     public void testupdateUserArticleNum(){
         dynamicDao.updateUserArticleNum(34);
     }
+
+    @Test
+    public void testselectUserIdByArticleId(){
+        int articleId = 1;
+        int userId = dynamicDao.selectUserIdByArticleId(articleId);
+        System.out.println("==============" + userId + "==============");
+    }
+
+    @Test
+    @Transactional
+    @Rollback
+    public void testupdateUserFavorNumber(){
+        dynamicDao.updateUserArticleNum(33);
+    }
 }

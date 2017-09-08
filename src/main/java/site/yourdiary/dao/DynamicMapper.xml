@@ -19,6 +19,10 @@
         select * FROM user_article where article_id = #{articleId}
     </select>
 
+    <select id="selectUserIdByArticleId" resultType="int">
+        select user_id from user_article where article_id = #{articleId}
+    </select>
+
     <update id="updateFavor">
         UPDATE user_article SET article_favor_number = #{articleFavorNumber} WHERE article_id = #{articleId}
     </update>
@@ -48,4 +52,9 @@
     <update id="updateUserArticleNum">
         update user_info set user_article_num = user_article_num + 1 WHERE user_id = #{userId}
     </update>
+
+    <update id="updateUserFavorNumber">
+        update user_info set user_favor_num = user_favor_num + 1 WHERE user_id = #{userId};
+    </update>
+
 </mapper>

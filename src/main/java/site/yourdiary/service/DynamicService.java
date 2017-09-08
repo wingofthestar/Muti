@@ -69,8 +69,10 @@ public class DynamicService {
     }
 
     @Transactional
-    public int updateArticleFavorNumber(int articleId, int articleFavorNumber){
-        return dynamicDao.updateFavor(articleId, articleFavorNumber);
+    public void articleFavor(int articleId, int articleFavorNumber){
+         dynamicDao.updateFavor(articleId, articleFavorNumber);
+         int userId = dynamicDao.selectUserIdByArticleId(articleId);
+         dynamicDao.updateUserFavorNumber(userId);
     }
 
     @Transactional
