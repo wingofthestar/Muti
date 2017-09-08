@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import site.yourdiary.domain.User;
+import site.yourdiary.domain.UserArticle;
 import site.yourdiary.domain.UserInfo;
 import site.yourdiary.dto.UserInfoDto;
 import site.yourdiary.exception.UpdateDuplicationException;
@@ -17,6 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import java.util.List;
 import java.util.Map;
 
 import static site.yourdiary.cons.CommonConstant.*;
@@ -42,13 +44,16 @@ public class UserController extends BaseWeb {
     @RequestMapping(value = "/userSpace")
     public ModelAndView userSpace(HttpServletRequest request, HttpSession session, ModelAndView mav){
         User user = getSessionUser(request);
+        int userId = user.getUserId();
         if(user == null){
             session.setAttribute(REQUEST_PATH, "/user/userSpace");
             mav.setViewName("/login");
             return mav;
         }
-        UserInfo userInfo = userSpaceService.getUserInfobyUserId(user.getUserId());
+        UserInfo userInfo = userSpaceService.getUserInfobyUserId(userId);
+        List<UserArticle> userArticleList = userSpaceService.getUserArticleById(userId);
         mav.setViewName("individualspace");
+        mav.addObject(USER_ARTICLE_LIST, userArticleList);
         mav.addObject(USER_CONTEXT, user);
         mav.addObject(USER_INFO, userInfo);
 

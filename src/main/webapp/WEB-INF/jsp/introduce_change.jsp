@@ -21,7 +21,7 @@
     <div>
         <div class="container">
             <div class="header">
-                <a href="individual_space.html" style="margin-left: 10px;text-decoration:none;">返回</a>
+                <a href="${pageContext.request.contextPath}/user/userSpace" style="margin-left: 10px;text-decoration:none;">返回</a>
                 <font style="margin-left: 420px;">编辑资料</font>
             </div>
             <div class="background">

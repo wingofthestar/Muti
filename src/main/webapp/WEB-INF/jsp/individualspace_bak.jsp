@@ -5,17 +5,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="shortcut icon" href="${pageContext.request.contextPath}/img/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="../css/individual space.css" />
-<link rel="stylesheet" type="text/css" href="../css/warp.css" />
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/individual_space.css" />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/warp.css" />
 <title>个人空间</title>
-<script src="../js/jquery-1.7.2.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
   $("#btn").click(function(){
   $("#box").toggle();
   });
 });
-
 var btn1=document.getElementById('btn');
 
 function btn(){
@@ -25,85 +24,88 @@ function btn(){
  else{btn1.value="点击显示更多信息";
 }
 };
-
 </script>
 </head>
-
 <body>
-<div class="content">
+    <div class="content">
 		<div class="left-side">
-				<div class="l-main">
-						<a href="${pageContext.request.contextPath}/user/homepage"><img id="img1" src="../img/img3.jpg" /></a>
-						<div id="img2">
-								<img src="../img/img1.jpg" />
-						</div>
-						<div id="l-text1">
-								<p>${USER_CONTEXT.userName}</p>
-								<p style="margin-top:40px">${USER_INFO.userIntroduce}</p>
-						</div>
-						<div id="l-text2">
-								<a style="margin-left:0" href="#">文章&nbsp;${USER_INFO.userArticleNum}</a>
-								<%--<a href="#">图片</a>--%>
-								<a href="#">收藏 &nbsp;${USER_INFO.userFavorNum}</a>
-						</div>
+			<div class="l-main">
+				<a href="${pageContext.request.contextPath}/index"><img id="img1" src="${pageContext.request.contextPath}/img/img3.jpg" /></a>
+				<div id="img2">
+					<img src="${pageContext.request.contextPath}/img/img1.jpg" />
 				</div>
+				<div id="self_introduce">
+                    <div class="name">${USER_CONTEXT.userName}</div>
+                    <p class="jinajie">简介</p>
+                    <p>${USER_INFO.userIntroduce}</p><br>
+                    <div>
+                        文章 (${USER_INFO.userArticleNum})&nbsp;&nbsp;
+                        收藏 (${USER_INFO.userFavorNum})
+                    </div><br>
+                    <p>邮箱</p>
+                    <p name="email">${USER_CONTEXT.userEmail}</p><br>
+                    <p>
+                        密码
+                        <a href="${pageContext.request.contextPath}/user/introduceChange">【更改】</a></p>
+                    <a href="${pageContext.request.contextPath}/user/introduceChange" >【编辑资料】</a>
+				</div>
+			</div>
 		</div>
 		<div class="right-side">
 				<form action="#" method="post">
-						<div class="r-title">
-								<button type="submit" id="r-button">发表</button>
-								<img src="../img/logo2.png">
+					<div class="r-title">
+						<%--<button type="submit" id="r-button">发表</button>--%>
+						<img src="${pageContext.request.contextPath}/img/logo2.png">
+					</div>
+					<div class="r-div1">
+						<div class="artical">
+							<input type="text" id="r-input" placeholder="标题"/>
+							<img id="artical-img" src="${pageContext.request.contextPath}/img/img1.jpg" />
+							<textarea id="r-area" placeholder="文章"></textarea>
 						</div>
-						<div class="r-div1">
-								<div class="artical">
-										<input type="text" id="r-input" placeholder="标题"/>
-										<img id="artical-img" src="../img/img1.jpg" />
-										<textarea id="r-area" placeholder="文章"></textarea>
-								</div>
-								<div class="artical2">
-										<input type="text" id="r-input" placeholder="标题"/>
-										<img id="artical-img" src="../img/img1.jpg" />
-										<textarea id="r-area" placeholder="文章"></textarea>
-								</div>
+						<div class="artical2">
+							<input type="text" id="r-input" placeholder="标题"/>
+							<img id="artical-img" src="${pageContext.request.contextPath}/img/img1.jpg" />
+							<textarea id="r-area" placeholder="文章"></textarea>
 						</div>
-						<div class="picture">
-								<div id="my-mask" class="mask-wrapper" style="margin-top:0">
-										<img src="../img/picture1.jpg" style="margin-top:0"/>
-										<div class="mask-inner">
-												<p>图片信息</p>
-										</div>
-								</div>
-								<div id="my-mask" class="mask-wrapper">
-										<img src="../img/picture2.jpg" />
-										<div class="mask-inner">
-												<p>图片信息</p>
-										</div>
-								</div>
-								<div id="my-mask" class="mask-wrapper">
-										<img src="../img/picture3.jpg" />
-										<div class="mask-inner">
-												<p>图片信息</p>
-										</div>
-								</div>
-								<input name="" type="button"  value="点击显示更多信息"  id="btn" onclick="btn()"  >
-								<div id="box">
-										<div id="my-mask" class="mask-wrapper" >
-												<img src="../img/picture1.jpg"/>
-												<div class="mask-inner">
-														<p>图片信息</p>
-												</div>
-										</div>
-										<div id="my-mask" class="mask-wrapper">
-												<img src="../img/picture2.jpg" />
-												<div class="mask-inner">
-														<p>图片信息</p>
-												</div>
-										</div>
-								</div>
+					</div>
+					<div class="picture">
+						<div id="my-mask" class="mask-wrapper" style="margin-top:0">
+							<img src="${pageContext.request.contextPath}/img/picture1.jpg" style="margin-top:0"/>
+							<div class="mask-inner">
+									<p>图片信息</p>
+							</div>
 						</div>
+						<div id="my-mask" class="mask-wrapper">
+							<img src="${pageContext.request.contextPath}/img/picture2.jpg" />
+							<div class="mask-inner">
+									<p>图片信息</p>
+							</div>
+						</div>
+						<div id="my-mask" class="mask-wrapper">
+							<img src="${pageContext.request.contextPath}/img/picture3.jpg" />
+							<div class="mask-inner">
+									<p>图片信息</p>
+							</div>
+						</div>
+						<input name="" type="button"  value="点击显示更多信息"  id="btn" onclick="btn()"  >
+						<div id="box">
+							<div id="my-mask" class="mask-wrapper" >
+								<img src="${pageContext.request.contextPath}/img/picture1.jpg"/>
+								<div class="mask-inner">
+									<p>图片信息</p>
+								</div>
+							</div>
+							<div id="my-mask" class="mask-wrapper">
+								<img src="${pageContext.request.contextPath}/img/picture2.jpg" />
+								<div class="mask-inner">
+									<p>图片信息</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</form>
 		</div>
-</div>
+    </div>
 </body>
-
 </html>

@@ -3,28 +3,37 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="shortcut icon" href="${pageContext.request.contextPath}/img/favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/individual_space.css" />
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/warp.css" />
-<title>个人空间</title>
-<script src="${pageContext.request.contextPath}/js/jquery-1.11.1.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-  $("#btn").click(function(){
-  $("#box").toggle();
-  });
-});
-var btn1=document.getElementById('btn');
-
-function btn(){
-	 if(btn1.value=="点击显示更多信息"){
-		btn1.value="点击隐藏";
- }
- else{btn1.value="点击显示更多信息";
-}
-};
-</script>
+    <%--<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/blank.css" />--%>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/individual_space.css" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/warp.css" />
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//tc.css">
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//fb.css">
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//bootstrap.css">
+    <title>个人空间</title>
+    <script src="${pageContext.request.contextPath}/js/jquery-1.11.1.min.js"></script>
+	<script src="${pageContext.request.contextPath}//js//jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}//js//tc.min.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}//js//dynamic.js"></script>
+	<style type="text/css">
+		.individual_blank{
+			margin-left: 5px;
+			margin-top: 50px;
+		}
+		.div_blank{
+			width: 66px;
+			height: 40px;
+			background-color: #F2F2F2;
+			margin-left: 335px;
+			margin-top: -55px;
+		}
+		.div_blank a{
+			text-decoration:underline;
+			font-size: 32px;
+			color: #77B5B4;"
+		}
+	</style>
 </head>
 <body>
     <div class="content">
@@ -39,8 +48,8 @@ function btn(){
                     <p class="jinajie">简介</p>
                     <p>${USER_INFO.userIntroduce}</p><br>
                     <div>
-                        文章 (${USER_INFO.userArticleNum})&nbsp;&nbsp;
-                        收藏 (${USER_INFO.userFavorNum})
+						文章 (${USER_INFO.userArticleNum})&nbsp;&nbsp;
+						收藏 (${USER_INFO.userFavorNum})
                     </div><br>
                     <p>邮箱</p>
                     <p name="email">${USER_CONTEXT.userEmail}</p><br>
@@ -52,60 +61,57 @@ function btn(){
 			</div>
 		</div>
 		<div class="right-side">
-				<form action="#" method="post">
-					<div class="r-title">
-						<%--<button type="submit" id="r-button">发表</button>--%>
-						<img src="${pageContext.request.contextPath}/img/logo2.png">
+	        <div class="right-side-header">
+	            <div id="fade" class="black_overlay"></div> 
+	        	<a id="btn" onclick="ShowDiv('MyDiv','fade')">发表</a>  
+                <div id="MyDiv" class="white_block">
+                    <div id="triangle-bottomright"></div>
+                    <div class="header"
+                        <p style="font-size: 16px;font-weight:600;cursor:pointer;color:#7DB0BC;float: left;text-indent:5px;letter-spacing: 7px;margin:10px 0px 0px 420px;" class="close" onclick="CloseDiv('MyDiv','fade')">关闭</p>
+                    </div>
+                    <form action="###" enctype="multipart/form-data" method="post">
+                        <input type="txt" value="" class="form-control" name="biaoti" id="biaoti" style="background-image: url(${pageContext.request.contextPath}//img//individual_biaoti.png);">
+                        <textarea type="txt" value="" class="form-control" name="zhengwen" id="zhengwen" resize:none style="background-image: url(${pageContext.request.contextPath}//img//individual_zhengwen.png);">
+                        </textarea>
+                        <div style="width: 350px;height: 250px;margin-left: 50px;margin-top: 20px;">
+                            <input id="f" type="file" name="f" value="选择图片" onchange="change()"/>
+                            <br>
+                            <div class="upload"></div>
+                                <p>
+                                    <img id="preview" style="width: auto;height: 150px;" alt="" name="pic"/>
+                                </p>
+                        </div>
+                        <input type="submit" value="发送" name="fasong" class="btn btn-info" style="background-color: #7DB0BC;margin-left: 378px;
+                        margin-top:-90px;position:absolute;">
+                    </form>
+                </div>
+	        	<img src="${pageContext.request.contextPath}/img/logo2.png" style="margin-left: 600px;">
+	        </div>
+		<c:choose>
+			<c:when test="${not empty USER_ARTICLE_LIST}">
+				<div class="r-div1">
+					<c:forEach var="userArticle" items="${USER_ARTICLE_LIST}">
+						<a href="${pageContext.request.contextPath}/article/${userArticle.articleId}" style="text-decoration: none;color:#696969;">
+							<div class="artical">
+								<div class="title">${userArticle.articleTitle}</div>
+								<img id="artical-img" src="${userArticle.articlePicture}" style="width: 300px;height: 150px;">
+								<%--<div class="txt">文章内容简略</div>--%>
+							</div>
+						</a>
+					</c:forEach>
+				</div>
+			</c:when>
+			<c:otherwise>
+				<div class="r-div1">
+					<img src="${pageContext.request.contextPath}//img//individual_blank.jpg" class="individual_blank">
+					<div class="div_blank">
+						<a href="${pageContext.request.contextPath}/dynamic" class="blank_dynamic">动态</a>
 					</div>
-					<div class="r-div1">
-						<div class="artical">
-							<input type="text" id="r-input" placeholder="标题"/>
-							<img id="artical-img" src="${pageContext.request.contextPath}/img/img1.jpg" />
-							<textarea id="r-area" placeholder="文章"></textarea>
-						</div>
-						<div class="artical2">
-							<input type="text" id="r-input" placeholder="标题"/>
-							<img id="artical-img" src="${pageContext.request.contextPath}/img/img1.jpg" />
-							<textarea id="r-area" placeholder="文章"></textarea>
-						</div>
-					</div>
-					<div class="picture">
-						<div id="my-mask" class="mask-wrapper" style="margin-top:0">
-							<img src="${pageContext.request.contextPath}/img/picture1.jpg" style="margin-top:0"/>
-							<div class="mask-inner">
-									<p>图片信息</p>
-							</div>
-						</div>
-						<div id="my-mask" class="mask-wrapper">
-							<img src="${pageContext.request.contextPath}/img/picture2.jpg" />
-							<div class="mask-inner">
-									<p>图片信息</p>
-							</div>
-						</div>
-						<div id="my-mask" class="mask-wrapper">
-							<img src="${pageContext.request.contextPath}/img/picture3.jpg" />
-							<div class="mask-inner">
-									<p>图片信息</p>
-							</div>
-						</div>
-						<input name="" type="button"  value="点击显示更多信息"  id="btn" onclick="btn()"  >
-						<div id="box">
-							<div id="my-mask" class="mask-wrapper" >
-								<img src="${pageContext.request.contextPath}/img/picture1.jpg"/>
-								<div class="mask-inner">
-									<p>图片信息</p>
-								</div>
-							</div>
-							<div id="my-mask" class="mask-wrapper">
-								<img src="${pageContext.request.contextPath}/img/picture2.jpg" />
-								<div class="mask-inner">
-									<p>图片信息</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</form>
+				</div>
+			</c:otherwise>
+		</c:choose>
 		</div>
     </div>
+	<script src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 </body>
 </html>

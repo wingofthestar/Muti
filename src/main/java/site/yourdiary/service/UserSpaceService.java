@@ -7,12 +7,15 @@ import site.yourdiary.dao.UserLoginMapper;
 import site.yourdiary.dao.UserRegisterMapper;
 import site.yourdiary.dao.UserSpaceMapper;
 import site.yourdiary.domain.User;
+import site.yourdiary.domain.UserArticle;
 import site.yourdiary.domain.UserInfo;
 import site.yourdiary.dto.UserInfoDto;
 import site.yourdiary.exception.RegisterUserExitException;
 import site.yourdiary.exception.UpdateDuplicationException;
 import site.yourdiary.exception.UpdateEmptyException;
 import site.yourdiary.tools.EmptyUtil;
+
+import java.util.List;
 
 @Service
 public class UserSpaceService {
@@ -74,6 +77,10 @@ public class UserSpaceService {
     @Transactional
     public User getUserByUserId(int userId){
         return userSpaceDao.getUserByUserId(userId);
+    }
+
+    public List<UserArticle> getUserArticleById(int userId){
+        return userSpaceDao.getArticleByUserId(userId);
     }
 
 }

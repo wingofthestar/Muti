@@ -6,7 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import site.yourdiary.domain.User;
+import site.yourdiary.domain.UserArticle;
 import site.yourdiary.domain.UserInfo;
+
+import java.util.List;
 
 /**
  * UserSpaceMapper的单元测试
@@ -55,5 +58,13 @@ public class UserSpaceTest {
     @Test
     public void testgetUserByUserId(){
         User u = userSpaceDao.getUserByUserId(33);
+    }
+
+    @Test
+    public void testgetArticleByUserId(){
+        List<UserArticle> userArticleList = userSpaceDao.getArticleByUserId(33);
+        for (UserArticle article : userArticleList){
+            System.out.println(article);
+        }
     }
 }
