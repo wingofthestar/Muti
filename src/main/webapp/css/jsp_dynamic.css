@@ -1,0 +1,11 @@
+.jsp_error{
+    width: 365px;
+    height: 39px;
+    border: 1px solid red;
+    margin-top: -400px;
+    margin-left: 59px;
+    text-align: center;
+    color: red;
+    font-size: 14px;
+    line-height: 39px;
+}

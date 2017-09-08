@@ -1,10 +1,15 @@
 package site.yourdiary.service;
 
+import com.sun.org.apache.bcel.internal.generic.PUSH;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import site.yourdiary.dao.DynamicMapper;
 import site.yourdiary.domain.*;
+import site.yourdiary.dto.PublishArticleDto;
+import site.yourdiary.exception.PublishEmptyException;
+import site.yourdiary.tools.EmptyUtil;
+import site.yourdiary.vo.PublishInfo;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -66,6 +71,24 @@ public class DynamicService {
     @Transactional
     public int updateArticleFavorNumber(int articleId, int articleFavorNumber){
         return dynamicDao.updateFavor(articleId, articleFavorNumber);
+    }
+
+    @Transactional
+    public void publishArticle(PublishArticleDto publishArticleDto) throws PublishEmptyException {
+        if(EmptyUtil.IsEmptyOrNull(publishArticleDto.getTitle().trim())){
+            throw new PublishEmptyException("标题不能为空");
+        }
+        if(EmptyUtil.IsEmptyOrNull(publishArticleDto.getContent().trim())){
+            throw new PublishEmptyException("文章内容不能为空");
+        }
+        /**
+         * 发文章时可以带图片，也不易不带图片
+         */
+        if(EmptyUtil.IsEmptyOrNull(publishArticleDto.getFilePath().trim())){
+            dynamicDao.insertArticleNoPic(publishArticleDto);
+        }else{
+            dynamicDao.insertArticle(publishArticleDto);
+        }
     }
 
 }

@@ -7,6 +7,7 @@
     <meta charset="utf-8">
 	<title>动态</title>
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//jsp_dynamic.css">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//dynamic.css">
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//tc.css">
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}//css//fb.css">
@@ -39,12 +40,13 @@
                     <div class="header">
                         <p style="font-size: 16px;font-weight:600;cursor:pointer;color:#7DB0BC;float: left;text-indent:5px;letter-spacing: 7px;margin:10px 0px 0px 420px;" class="close" onclick="CloseDiv('MyDiv','fade')">关闭</p>
                     </div>
-                    <form action="###" enctype="multipart/form-data" method="post">
-                        <input type="txt" value="" class="form-control" name="biaoti" id="biaoti" style="background-image: url(${pageContext.request.contextPath}//img//dynamic_biaoti.png);">
-                        <textarea type="txt" value="" class="form-control" name="zhengwen" id="zhengwen" resize:none style="background-image: url(${pageContext.request.contextPath}//img//dynamic_zhengwen.png);">
+                    <%-- article文章发表 --%>
+                    <form action="${pageContext.request.contextPath}/publish/article" enctype="multipart/form-data" method="post">
+                        <input type="txt" value="" class="form-control" name="title" id="biaoti" style="background-image: url(${pageContext.request.contextPath}//img//dynamic_biaoti.png);">
+                        <textarea type="txt" value="" class="form-control" name="content" id="zhengwen" resize:none style="background-image: url(${pageContext.request.contextPath}//img//dynamic_zhengwen.png);">
                         </textarea>
                         <div style="width: 350px;height: 250px;margin-left: 50px;margin-top: 20px;">
-                            <input id="f" type="file" name="f" value="选择图片" onchange="change()"/>
+                            <input id="f" type="file" name="pic" value="选择图片" onchange="change()"/>
                             <br>
                             <div class="upload"></div>
                                 <p>
@@ -53,6 +55,10 @@
                         </div>
                         <input type="submit" value="发送" name="fasong" class="btn btn-info" style="background-color: #7DB0BC;margin-left: 378px;
                         margin-top:-90px;position:absolute;">
+                        <c:if test="${ERROR != null}">
+                            <div class="jsp_error">${ERROR}</div>
+                        </c:if>
+
                     </form>
                 </div>
         <div id="right">
@@ -88,7 +94,8 @@
                                     <p style="font-size: 12px;color:#7DB0BB;float: left;text-indent:5px;letter-spacing: 7px;margin:20px 0px 0px 20px;"><b>留言</b></p>
                                     <p style="font-size: 12px;color:#2F6966;float: left;text-indent:5px;letter-spacing: 7px;margin:-13px 0px 0px 420px;" class="close" onclick="CloseDiv('MyDiv_${jspi}','fade')">关闭</p>
                                 </div>
-                                <form action="###" method="post">
+                                <%-- 回复留言信息 --%>
+                                <form action="${pageContext.request.contextPath}/publish/reply" method="post">
                                     <input type="txt" class="form-control" name="Sendout" id="Sendout" style="background-image: url(${pageContext.request.contextPath}//img//dynamic_input.png);">
                                     <input type="submit" value="发送" class="btn btn-dafluat" id="btn_Sendout">
                                     <div id="detail_table">

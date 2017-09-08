@@ -22,4 +22,16 @@
     <update id="updateFavor">
         UPDATE user_article SET article_favor_number = #{articleFavorNumber} WHERE article_id = #{articleId}
     </update>
+
+    <insert id="insertArticle" parameterType="site.yourdiary.dto.PublishArticleDto">
+        INSERT INTO  user_article(user_id, article_title, article_content, article_picture) VALUES (
+        #{userId}, #{title}, #{content}, #{filePath}
+        )
+    </insert>
+
+    <insert id="insertArticleNoPic" parameterType="site.yourdiary.dto.PublishArticleDto">
+        INSERT INTO  user_article(user_id, article_title, article_content) VALUES (
+        #{userId}, #{title}, #{content}
+        )
+    </insert>
 </mapper>
