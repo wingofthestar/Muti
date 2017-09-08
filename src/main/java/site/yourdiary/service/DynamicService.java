@@ -89,6 +89,17 @@ public class DynamicService {
         }else{
             dynamicDao.insertArticle(publishArticleDto);
         }
+        dynamicDao.updateUserArticleNum(publishArticleDto.getUserId());
+    }
+
+    @Transactional
+    public void publishComment(int articleId, int userId, String comment){
+        if(!EmptyUtil.IsEmptyOrNull(comment.trim())) {
+            dynamicDao.insertComment(articleId, userId, comment);
+            dynamicDao.updateArticleCommentNumber(articleId);
+        }else{
+            //do something,最好是报错
+        }
     }
 
 }

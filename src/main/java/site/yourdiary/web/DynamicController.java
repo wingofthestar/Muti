@@ -86,6 +86,7 @@ public class DynamicController extends BaseWeb{
         return "forward:/dynamic";
     }
 
+    //valid校验还没有对接
     @RequestMapping("/publish/article")
     public ModelAndView publshArticle(HttpServletRequest request, PublishInfo publishInfo, ModelAndView mav){
         User user = getSessionUser(request);
@@ -156,8 +157,13 @@ public class DynamicController extends BaseWeb{
     }
 
     @RequestMapping("/publish/reply")
-    public ModelAndView reply(ModelAndView mav){
+    public ModelAndView reply(HttpServletRequest request, ModelAndView mav){
         mav.setViewName("redirect:/dynamic");
+        User user = getSessionUser(request);
+        int userId = user.getUserId();
+        int articleId = Integer.valueOf(request.getParameter("articleId"));
+        String comment = request.getParameter("replyText");
+        dynamicService.publishComment(articleId, userId, comment);
         return mav;
     }
 

@@ -96,7 +96,8 @@
                                 </div>
                                 <%-- 回复留言信息 --%>
                                 <form action="${pageContext.request.contextPath}/publish/reply" method="post">
-                                    <input type="txt" class="form-control" name="Sendout" id="Sendout" style="background-image: url(${pageContext.request.contextPath}//img//dynamic_input.png);">
+                                    <input type="hidden" name="articleId" value="${content.userArticle.articleId}">
+                                    <input type="txt" class="form-control" name="replyText" id="Sendout" style="background-image: url(${pageContext.request.contextPath}//img//dynamic_input.png);">
                                     <input type="submit" value="发送" class="btn btn-dafluat" id="btn_Sendout">
                                     <div id="detail_table">
                                         <table>

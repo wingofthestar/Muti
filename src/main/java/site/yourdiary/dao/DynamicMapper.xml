@@ -34,4 +34,18 @@
         #{userId}, #{title}, #{content}
         )
     </insert>
+
+    <insert id="insertComment">
+        INSERT INTO article_comment(article_id, article_comment_content, comment_user_id) VALUES (
+        #{articleId}, #{comment}, #{userId}
+        )
+    </insert>
+
+    <update id="updateArticleCommentNumber">
+        update user_article set article_comment_number = article_comment_number + 1 WHERE article_id = #{articleId}
+    </update>
+
+    <update id="updateUserArticleNum">
+        update user_info set user_article_num = user_article_num + 1 WHERE user_id = #{userId}
+    </update>
 </mapper>

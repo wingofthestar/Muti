@@ -26,4 +26,10 @@ public interface DynamicMapper {
     int insertArticle(PublishArticleDto publishArticleDto);
 
     int insertArticleNoPic(PublishArticleDto publishArticleDto);
+
+    int updateUserArticleNum(@Param("userId") int userId);
+
+    int insertComment(@Param("articleId") int articleId, @Param("userId") int userId, @Param("comment") String comment);
+
+    int updateArticleCommentNumber(@Param("articleId") int articleId);
 }

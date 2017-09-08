@@ -94,4 +94,25 @@ public class DynamicTest {
                 "");
         dynamicDao.insertArticleNoPic(publishArticleDto);
     }
+
+    @Test
+    @Transactional
+    @Rollback
+    public void testinsertComment(){
+        dynamicDao.insertComment(18, 33, "verygood!");
+    }
+
+    @Test
+    @Transactional
+    @Rollback
+    public void testupdateArticleCommentNumber(){
+        dynamicDao.updateArticleCommentNumber(19);
+    }
+
+    @Test
+    @Transactional
+    @Rollback
+    public void testupdateUserArticleNum(){
+        dynamicDao.updateUserArticleNum(34);
+    }
 }
