@@ -42,7 +42,7 @@
 			<div class="l-main">
 				<a href="${pageContext.request.contextPath}/index"><img id="img1" src="${pageContext.request.contextPath}/img/img3.jpg" /></a>
 				<div id="img2">
-					<img src="${pageContext.request.contextPath}/img/img1.jpg" />
+					<img src="${USER_INFO.userPhoto}" />
 				</div>
 				<div id="self_introduce">
                     <div class="name">${USER_CONTEXT.userName}</div>

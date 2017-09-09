@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.annotation.Rollback;
+import org.springframework.transaction.annotation.Transactional;
 import site.yourdiary.domain.User;
 import site.yourdiary.domain.UserLoginLog;
 
@@ -25,18 +26,23 @@ public class UserLoginTest {
     }
 
     @Test
+    @Transactional
+    @Rollback
     public void testGetUserByUserName(){
         User user = userLoginDao.getUserByUserName("admin");
         System.out.println(user);
     }
 
     @Test
+    @Transactional
+    @Rollback
     public void testGetUserByEamil(){
         User user = userLoginDao.getUserByEmail("admin@yourdiary.site");
         System.out.println(user);
     }
 
     @Test
+    @Transactional
     @Rollback
     public void updateLastLogin(){
         int updateResult = userLoginDao.updateLastLogin("崔希伟",new Date(), "127.0.0.1");
@@ -44,6 +50,8 @@ public class UserLoginTest {
     }
 
     @Test
+    @Transactional
+    @Rollback
     public void insertLoginLog(){
         UserLoginLog loginLog = new UserLoginLog();
         loginLog.setUserId(3);

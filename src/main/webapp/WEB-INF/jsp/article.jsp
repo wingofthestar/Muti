@@ -19,7 +19,7 @@
             <a href="${pageContext.request.contextPath}/index"><img src="${pageContext.request.contextPath}//img//article_home.png"  style="z-index: 3;position: absolute;"></a>
         </div>
         <div id="txt">
-            <img src="${pageContext.request.contextPath}//img//article_photo.jpg" class="img-circle" id="self_photo">
+            <img src="${WRITTER.userPhoto}" class="img-circle" id="self_photo">
             <img src="${pageContext.request.contextPath}//img//article_txt.png" id="txt_pic">
             <img src="${ARTICLE.articlePicture}" id="article_pic" width="504px" height="199px">
             <img src="${pageContext.request.contextPath}//img//article_pic_tm.png" id="article_pic_tm">

@@ -44,12 +44,12 @@ public class UserController extends BaseWeb {
     @RequestMapping(value = "/userSpace")
     public ModelAndView userSpace(HttpServletRequest request, HttpSession session, ModelAndView mav){
         User user = getSessionUser(request);
-        int userId = user.getUserId();
         if(user == null){
             session.setAttribute(REQUEST_PATH, "/user/userSpace");
             mav.setViewName("/login");
             return mav;
         }
+        int userId = user.getUserId();
         UserInfo userInfo = userSpaceService.getUserInfobyUserId(userId);
         List<UserArticle> userArticleList = userSpaceService.getUserArticleById(userId);
         mav.setViewName("individualspace");

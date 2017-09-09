@@ -3,8 +3,10 @@ package site.yourdiary.dao;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.transaction.annotation.Transactional;
 import site.yourdiary.domain.User;
 import site.yourdiary.domain.UserArticle;
 import site.yourdiary.domain.UserInfo;
@@ -26,6 +28,8 @@ public class UserSpaceTest {
     private UserSpaceMapper userSpaceDao;
 
     @Test
+    @Transactional
+    @Rollback
     public void testGetUserInfoByUserId(){
        UserInfo userInfo = userSpaceDao.getUserInfoByUserId(33);
         System.out.println(userInfo);
@@ -36,6 +40,8 @@ public class UserSpaceTest {
      * 更新userInfo或user存在都为空则出错bug,需要在前端进行控制或service层进行控制
      */
     @Test
+    @Transactional
+    @Rollback
     public void testUpdateUserInfobyUserId(){
         String photo = null;
         //对动态SQL可能出现的所有情况进行测试
@@ -47,6 +53,8 @@ public class UserSpaceTest {
     }
 
     @Test
+    @Transactional
+    @Rollback
     public void testUpdateUserByUserId(){
         String userName = "崔希伟";
         String userEmail = "";
@@ -56,11 +64,15 @@ public class UserSpaceTest {
     }
 
     @Test
+    @Transactional
+    @Rollback
     public void testgetUserByUserId(){
         User u = userSpaceDao.getUserByUserId(33);
     }
 
     @Test
+    @Transactional
+    @Rollback
     public void testgetArticleByUserId(){
         List<UserArticle> userArticleList = userSpaceDao.getArticleByUserId(33);
         for (UserArticle article : userArticleList){

@@ -32,6 +32,16 @@ public class BaseController {
         return "showpage";
     }
 
+    @RequestMapping(value = "showpage2")
+    public String showpage2(){
+        return "showpage2";
+    }
+
+    @RequestMapping(value = "showpage3")
+    public String showpage3(){
+        return "showpage3";
+    }
+
 //    @RequestMapping(value = "dynamic")
 //    public String dynamic(){
 //        return "dynamic";

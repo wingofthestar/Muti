@@ -3,8 +3,10 @@ package site.yourdiary.service;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.transaction.annotation.Transactional;
 import site.yourdiary.exception.RegisterUserExitException;
 import site.yourdiary.vo.RegisterInfo;
 
@@ -15,6 +17,8 @@ public class TestUserRegisterService {
     private UserRegisterService userRegisterService;
 
     @Test
+    @Transactional
+    @Rollback
     public void testRegisterUser(){
         RegisterInfo registerInfo = new RegisterInfo();
         registerInfo.setUserName("star");

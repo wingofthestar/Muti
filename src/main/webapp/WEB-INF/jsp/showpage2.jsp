@@ -26,13 +26,13 @@
             </ul> 
         </div>
         <div id="box_2">
-            <div id="item_1"><a href="${pageContext.request.contextPath}/article/2"><img src="${pageContext.request.contextPath}//img//showpage_box_item1_1.jpg" id="img1" name="img" title="朝朝琼树后庭花，步步金莲潘丽华，龙蟠虎踞山如画。<br>
+            <div id="item_1"><a href="${pageContext.request.contextPath}/article/8"><img src="${pageContext.request.contextPath}//img//showpage2_box_item1_1.jpg" id="img1" name="img" title="朝朝琼树后庭花，步步金莲潘丽华，龙蟠虎踞山如画。<br>
             伤心诗句多，危城落日寒鸦。<br>凤不至空台上，燕飞来百姓家，恨满天涯。"></a></div>
-            <div id="item_2"><a href="${pageContext.request.contextPath}/article/3"><img src="${pageContext.request.contextPath}//img//showpage_box_item2_1.jpg" id="img2" name="img" title="苍苍金陵月，空悬帝王州。<br>天文列宿在，霸业大江流。<br>绿水绝驰道，青松摧古丘。<br>台倾鳷鹊观，宫没凤凰楼。<br>别殿悲清暑，芳园罢乐游。<br>一闻歌玉树，萧瑟后庭秋。<br>"></a></div>
-            <div id="item_3"><a href="${pageContext.request.contextPath}/article/4"><img src="${pageContext.request.contextPath}//img//showpage_box_item3_1.jpg" id="img3" name="img" title="上吞巴汉控潇湘，怒似连山静镜光。<br>魏帝缝囊真戏剧，苻坚投棰更荒唐。<br>千秋钓舸歌明月，万里沙鸥弄夕阳。<br>范蠡清尘何寂寞，好风唯属往来商。<br>"></a></div>
-            <div id="item_6"><a href="${pageContext.request.contextPath}/article/5"><img src="${pageContext.request.contextPath}//img//showpage_box_item4_1.jpg" id="img6" name="img" title="问从来谁是英雄？<br>一个农夫，一个渔翁。<br>晦迹南阳，栖身东海，一举成功。<br>八阵图名成卧龙，六韬书功在飞熊。<br>霸业成空，遗恨无穷。<br>蜀道寒云，渭水秋风。"></a></div>
-            <div id="item_4"><a href="${pageContext.request.contextPath}/article/6"><img src="${pageContext.request.contextPath}//img//showpage_box_item5_1.jpeg" id="img4" name="img" title="先君怀圣德，灵庙肃神心。<br>草合人踪断，尘浓鸟迹深。<br>流沙丹灶灭，关路紫烟沉。<br>独伤千载后，空余松柏林。<br>"></a></div>
-            <div id="item_5"><a href="${pageContext.request.contextPath}/article/7"><img src="${pageContext.request.contextPath}//img//showpage_box_item6_1.jpg" id="img5" name="img" title="襄阳太守沉碑意，身后身前几年事。<br>湘江千岁未为陵，水底鱼龙应识字。<br>"></a></div>
+            <div id="item_2"><a href="${pageContext.request.contextPath}/article/9"><img src="${pageContext.request.contextPath}//img//showpage2_box_item2_1.jpg" id="img2" name="img" title="苍苍金陵月，空悬帝王州。<br>天文列宿在，霸业大江流。<br>绿水绝驰道，青松摧古丘。<br>台倾鳷鹊观，宫没凤凰楼。<br>别殿悲清暑，芳园罢乐游。<br>一闻歌玉树，萧瑟后庭秋。<br>"></a></div>
+            <div id="item_3"><a href="${pageContext.request.contextPath}/article/10"><img src="${pageContext.request.contextPath}//img//showpage2_box_item3_1.jpg" id="img3" name="img" title="上吞巴汉控潇湘，怒似连山静镜光。<br>魏帝缝囊真戏剧，苻坚投棰更荒唐。<br>千秋钓舸歌明月，万里沙鸥弄夕阳。<br>范蠡清尘何寂寞，好风唯属往来商。<br>"></a></div>
+            <div id="item_6"><a href="${pageContext.request.contextPath}/article/11"><img src="${pageContext.request.contextPath}//img//showpage2_box_item4_1.jpg" id="img6" name="img" title="问从来谁是英雄？<br>一个农夫，一个渔翁。<br>晦迹南阳，栖身东海，一举成功。<br>八阵图名成卧龙，六韬书功在飞熊。<br>霸业成空，遗恨无穷。<br>蜀道寒云，渭水秋风。"></a></div>
+            <div id="item_4"><a href="${pageContext.request.contextPath}/article/12"><img src="${pageContext.request.contextPath}//img//showpage2_box_item5_1.jpeg" id="img4" name="img" title="先君怀圣德，灵庙肃神心。<br>草合人踪断，尘浓鸟迹深。<br>流沙丹灶灭，关路紫烟沉。<br>独伤千载后，空余松柏林。<br>"></a></div>
+            <div id="item_5"><a href="${pageContext.request.contextPath}/article/13"><img src="${pageContext.request.contextPath}//img//showpage2_box_item6_1.jpg" id="img5" name="img" title="襄阳太守沉碑意，身后身前几年事。<br>湘江千岁未为陵，水底鱼龙应识字。<br>"></a></div>
         </div>
         <script>
             var img = document.getElementsByName("img");
@@ -40,7 +40,7 @@
             function change() 
             {   
             	for(j=0;j<img.length;j++){
-                    img[j].src="${pageContext.request.contextPath}//img//showpage_box_item"+(j+1)+"_"+(i+1)+".jpg"
+                    img[j].src="${pageContext.request.contextPath}//img//showpage2_box_item"+(j+1)+"_"+(i+1)+".jpg"
                 }
                 setTimeout('change()',Math.random()*5000);
                 i++;

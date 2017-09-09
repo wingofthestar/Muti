@@ -27,7 +27,7 @@
         </div>
         <!--左侧-->
         <div id="left" style="background-image: url(${pageContext.request.contextPath}//img//dynamic_white_left.png);">
-            <img src="${pageContext.request.contextPath}//img//dynamic_selfphoto.png" class="img-circle" id="self_photo">
+            <img src="${USER_INFO.userPhoto}" class="img-circle" id="self_photo" style="width: 85px; height: 85px">
             <p id="username" name="username"><b>${USER_CONTEXT.userName}</b></p><!--用户名-->
             <p id="dynamic" name="dynamic"><b>动态(${USER_INFO.userArticleNum})</b></p><!--动态更新的数量-->
             <p id="collection" name="collection"><b>收藏(${USER_INFO.userFavorNum})</b></p><!--收藏的数量-->

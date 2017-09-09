@@ -22,6 +22,8 @@ public class DynamicTest {
     private DynamicMapper dynamicDao;
 
     @Test
+    @Transactional
+    @Rollback
     public void testGetAllArticles(){
        List<UserArticle> articleList=  dynamicDao.getAllArticle();
         for (UserArticle article:
@@ -31,6 +33,8 @@ public class DynamicTest {
     }
 
     @Test
+    @Transactional
+    @Rollback
     public void testGetAllComment(){
         List<ArticleComment> articleCommentList = dynamicDao.getAllComment(1);
         for (ArticleComment articleComment :
@@ -40,18 +44,24 @@ public class DynamicTest {
     }
 
     @Test
+    @Transactional
+    @Rollback
     public void testgetUserInforWrapper(){
         UserInfoWrapper userInfoWrapper = dynamicDao.getWriter(33);
         System.out.println(userInfoWrapper);
     }
 
     @Test
+    @Transactional
+    @Rollback
     public void testgetCommenter(){
         UserInfoWrapper userInfoWrapper = dynamicDao.getCommenter(35);
         System.out.println(userInfoWrapper);
     }
 
     @Test
+    @Transactional
+    @Rollback
     public void testgetArticleById(){
         UserArticle userArticle = dynamicDao.getArticleByArticleId(1);
         System.out.println(userArticle);
@@ -117,6 +127,8 @@ public class DynamicTest {
     }
 
     @Test
+    @Transactional
+    @Rollback
     public void testselectUserIdByArticleId(){
         int articleId = 1;
         int userId = dynamicDao.selectUserIdByArticleId(articleId);
