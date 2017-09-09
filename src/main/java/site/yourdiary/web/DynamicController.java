@@ -92,7 +92,7 @@ public class DynamicController extends BaseWeb{
         User user = getSessionUser(request);
         MultipartFile pic = publishInfo.getPic();
         String filePath = "";
-        if(pic != null){
+        if(pic.getSize() != 0){
              String fileName = pic.getOriginalFilename();
              /**
               * 图片上传托管在七牛上
