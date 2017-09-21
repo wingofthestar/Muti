@@ -28,24 +28,43 @@
 ---
 ## 相关页面截图
 * 登录|注册
+
 ![登录|注册](https://raw.githubusercontent.com/wingofthestar/Muti/master/demo_pic/regist_pic.png)
+
 * 管理员_用户管理
+
 ![管理员_用户管理](https://raw.githubusercontent.com/wingofthestar/Muti/master/demo_pic/admin_manager1.png)
+
 * 管理员_首页更新
+
 ![管理员首页更新](https://raw.githubusercontent.com/wingofthestar/Muti/master/demo_pic/admin_update1.png)
+
 * 跳转
+
 ![跳转](https://raw.githubusercontent.com/wingofthestar/Muti/master/demo_pic/tiao_zhuan.png)
+
 * 展示
+
 ![展示](https://raw.githubusercontent.com/wingofthestar/Muti/master/demo_pic/shopage_pic.png)
+
 * 动态
+
 ![动态](https://raw.githubusercontent.com/wingofthestar/Muti/master/demo_pic/dynamic_pic.png)
+
 * 发布
+
 ![发布](https://raw.githubusercontent.com/wingofthestar/Muti/master/demo_pic/publish_article.png)
+
 * 用户中心
+
 ![用户中心](https://raw.githubusercontent.com/wingofthestar/Muti/master/demo_pic/userSpace.png)
+
 * 更改个人信息
+
 ![更改个人信息](https://raw.githubusercontent.com/wingofthestar/Muti/master/demo_pic/introduce_change.png)
+
 * 个人文章
+
 ![个人文章](https://raw.githubusercontent.com/wingofthestar/Muti/master/demo_pic/article.png)
 
 其他见说明与支持
