@@ -7,18 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd1445d3-5c10-4fc5-9db4-f394a6db5dd3" name="Default" comment="添加README.MD">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_pic/admin_manager1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_pic/admin_update1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_pic/article.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_pic/dynamic_pic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_pic/index_pic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_pic/introduce_change.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_pic/publish_article.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_pic/regist_pic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_pic/shopage_pic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_pic/tiao_zhuan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_pic/userSpace.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,26 +39,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="DynamicController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/DynamicController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="74" column="46" lean-forward="false" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,11 +89,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/web/RegisterController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.MD" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="504">
+                <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="最终muti创建语句.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/最终muti创建语句.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -219,7 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/css/introduce_change.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/custom_up_img.js" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/dto/UserInfoWrapper.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/update_success.jsp" />
@@ -270,6 +262,7 @@
         <option value="$PROJECT_DIR$/src/test/java/site/yourdiary/service/TestDynamicService.java" />
         <option value="$PROJECT_DIR$/src/test/java/site/yourdiary/service/TestUserRegisterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/yourdiary/web/DynamicController.java" />
+        <option value="$PROJECT_DIR$/README.MD" />
       </list>
     </option>
   </component>
@@ -332,10 +325,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="759" />
-    <option name="y" value="203" />
-    <option name="width" value="976" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="668" />
+    <option name="y" value="66" />
+    <option name="width" value="1149" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -365,7 +358,7 @@
             <path>
               <item name="Muti" type="b2602c69:ProjectViewProjectNode" />
               <item name="Muti" type="462c0819:PsiDirectoryNode" />
-              <item name="demo_pic" type="462c0819:PsiDirectoryNode" />
+              <item name="说明与支持" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -388,11 +381,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti" />
+      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\sql" />
       <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\demo_pic" />
       <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\img" />
       <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\css" />
-      <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\IdeaProjects\GitProjects\Muti\src\main\webapp\img" />
@@ -771,7 +764,7 @@
       <workItem from="1505579164540" duration="48000" />
       <workItem from="1505615361899" duration="11000" />
       <workItem from="1505638885911" duration="615000" />
-      <workItem from="1505990961309" duration="763000" />
+      <workItem from="1505990961309" duration="2744000" />
     </task>
     <task id="LOCAL-00001" summary="domain纠正UserLoginLog的字段值">
       <created>1502519557567</created>
@@ -808,7 +801,21 @@
       <option name="project" value="LOCAL" />
       <updated>1504792001721</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加数据库建表语句">
+      <created>1505991979679</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1505991979680</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加添加说明与支持">
+      <created>1505992075143</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1505992075143</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -844,7 +851,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294754000" />
+    <option name="totallyTimeSpent" value="296735000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,7 +863,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="759" y="203" width="976" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -880,8 +888,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58314353" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4624146" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57871395" sideWeight="0.7986577" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25398633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.080472104" sideWeight="0.7986577" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -948,7 +956,9 @@
     <MESSAGE value="修正细节，解决字符空格问题" />
     <MESSAGE value="尝试使用封装工具类" />
     <MESSAGE value="update showpage.jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="update showpage.jsp" />
+    <MESSAGE value="添加数据库建表语句" />
+    <MESSAGE value="添加添加说明与支持" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加添加说明与支持" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -965,20 +975,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/DynamicMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/dao/UserSpaceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/site/yourdiary/service/UserSpaceService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
@@ -1331,6 +1327,25 @@
         <state relative-caret-position="120">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/最终muti创建语句.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="504">
+            <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
